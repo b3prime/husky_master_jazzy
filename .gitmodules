@@ -1,0 +1,14 @@
+[submodule "ws/src/ros2_control"]
+	path = ws/src/ros2_control
+	url = https://github.com/ros-controls/ros2_control.git
+[submodule "ws/src/zed-ros2-wrapper"]
+	path = ws/src/zed-ros2-wrapper
+	url = https://github.com/KumarRobotics/zed-ros2-wrapper.git
+[submodule "ws/src/DLIO"]
+	path = ws/src/DLIO
+	url = https://github.com/KumarRobotics/direct_lidar_inertial_odometry.git
+	branch = feature/ros2
+[submodule "ws/src/ouster-ros"]
+	path = ws/src/ouster-ros
+	url = https://github.com/KumarRobotics/ouster-ros.git
+	branch = ros2
