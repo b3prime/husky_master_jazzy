@@ -12,8 +12,6 @@ RUN apt-get update \
   && dpkg-reconfigure --frontend noninteractive tzdata \
   && apt-get clean
 
-ENV LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
-
 # General dependencies for development
 RUN apt-get update \
   && apt-get install -y --install-recommends\
@@ -27,6 +25,7 @@ RUN apt-get update \
   gcc \
   gdb \
   gfortran \
+  git \
   libbluetooth-dev \
   libcwiid-dev \
   libeigen3-dev \
@@ -42,6 +41,7 @@ RUN apt-get update \
   python3-empy \
   python3-pip \
   python3-venv \
+  python3-sklearn \
   software-properties-common \
   sudo \
   swig \
@@ -52,6 +52,7 @@ RUN apt-get update \
   iputils-ping \
   default-jre \
   iproute2 \
+  zstd \
   && apt-get clean
 
 RUN add-apt-repository -y ppa:neovim-ppa/stable \
@@ -69,11 +70,13 @@ RUN ( id -u ubuntu &>/dev/null && deluser --remove-home ubuntu || true ) && \
     echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-${USERNAME} && \
     chmod 0440 /etc/sudoers.d/90-${USERNAME}
 
+
 ENV ROS_HOME=/home/${USERNAME}/.ros
 ENV ROS_LOG_DIR=${ROS_HOME}/log
 RUN mkdir -p ${ROS_LOG_DIR} \
   && chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}
 
+# enable all nvidia capabilities
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=all
 
@@ -108,12 +111,28 @@ exec sudo -H -E -u ${USERNAME} \
   "$@"
 EOF
 
-RUN usermod -aG dialout $USERNAME
-
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
 WORKDIR /home/${USERNAME}
 COPY clearpath /etc/clearpath
+
+# download and install the ZED SDK
+RUN cd /home/dcist \
+  && wget -O zed_sdk.run https://download.stereolabs.com/zedsdk/5.0/cu12/ubuntu24 \
+  && chmod +x zed_sdk.run \
+  && ./zed_sdk.run -- silent runtime_only\
+  && rm zed_sdk.run
+
+# Copy the dcist_ws environment
+COPY --chown=$USERNAME:$USERNAME ../ws /home/$USERNAME/dcist_ws
+
+# build the dcist_ws
+RUN cd /home/dcist/dcist_ws \
+  && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
+    sudo apt update && \
+    rosdep update && \
+    rosdep install --from-paths src --ignore-src --rosdistro=jazzy -y && \
+    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCMAKE_CXX_FLAGS="-Wl,--allow-shlib-undefined"'
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["/bin/bash"]
