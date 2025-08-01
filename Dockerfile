@@ -71,11 +71,6 @@ RUN ( id -u ubuntu &>/dev/null && deluser --remove-home ubuntu || true ) && \
     chmod 0440 /etc/sudoers.d/90-${USERNAME}
 
 
-ENV ROS_HOME=/home/${USERNAME}/.ros
-ENV ROS_LOG_DIR=${ROS_HOME}/log
-RUN mkdir -p ${ROS_LOG_DIR} \
-  && chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}
-
 # enable all nvidia capabilities
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=all
