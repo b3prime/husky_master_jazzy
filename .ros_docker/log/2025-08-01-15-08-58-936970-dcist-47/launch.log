@@ -1,0 +1,35 @@
+1754075338.9378226 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-01-15-08-58-936970-dcist-47
+1754075338.9379745 [INFO] [launch]: Default logging verbosity is set to INFO
+1754075339.2256081 [INFO] [robot_state_publisher-1]: process started with pid [51]
+1754075339.2258637 [INFO] [ros2_control_node-2]: process started with pid [52]
+1754075339.2259820 [INFO] [spawner-3]: process started with pid [53]
+1754075339.2260637 [INFO] [spawner-4]: process started with pid [54]
+1754075339.2261500 [INFO] [ekf_node-5]: process started with pid [55]
+1754075339.2262208 [INFO] [marker_server-6]: process started with pid [56]
+1754075339.2262871 [INFO] [twist_mux-7]: process started with pid [57]
+1754075339.2263556 [INFO] [joy_linux_node-8]: process started with pid [58]
+1754075339.2264264 [INFO] [teleop_node-9]: process started with pid [59]
+1754075339.2264967 [INFO] [aggregator_node-10]: process started with pid [60]
+1754075339.2265649 [INFO] [clearpath_diagnostic_updater-11]: process started with pid [61]
+1754075339.2266340 [INFO] [foxglove_bridge-12]: process started with pid [62]
+1754075339.2266948 [INFO] [battery_state_control-13]: process started with pid [63]
+1754075339.2267511 [INFO] [battery_state_estimator-14]: process started with pid [64]
+1754075339.2268088 [INFO] [wireless_watcher-15]: process started with pid [65]
+1754075339.3180203 [robot_state_publisher-1] [INFO] [1754075339.317634343] [a200_0000.robot_state_publisher]: Robot initialized
+1754075339.9098864 [ERROR] [battery_state_estimator-14]: process has died [pid 64, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1754075339.9233096 [ERROR] [battery_state_control-13]: process has died [pid 63, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1754075341.0694926 [INFO] [spawner-3]: process has finished cleanly [pid 53]
+1754075341.3620522 [INFO] [spawner-4]: process has finished cleanly [pid 54]
+1754075354.5760124 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754075354.5909901 [robot_state_publisher-1] [INFO] [1754075354.575616132] [rclcpp]: signal_handler(signum=2)
+1754075354.7064712 [INFO] [wireless_watcher-15]: process has finished cleanly [pid 65]
+1754075354.7105641 [INFO] [twist_mux-7]: process has finished cleanly [pid 57]
+1754075354.7116337 [INFO] [clearpath_diagnostic_updater-11]: process has finished cleanly [pid 61]
+1754075354.7130563 [INFO] [teleop_node-9]: process has finished cleanly [pid 59]
+1754075354.7133276 [INFO] [marker_server-6]: process has finished cleanly [pid 56]
+1754075354.7134719 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 51]
+1754075354.7139311 [INFO] [aggregator_node-10]: process has finished cleanly [pid 60]
+1754075354.7147408 [INFO] [joy_linux_node-8]: process has finished cleanly [pid 58]
+1754075354.7166548 [INFO] [ekf_node-5]: process has finished cleanly [pid 55]
+1754075354.7173676 [INFO] [foxglove_bridge-12]: process has finished cleanly [pid 62]
+1754075354.8592422 [INFO] [ros2_control_node-2]: process has finished cleanly [pid 52]

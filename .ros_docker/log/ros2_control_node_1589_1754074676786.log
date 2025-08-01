@@ -1,0 +1,28 @@
+[INFO] [1754074676.863256057] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1754074676.878186864] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1754074676.935581481] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1754074676.935744530] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1754074676.935909804] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1754074676.936637996] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1754074676.941272066] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1754074676.943096777] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1754074676.943165213] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1754074676.943228900] [A200Hardware]: Name: a200_hardware
+[INFO] [1754074676.943234115] [A200Hardware]: Number of Joints 4
+[INFO] [1754074676.958286330] [A200Hardware]: Port: /dev/clearpath/prolific
+[ERROR] [1754074676.958640379] [a200_0000.controller_manager]: Unknown exception occurred while initializing hardware 'a200_hardware'
+[WARN] [1754074676.958694581] [a200_0000.controller_manager]: System hardware component 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware' failed to initialize.
+[WARN] [1754074676.966985297] [a200_0000.controller_manager]: Could not load and initialize hardware. Please check previous output for more details. After you have corrected your URDF, try to publish robot description again.
+[WARN] [1754074677.873537984] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074678.873620364] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074679.873539410] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074680.873549295] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074681.873533076] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074682.873541083] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074683.873526925] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074684.873541133] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754074685.873637867] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[INFO] [1754074686.588389357] [rclcpp]: signal_handler(signum=2)
+[INFO] [1754074686.588670160] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1754074686.588799145] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1754074686.588833856] [a200_0000.controller_manager]: Shutting down the controller manager.

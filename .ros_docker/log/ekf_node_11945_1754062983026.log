@@ -1,0 +1,3 @@
+[ERROR] [1754063029.623226488] [a200_0000.ekf_node]: Failed to meet update rate! Took 0.038249904000000001236seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ERROR] [1754063052.864659216] [a200_0000.ekf_node]: Failed to meet update rate! Took 0.039707695000000001184seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[INFO] [1754063136.034800220] [rclcpp]: signal_handler(signum=2)

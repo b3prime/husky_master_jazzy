@@ -1,0 +1,35 @@
+1754062144.9491212 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-01-11-29-04-948609-dcist-11526
+1754062144.9492049 [INFO] [launch]: Default logging verbosity is set to INFO
+1754062145.1159496 [INFO] [robot_state_publisher-1]: process started with pid [11530]
+1754062145.1161964 [INFO] [ros2_control_node-2]: process started with pid [11531]
+1754062145.1162915 [INFO] [spawner-3]: process started with pid [11532]
+1754062145.1163602 [INFO] [spawner-4]: process started with pid [11533]
+1754062145.1164222 [INFO] [ekf_node-5]: process started with pid [11534]
+1754062145.1164808 [INFO] [marker_server-6]: process started with pid [11535]
+1754062145.1165397 [INFO] [twist_mux-7]: process started with pid [11536]
+1754062145.1165924 [INFO] [joy_linux_node-8]: process started with pid [11537]
+1754062145.1166470 [INFO] [teleop_node-9]: process started with pid [11538]
+1754062145.1166990 [INFO] [aggregator_node-10]: process started with pid [11539]
+1754062145.1167510 [INFO] [clearpath_diagnostic_updater-11]: process started with pid [11540]
+1754062145.1167991 [INFO] [foxglove_bridge-12]: process started with pid [11541]
+1754062145.1168470 [INFO] [battery_state_control-13]: process started with pid [11542]
+1754062145.1168954 [INFO] [battery_state_estimator-14]: process started with pid [11543]
+1754062145.1169446 [INFO] [wireless_watcher-15]: process started with pid [11544]
+1754062145.2059503 [robot_state_publisher-1] [INFO] [1754062145.203661578] [a200_0000.robot_state_publisher]: Robot initialized
+1754062145.7009616 [ERROR] [battery_state_control-13]: process has died [pid 11542, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1754062145.7014339 [ERROR] [battery_state_estimator-14]: process has died [pid 11543, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1754062167.6206887 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754062167.6327584 [robot_state_publisher-1] [INFO] [1754062167.619811040] [rclcpp]: signal_handler(signum=2)
+1754062167.6760499 [ERROR] [spawner-4]: process has died [pid 11533, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner --controller-manager-timeout 60 platform_velocity_controller --ros-args -r __ns:=/a200_0000'].
+1754062167.7414827 [INFO] [teleop_node-9]: process has finished cleanly [pid 11538]
+1754062167.7423933 [INFO] [joy_linux_node-8]: process has finished cleanly [pid 11537]
+1754062167.7452981 [INFO] [wireless_watcher-15]: process has finished cleanly [pid 11544]
+1754062167.7464252 [INFO] [marker_server-6]: process has finished cleanly [pid 11535]
+1754062167.7479022 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 11530]
+1754062167.7832625 [INFO] [spawner-3]: process has finished cleanly [pid 11532]
+1754062167.7877183 [INFO] [aggregator_node-10]: process has finished cleanly [pid 11539]
+1754062167.7890553 [INFO] [twist_mux-7]: process has finished cleanly [pid 11536]
+1754062167.7903152 [INFO] [foxglove_bridge-12]: process has finished cleanly [pid 11541]
+1754062167.7921515 [INFO] [clearpath_diagnostic_updater-11]: process has finished cleanly [pid 11540]
+1754062167.8216007 [INFO] [ekf_node-5]: process has finished cleanly [pid 11534]
+1754062167.8610795 [INFO] [ros2_control_node-2]: process has finished cleanly [pid 11531]

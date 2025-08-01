@@ -1,0 +1,171 @@
+[INFO] [1754062983.076666804] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1754062983.082534678] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1754062983.138435120] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1754062983.138505406] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1754062983.138634617] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1754062983.139328582] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1754062983.141742619] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1754062983.142876212] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1754062983.142936720] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1754062983.142980471] [A200Hardware]: Name: a200_hardware
+[INFO] [1754062983.142983213] [A200Hardware]: Number of Joints 4
+[INFO] [1754062983.240033028] [A200Hardware]: Port: /dev/clearpath/prolific
+[ERROR] [1754062983.240174883] [a200_0000.controller_manager]: Unknown exception occurred while initializing hardware 'a200_hardware'
+[WARN] [1754062983.240221627] [a200_0000.controller_manager]: System hardware component 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware' failed to initialize.
+[WARN] [1754062983.257843043] [a200_0000.controller_manager]: Could not load and initialize hardware. Please check previous output for more details. After you have corrected your URDF, try to publish robot description again.
+[WARN] [1754062984.081815236] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062985.081820941] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062986.081766100] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062987.081759199] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062988.081764485] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062989.081802824] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062990.081767251] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062991.081824590] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062992.081758213] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062993.081753171] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062994.081754678] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062995.081795011] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062996.081802179] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062997.081746668] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062998.081750209] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754062999.081824152] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063000.081753544] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063001.081722712] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063002.081802680] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063003.081750940] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063004.081769969] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063005.081720312] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063006.081751388] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063007.081781807] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063008.081831153] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063009.081764818] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063010.081752757] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063011.081753730] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063012.081751152] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063013.081820108] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063014.081723564] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063015.081816994] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063016.081793863] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063017.081828759] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063018.081810379] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063019.081804794] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063020.081721563] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063021.081720909] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063022.081720510] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063023.081799779] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063024.081721192] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063025.081723361] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063026.081766280] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063027.081728508] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063028.081784788] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063029.081756345] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063030.081722117] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063031.081724644] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063032.081755729] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063033.081725922] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063034.081752473] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063035.081752535] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063036.081740996] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063037.081720756] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063038.081720740] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063039.081749524] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063040.081752360] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063041.081748154] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063042.081764678] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063043.081781492] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063044.081751296] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063045.081732330] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063046.081705594] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063047.081769927] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063048.081722142] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063049.081810561] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063050.081760190] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063051.081730545] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063052.081858752] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063053.081721231] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063054.081834536] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063055.081720411] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063056.081725356] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063057.081755073] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063058.081722054] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063059.081793481] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063060.081823798] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063061.081806385] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063062.081753199] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063063.081817260] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063064.081721812] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063065.081720024] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063066.081836137] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063067.081759785] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063068.081806100] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063069.081748057] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063070.081755938] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063071.081707566] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063072.081806352] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063073.081759975] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063074.081767786] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063075.081813463] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063076.081747338] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063077.081800694] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063078.081754912] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063079.081803500] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063080.081720765] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063081.081804928] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063082.081806015] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063083.081773162] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063084.081749625] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063085.081750244] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063086.081831504] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063087.081821803] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063088.081827523] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063089.081828938] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063090.081767086] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063091.081758563] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063092.081825416] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063093.081732537] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063094.081804058] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063095.081726767] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063096.081823303] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063097.081756968] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063098.081817578] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063099.081719679] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063100.081725072] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063101.081805868] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063102.081752276] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063103.081835607] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063104.081804722] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063105.081691091] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063106.081751633] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063107.081809234] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063108.081756497] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063109.081721187] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063110.081748841] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063111.081747590] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063112.081721198] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063113.081751436] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063114.081822766] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063115.081798432] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063116.081720126] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063117.081752460] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063118.081796169] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063119.081818434] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063120.081727278] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063121.081720595] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063122.081753663] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063123.081755425] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063124.081751043] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063125.081791706] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063126.081822292] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063127.081797719] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063128.081796095] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063129.081763782] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063130.081820745] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063131.081834330] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063132.081753753] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063133.081754040] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063134.081754599] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[WARN] [1754063135.081829605] [a200_0000.controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[INFO] [1754063136.034884358] [rclcpp]: signal_handler(signum=2)
+[INFO] [1754063136.035061672] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1754063136.035136617] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1754063136.035161104] [a200_0000.controller_manager]: Shutting down the controller manager.

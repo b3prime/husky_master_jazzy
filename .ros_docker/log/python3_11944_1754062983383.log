@@ -1,0 +1,4 @@
+[WARN] [1754063003.435557101] [spawner_platform_velocity_controller]: [93mAttempt 1 failed. Retrying in 3 seconds...[0m
+[WARN] [1754063026.462489958] [spawner_platform_velocity_controller]: [93mAttempt 2 failed. Retrying in 3 seconds...[0m
+[INFO] [1754063043.553523646] [a200_0000.spawner_platform_velocity_controller]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[FATAL] [1754063103.592176351] [a200_0000.spawner_platform_velocity_controller]: Could not contact service /a200_0000/controller_manager/list_controllers

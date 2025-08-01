@@ -1,0 +1,102 @@
+serial_number: a200-0000
+version: 0
+system:
+  username: robot
+  hosts:
+    - hostname: cpr-a200-0000
+      ip: 192.168.131.1
+  ros2:
+    namespace: a200_0000
+    domain_id: 0
+    middleware:
+      implementation: rmw_fastrtps_cpp
+    workspaces: []
+platform:
+  controller: js0
+  battery:
+    model: ES20_12C
+    configuration: S2P1
+  attachments:
+    - name: front_bumper
+      type: a200.bumper
+      model: default
+      parent: front_bumper_mount
+      xyz: [0.0, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]
+      enabled: true
+      extension: 0.0
+    - name: rear_bumper
+      type: a200.bumper
+      model: default
+      parent: rear_bumper_mount
+      xyz: [0.0, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]
+      enabled: true
+      extension: 0.0
+  extras:
+    urdf: {}
+    launch:
+      package: brainbox_husky_bringup
+      path: launch/remap_topics.launch.py
+links:
+  box: []
+  cylinder: []
+  frame: []
+  mesh:
+    - name: sensor_box
+      parent: default_mount
+      xyz: [0.22, 0.0, 0.0]
+      rpy: [0.0, 0.0, 1.5708]
+      visual:
+        package: brainbox_husky_description
+        path: meshes/sensor_box_v7.stl
+  sphere: []
+mounts:
+  bracket: []
+  fath_pivot: []
+  riser: []
+  sick: []
+  post: []
+  disk: []
+sensors:
+  gps:
+  - model: swiftnav_duro
+    urdf_enabled: true
+    launch_enabled: true
+    parent: default_mount
+    xyz: [0.215, 0.0, 0.29]
+    rpy: [0.0, 0.0, 0.0]
+    ros_parameters:
+      duro_node:
+        gps_receiver_frame_id: gps_0_link
+        ip_address: 192.168.131.30
+        ip_port: 55555
+        imu_frame_id: gps_0_link
+  imu:
+  - model: microstrain_imu
+    urdf_enabled: true
+    launch_enabled: true
+    parent: default_mount
+    xyz: [0.215, 0.102, 0.11]
+    rpy: [0.0, 0.0, 0.0]
+    ros_parameters:
+      microstrain_inertial_driver:
+        imu_frame_id: imu_0_link
+        port: /dev/microstrain_main
+        use_enu_frame: true
+  lidar3d:
+    - model: ouster_os1
+      urdf_enabled: true
+      launch_enabled: true
+      parent: default_mount
+      xyz: [0.213, 0.0, 0.2]
+      rpy: [0.0, 0.0, 0.0]
+      ros_parameters:
+        ouster_driver:
+          sensor_hostname: 192.168.100.12
+          lidar_port: 7502
+          imu_port: 7503
+          proc_mask: IMU|PCL|SCAN|IMG|RAW|TLM
+          use_system_default_qos: false
+          cap_type: fins
+          base_type: none
