@@ -1,3 +1,6 @@
+Husky Master
+=============
+
 The base image used on the Clearpath Husky A200. It uses Ubuntu 24.04 and ROS2 Jazzy, and installs all needed dependencies and scripts to customize, simulate, and bringup the hardware platform.
 
 ### How to Build and Use?
