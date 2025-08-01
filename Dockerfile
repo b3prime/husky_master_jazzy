@@ -84,7 +84,7 @@ RUN bash /usr/local/bin/clearpath_computer_installer.sh
 USER root
 
 RUN apt-get update \
- && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-ros-gz
+ && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-clearpath-simulator
 
 COPY <<'EOF' /usr/local/bin/entrypoint.sh
 #!/usr/bin/env bash
@@ -117,7 +117,7 @@ COPY --chown=$USER:$USER ../ws /home/$USER/dcist_ws
 RUN cd /home/dcist/dcist_ws \
   && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
     sudo apt update && \
-    rosdep update' 
+    rosdep update'
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["/bin/bash"]

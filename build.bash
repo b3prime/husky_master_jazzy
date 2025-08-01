@@ -12,5 +12,4 @@ export DOCKER_BUILDKIT=1
 
 docker build \
 	--build-arg USER_UID="${UID_ARG}" \
-	--build-arg USER_GID="${GID_ARG}" \
 	-t "${IMAGE_NAME}:${IMAGE_TAG}" .
