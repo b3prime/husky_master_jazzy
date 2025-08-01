@@ -59,17 +59,13 @@ RUN add-apt-repository -y ppa:neovim-ppa/stable \
   && apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y neovim
 
-ARG USERNAME=dcist
-ARG USER_UID=1000
-ARG USER_GID=${USER_UID}
-
-RUN ( id -u ubuntu &>/dev/null && deluser --remove-home ubuntu || true ) && \
-    ( getent group "${USER_GID}" >/dev/null || groupadd --gid "${USER_GID}" "${USERNAME}" ) && \
-    ( getent passwd "${USER_UID}" >/dev/null || \
-      useradd --uid "${USER_UID}" --gid "${USER_GID}" -m -s /bin/bash "${USERNAME}" ) && \
-    echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-${USERNAME} && \
-    chmod 0440 /etc/sudoers.d/90-${USERNAME}
-
+# Requires a docker build argument `user_id`
+ARG user_id=1000
+ENV USER=dcist
+RUN deluser ubuntu && useradd -U --uid ${user_id} -ms /bin/bash $USER \
+  && echo "$USER:$USER" | chpasswd \
+  && adduser $USER sudo \
+  && echo "$USER ALL=NOPASSWD: ALL" >> /etc/sudoers.d/$USER
 
 # enable all nvidia capabilities
 ENV NVIDIA_VISIBLE_DEVICES=all
@@ -80,7 +76,7 @@ COPY clearpath_computer_installer.sh /usr/local/bin/clearpath_computer_installer
 RUN chmod +x /usr/local/bin/clearpath_computer_installer.sh
 
 # Computer installer must be run as a user, not sudo
-USER $USERNAME
+USER $USER
 ENV AUTO_YES=1
 RUN bash /usr/local/bin/clearpath_computer_installer.sh
 #Switch back to root for rest of setup
@@ -91,14 +87,14 @@ COPY <<'EOF' /usr/local/bin/entrypoint.sh
 #!/usr/bin/env bash
 set -euo pipefail
 
-USERNAME=${USERNAME:-dcist}
-HOME_DIR=/home/${USERNAME}
+USERNAME=${USER:-dcist}
+HOME_DIR=/home/${USER}
 export HOME=${HOME_DIR}
 export ROS_HOME=${ROS_HOME:-${HOME_DIR}/.ros}
 export ROS_LOG_DIR=${ROS_LOG_DIR:-${ROS_HOME}/log}
 
 mkdir -p "${ROS_HOME}" "${ROS_LOG_DIR}" || true
-chown -R "${USERNAME}:${USERNAME}" "${ROS_HOME}" || true
+chown -R "${USER}:${USER}" "${ROS_HOME}" || true
 
 # hand off to CMD as the user
 exec sudo -H -E -u ${USERNAME} \
@@ -108,26 +104,17 @@ EOF
 
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-WORKDIR /home/${USERNAME}
+WORKDIR /home/${USER}
 COPY clearpath /etc/clearpath
 
-# download and install the ZED SDK
-RUN cd /home/dcist \
-  && wget -O zed_sdk.run https://download.stereolabs.com/zedsdk/5.0/cu12/ubuntu24 \
-  && chmod +x zed_sdk.run \
-  && ./zed_sdk.run -- silent runtime_only\
-  && rm zed_sdk.run
-
 # Copy the dcist_ws environment
-COPY --chown=$USERNAME:$USERNAME ../ws /home/$USERNAME/dcist_ws
+COPY --chown=$USER:$USER ../ws /home/$USER/dcist_ws
 
 # build the dcist_ws
 RUN cd /home/dcist/dcist_ws \
   && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
     sudo apt update && \
-    rosdep update && \
-    rosdep install --from-paths src --ignore-src --rosdistro=jazzy -y && \
-    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCMAKE_CXX_FLAGS="-Wl,--allow-shlib-undefined"'
+    rosdep update' 
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["/bin/bash"]
