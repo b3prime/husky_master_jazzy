@@ -38,6 +38,19 @@ echo -e "$(label "BASHRC_HOST:")       ${BASHRC_HOST}"
 # get GID of input group
 INPUT_GID=$(getent group input | cut -d: -f3)
 
+# Detect a Prolific by-id device
+DEV_BYID="$(ls -1 /dev/serial/by-id/*Prolific* 2>/dev/null | head -n1 || true)"
+
+# Or let user override via env
+DEV_HOST="${DEVICE_PATH:-$DEV_BYID}"
+
+DEVICE_ARGS=()
+if [ -n "$DEV_HOST" ] && [ -e "$DEV_HOST" ]; then
+  DEVICE_ARGS+=(--device="$DEV_HOST:/dev/clearpath/prolific")
+else
+  echo "WARN: No Prolific device found on host; starting without serial device." >&2
+fi
+
 # Mount extra volumes if needed.
 docker run --gpus all \
   -it \
@@ -62,5 +75,6 @@ docker run --gpus all \
   --security-opt seccomp=unconfined \
   --group-add=dialout \
   --group-add $INPUT_GID \
+  "${DEVICE_ARGS[@]}" \
   "${IMAGE_NAME}:${IMAGE_TAG}"
 
