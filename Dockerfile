@@ -79,9 +79,12 @@ RUN chmod +x /usr/local/bin/clearpath_computer_installer.sh
 USER $USER
 ENV AUTO_YES=1
 RUN bash /usr/local/bin/clearpath_computer_installer.sh
+
 #Switch back to root for rest of setup
 USER root
 
+RUN apt-get update \
+ && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-ros-gz
 
 COPY <<'EOF' /usr/local/bin/entrypoint.sh
 #!/usr/bin/env bash
