@@ -7,8 +7,8 @@ The base image used on the Clearpath Husky A200. It uses Ubuntu 24.04 and ROS2 J
 ```
 git clone https://github.com/b3prime/husky_master_jazzy.git
 cd dcist_master_ros2 && git submodule update --init --recursive
-./build.bash
-./run.bash
+sudo ./build.bash
+sudo ./run.bash
 ```
 
 ### How to run the Husky

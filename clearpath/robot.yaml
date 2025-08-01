@@ -12,7 +12,7 @@ system:
       implementation: rmw_fastrtps_cpp
     workspaces: []
 platform:
-  controller: js0
+  controller: ps4
   battery:
     model: ES20_12C
     configuration: S2P1
