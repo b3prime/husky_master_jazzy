@@ -89,27 +89,8 @@ RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-clearpath-simulator
 
 RUN apt install ros-jazzy-topic-tools -y
+RUN apt-get install python3-vcstool
 
-COPY <<'EOF' /usr/local/bin/entrypoint.sh
-#!/usr/bin/env bash
-set -euo pipefail
-
-USERNAME=${USER:-dcist}
-HOME_DIR=/home/${USER}
-export HOME=${HOME_DIR}
-export ROS_HOME=${ROS_HOME:-${HOME_DIR}/.ros}
-export ROS_LOG_DIR=${ROS_LOG_DIR:-${ROS_HOME}/log}
-
-mkdir -p "${ROS_HOME}" "${ROS_LOG_DIR}" || true
-chown -R "${USER}:${USER}" "${ROS_HOME}" || true
-
-# hand off to CMD as the user
-exec sudo -H -E -u ${USERNAME} \
-  --preserve-env=ROS_HOME,ROS_LOG_DIR,ROS_DISTRO,BASH_ENV \
-  "$@"
-EOF
-
-RUN chmod +x /usr/local/bin/entrypoint.sh
 
 WORKDIR /home/${USER}
 COPY clearpath /etc/clearpath
@@ -117,11 +98,23 @@ COPY clearpath /etc/clearpath
 # Copy the dcist_ws environment
 COPY --chown=$USER:$USER ../ws /home/$USER/dcist_ws
 
-# build the dcist_ws
-RUN cd /home/dcist/dcist_ws \
-  && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
-    sudo apt update && \
-    rosdep update'
+RUN git clone -b ros2 --recurse-submodules https://github.com/ouster-lidar/ouster-ros.git /home/$USER/dcist_ws/src/ouster-ros
 
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+# build the dcist_ws
+RUN cd /home/$USER/dcist_ws \
+  && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
+    rosdep update && \
+    rosdep install --from-paths src --ignore-src -y && \
+    colcon build --symlink-install'
+
+RUN echo 'export PS1="\[$(tput setaf 2; tput bold)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 3)\]\h\[$(tput setaf 7)\]:\[$(tput setaf 4)\]\W\[$(tput setaf 7)\]$ \[$(tput sgr0)\]"' >> ~/.bashrc
+# Fix folder permissions
+RUN /bin/sh -c 'echo sudo chown $USER:$USER ~/dcist_ws >> ~/.bashrc'
+RUN /bin/sh -c 'echo sudo chown $USER:$USER ~/data >> ~/.bashrc'
+RUN /bin/sh -c 'echo sudo chown $USER:$USER ~/.ros >> ~/.bashrc'
+# Source setup files
+RUN /bin/sh -c 'echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc'
+RUN /bin/sh -c 'echo "source /etc/clearpath/setup.bash" >> ~/.bashrc'
+RUN /bin/sh -c 'echo "source ~/dcist_ws/install/setup.bash" >> ~/.bashrc'
+
 CMD ["/bin/bash"]
