@@ -1,9 +1,0 @@
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/uninstall.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/brainbox_husky_bringup_uninstall.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/test.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/edit_cache.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/rebuild_cache.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/list_install_components.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/install.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/install/local.dir
-/home/mrsl-perch/husky_master_jazzy/ws/build/brainbox_husky_bringup/CMakeFiles/install/strip.dir
