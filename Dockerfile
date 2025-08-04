@@ -84,8 +84,11 @@ RUN bash /usr/local/bin/clearpath_computer_installer.sh
 #Switch back to root for rest of setup
 USER root
 
+# Install ROS2-related packages
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-clearpath-simulator
+
+RUN apt install ros-jazzy-topic-tools -y
 
 COPY <<'EOF' /usr/local/bin/entrypoint.sh
 #!/usr/bin/env bash
