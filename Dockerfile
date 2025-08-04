@@ -98,10 +98,19 @@ COPY clearpath /etc/clearpath
 # Copy the dcist_ws environment
 COPY --chown=$USER:$USER ../ws /home/$USER/dcist_ws
 
-RUN mkdir -p /home/$USER/dcis_ws/src \
+# Install the Ouster driver
+RUN mkdir -p /home/$USER/dcist_ws/src \
   && git clone -b ros2 --recurse-submodules \
   	https://github.com/ouster-lidar/ouster-ros.git \
 	/home/$USER/dcist_ws/src/ouster-ros
+
+# Install the UBlox driver
+RUN git clone -b ros2 https://github.com/KumarRobotics/ublox.git \
+	/home/$USER/dcist_ws/src/ublox
+
+# Install the Vectornav driver
+RUN git clone -b ros2 https://github.com/dawonn/vectornav.git \
+	/home/$USER/dcist_ws/src/vectornav
 
 # build the dcist_ws
 RUN cd /home/$USER/dcist_ws \
