@@ -26,6 +26,7 @@ RUN apt-get update \
   gdb \
   gfortran \
   git \
+  libasio-dev \
   libbluetooth-dev \
   libcwiid-dev \
   libeigen3-dev \
