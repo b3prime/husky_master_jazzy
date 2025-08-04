@@ -1,0 +1,6 @@
+[submodule "ws/ws/src"]
+	path = ws/ws/src
+	url = https://github.com/ouster-lidar/ouster-ros.git
+[submodule "ws/src/ouster-ros"]
+	path = ws/src/ouster-ros
+	url = https://github.com/ouster-lidar/ouster-ros.git
