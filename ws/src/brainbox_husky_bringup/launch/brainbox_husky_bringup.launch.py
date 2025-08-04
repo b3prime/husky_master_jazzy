@@ -6,6 +6,8 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
 from launch.conditions import IfCondition, UnlessCondition
+from pathlib import Path
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
@@ -23,7 +25,7 @@ def generate_launch_description():
         description = 'namespace of robot. Used for formatting simulation topic names to match real hardware.'
     )
 
-    setup_path_launch_arg = DeclareLaunchArgument(
+    setup_path_arg = DeclareLaunchArgument(
         'setup_path',
         default_value = '/etc/clearpath',
         description = 'path to robot.yaml file'
@@ -39,24 +41,23 @@ def generate_launch_description():
                         launch_arguments={
                         "setup_path": LaunchConfiguration("setup_path")
                         }.items(),
-                        condition=IfCondition(LaunchConfiguration('use_sim'))
+                        condition=IfCondition(LaunchConfiguration('use_sim')),
                     )
 
     # Launch the hardware platform if use_sim argument is false
     platform_launch_path = '/etc/clearpath/platform/launch/platform-service.launch.py'
-    platform_include = 
-        IncludeLaunchDescription(
+    platform_include = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(platform_launch_path),
-            condition = UnlessCondition(LaunchConfiguration('use_sim'))
+            condition = UnlessCondition(LaunchConfiguration('use_sim')),
         )
 
     # Launch Vectornav driver if using real hardware
     # If using simulation, the topics are created by Gazebo,
     # And the relay_topics launch file relays them so their names align with the hardware topic names
     vn100_share = FindPackageShare('vectornav')
-    vn100_launch_dir =  PathJoinSubstitution([vectornav_share, 'launch', 'vectornav.launch.py'])
+    vn100_launch_dir =  PathJoinSubstitution([vn100_share, 'launch', 'vectornav.launch.py'])
     vn100_include = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(vn_launch_dir),
+            PythonLaunchDescriptionSource(vn100_launch_dir),
             condition = UnlessCondition(LaunchConfiguration('use_sim'))
             )
          
@@ -78,7 +79,7 @@ def generate_launch_description():
                  )
     ublox_node = Node(
             package="ublox_gps",
-            executabl="ublox_gps_node",
+            executable="ublox_gps_node",
             name = "ublox_gnss",
             parameters=[str(yaml_file)],
             output="screen",
@@ -93,9 +94,9 @@ def generate_launch_description():
                           )
 
     return LaunchDescription([
-        setup_path_launch_arg,
-        use_sim_launch_arg,
-        robot_ns_launch_arg,
+        setup_path_arg,
+        use_sim_arg,
+        robot_ns_arg,
         
         vn100_include,
         ublox_node,
