@@ -1,0 +1,151 @@
+[0.007s] Invoking command in '/home/mrsl-perch/husky-master-jazzy/ws/build/direct_lidar_inertial_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrsl-perch/husky-master-jazzy/ws/src/DLIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mrsl-perch/husky-master-jazzy/ws/install/direct_lidar_inertial_odometry
+[0.112s] -- The C compiler identification is GNU 13.3.0
+[0.183s] -- The CXX compiler identification is GNU 13.3.0
+[0.197s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.384s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.386s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.386s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.386s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.386s]   cmake_policy command to set the policy and suppress this warning.
+[0.386s] 
+[0.386s]   CMake variable FLANN_ROOT is set to:
+[0.386s] 
+[0.386s]     /usr
+[0.386s] 
+[0.386s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.386s]   .cmake module might still use it.
+[0.386s] Call Stack (most recent call first):
+[0.386s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.386s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.386s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.387s]   CMakeLists.txt:19 (find_package)
+[0.387s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.387s] [0m
+[0.388s] -- Found flann version 1.9.2
+[0.588s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.588s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[0.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.673s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.673s] -- Found Threads: TRUE  
+[0.675s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.688s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.802s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.802s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.805s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.815s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[0.832s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[0.848s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.941s] -- Found X11: /usr/include   
+[0.941s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.993s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.993s] -- Looking for gethostbyname
+[1.046s] -- Looking for gethostbyname - found
+[1.046s] -- Looking for connect
+[1.099s] -- Looking for connect - found
+[1.099s] -- Looking for remove
+[1.152s] -- Looking for remove - found
+[1.152s] -- Looking for shmat
+[1.203s] -- Looking for shmat - found
+[1.203s] -- Looking for IceConnectionNumber in ICE
+[1.252s] -- Looking for IceConnectionNumber in ICE - found
+[1.332s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[1.334s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.336s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[1.337s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[1.373s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.384s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[1.387s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[1.391s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.441s] -- Checking for module 'libusb-1.0'
+[1.449s] --   Found libusb-1.0, version 1.0.27
+[1.468s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.469s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.469s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.504s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.504s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.506s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.506s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.792s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.796s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.065s] -- Found Qhull version 8.0.2
+[2.332s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.589s] -- looking for PCL_COMMON
+[2.590s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.590s] -- looking for PCL_KDTREE
+[2.590s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.590s] -- looking for PCL_OCTREE
+[2.591s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.591s] -- looking for PCL_SEARCH
+[2.592s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.592s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.593s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.593s] -- looking for PCL_FILTERS
+[2.593s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.593s] -- looking for PCL_2D
+[2.593s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[2.593s] -- looking for PCL_GEOMETRY
+[2.594s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[2.594s] -- looking for PCL_IO
+[2.594s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.594s] -- looking for PCL_FEATURES
+[2.595s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.595s] -- looking for PCL_ML
+[2.596s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.596s] -- looking for PCL_SEGMENTATION
+[2.597s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.597s] -- looking for PCL_VISUALIZATION
+[2.598s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.598s] -- looking for PCL_SURFACE
+[2.598s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.599s] -- looking for PCL_REGISTRATION
+[2.599s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.599s] -- looking for PCL_KEYPOINTS
+[2.600s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.600s] -- looking for PCL_TRACKING
+[2.601s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.601s] -- looking for PCL_RECOGNITION
+[2.602s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.602s] -- looking for PCL_STEREO
+[2.603s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.603s] -- looking for PCL_APPS
+[2.604s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.604s] -- looking for PCL_IN_HAND_SCANNER
+[2.604s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[2.604s] -- looking for PCL_MODELER
+[2.604s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[2.604s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.615s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[2.615s] -- looking for PCL_OUTOFCORE
+[2.615s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.616s] -- looking for PCL_PEOPLE
+[2.616s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.617s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.671s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.671s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.680s] -- Configuring incomplete, errors occurred!
+[2.680s] [31mCMake Error at CMakeLists.txt:40 (find_package):
+[2.680s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.680s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.680s]   CMake did not find one.
+[2.680s] 
+[2.680s]   Could not find a package configuration file provided by "catkin" with any
+[2.680s]   of the following names:
+[2.680s] 
+[2.680s]     catkinConfig.cmake
+[2.680s]     catkin-config.cmake
+[2.680s] 
+[2.680s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.680s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.680s]   provides a separate development package or SDK, be sure it has been
+[2.680s]   installed.
+[2.680s] 
+[2.681s] [0m

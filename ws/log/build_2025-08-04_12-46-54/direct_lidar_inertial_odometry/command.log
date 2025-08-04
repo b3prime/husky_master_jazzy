@@ -1,0 +1,1 @@
+Invoking command in '/home/mrsl-perch/husky-master-jazzy/ws/build/direct_lidar_inertial_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrsl-perch/husky-master-jazzy/ws/src/DLIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mrsl-perch/husky-master-jazzy/ws/install/direct_lidar_inertial_odometry

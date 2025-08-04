@@ -1,0 +1,35 @@
+[31mCMake Error at CMakeLists.txt:4 (include):
+  include could not find requested file:
+
+    DefaultBuildType
+
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+-- looking for PCL_COMMON
+-- Found tf2_eigen: 0.36.12 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "catkin", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "catkin" with any
+  of the following names:
+
+    catkinConfig.cmake
+    catkin-config.cmake
+
+  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
