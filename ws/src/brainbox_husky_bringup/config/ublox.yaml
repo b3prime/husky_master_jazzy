@@ -1,0 +1,15 @@
+ublox_gnss:
+  ros__parameters:
+    frame_id: gnss
+    device: /dev/ttyACM0
+    baudrate: 38400
+    rate: 4.0
+    nav_rate: 1
+    dynamic_model: portable
+
+    enable_ubx_nav_pvt:  1
+    enable_ubx_nav_sat:  1
+    enable_ubx_nav_status: 1
+    enable_ubx_nav_velned: 1
+
+    tmode3: 0
