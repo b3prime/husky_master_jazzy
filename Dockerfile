@@ -98,7 +98,10 @@ COPY clearpath /etc/clearpath
 # Copy the dcist_ws environment
 COPY --chown=$USER:$USER ../ws /home/$USER/dcist_ws
 
-RUN git clone -b ros2 --recurse-submodules https://github.com/ouster-lidar/ouster-ros.git /home/$USER/dcist_ws/src/ouster-ros
+RUN mkdir -p /home/$USER/dcis_ws/src \
+  && git clone -b ros2 --recurse-submodules \
+  	https://github.com/ouster-lidar/ouster-ros.git \
+	/home/$USER/dcist_ws/src/ouster-ros
 
 # build the dcist_ws
 RUN cd /home/$USER/dcist_ws \
