@@ -7,3 +7,7 @@
 	path = ws/src/ublox
 	url = https://github.com/KumarRobotics/ublox.git
 	branch = ros2
+[submodule "ws/src/vectornav"]
+	path = ws/src/vectornav
+	url = https://github.com/dawonn/vectornav.git
+	branch = ros2
