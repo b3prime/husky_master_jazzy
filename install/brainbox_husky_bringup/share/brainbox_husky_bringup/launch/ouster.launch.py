@@ -68,7 +68,7 @@ def generate_launch_description():
     ouster_hw = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(ouster_launch),
         launch_arguments={ 
-            "params_file": PathJoinSubstitution([
+            "driver_params": PathJoinSubstitution([
                 FindPackageShare('brainbox_husky_bringup'),
                 'config',
                 'ouster_driver_params.yaml',

@@ -53,7 +53,12 @@ def generate_launch_description():
     platform_launch_path = '/etc/clearpath/platform/launch/platform-service.launch.py'
     platform_include = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(platform_launch_path),
-            condition = IfCondition(LaunchConfiguration('launch_platform')),
+            condition = IfCondition(
+                PythonExpression([
+                    LaunchConfiguration('use_sim'), ' == "false" and ',
+                    LaunchConfiguration('launch_platform'), '== "true"'
+                ])
+            ),
         )
 
     # Launch Vectornav driver if using real hardware
@@ -102,7 +107,6 @@ def generate_launch_description():
         setup_path_arg,
         use_sim_arg,
         robot_ns_arg,
-        launch_platform_arg,
         
         #vn100_include,
         #ublox_node,
@@ -113,4 +117,3 @@ def generate_launch_description():
 
         relay_topics_include,
     ])
-

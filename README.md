@@ -16,3 +16,12 @@ sudo ./run.bash
 ros2 launch /etc/clearpath/platform/launch/platform-service.launch.py
 ```
 To edit configuration files related to the Husky's bringup, navigate to: /etc/clearpath/platform/config
+
+### Notes
+
+If you get display errors with Rviz, you may have to run:
+```
+sudo xhost +si:localuser:root
+```
+Before building and running the container.
+
