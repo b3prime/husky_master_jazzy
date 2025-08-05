@@ -1,0 +1,136 @@
+[0.005s] Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/husky_master_jazzy/ws/src/path_planning -DCMAKE_INSTALL_PREFIX=/home/robot/husky_master_jazzy/ws/install/path_planning
+[0.039s] -- The C compiler identification is GNU 13.3.0
+[0.076s] -- The CXX compiler identification is GNU 13.3.0
+[0.087s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.253s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.254s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.254s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.254s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.254s]   cmake_policy command to set the policy and suppress this warning.
+[0.254s] 
+[0.254s]   CMake variable FLANN_ROOT is set to:
+[0.254s] 
+[0.254s]     /usr
+[0.254s] 
+[0.254s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.254s]   .cmake module might still use it.
+[0.254s] Call Stack (most recent call first):
+[0.254s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.254s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.254s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.254s]   CMakeLists.txt:9 (find_package)
+[0.254s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.255s] [0m
+[0.255s] -- Found flann version 1.9.2
+[0.446s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.447s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[0.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.525s] -- Found Threads: TRUE  
+[0.526s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.536s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.648s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.648s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.650s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.660s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[0.674s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[0.685s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.774s] -- Found X11: /usr/include   
+[0.774s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.833s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.833s] -- Looking for gethostbyname
+[0.888s] -- Looking for gethostbyname - found
+[0.888s] -- Looking for connect
+[0.943s] -- Looking for connect - found
+[0.943s] -- Looking for remove
+[0.997s] -- Looking for remove - found
+[0.997s] -- Looking for shmat
+[1.052s] -- Looking for shmat - found
+[1.052s] -- Looking for IceConnectionNumber in ICE
+[1.105s] -- Looking for IceConnectionNumber in ICE - found
+[1.183s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[1.184s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.186s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[1.187s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[1.197s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.208s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[1.211s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[1.215s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.269s] -- Checking for module 'libusb-1.0'
+[1.279s] --   Found libusb-1.0, version 1.0.27
+[1.304s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.305s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.305s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.344s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.344s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.346s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[1.626s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.630s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.882s] -- Found Qhull version 8.0.2
+[2.134s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.380s] -- looking for PCL_COMMON
+[2.380s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.381s] -- looking for PCL_KDTREE
+[2.381s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.381s] -- looking for PCL_OCTREE
+[2.382s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.382s] -- looking for PCL_SEARCH
+[2.382s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.382s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.383s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.383s] -- looking for PCL_FILTERS
+[2.384s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.384s] -- looking for PCL_2D
+[2.384s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[2.384s] -- looking for PCL_GEOMETRY
+[2.384s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[2.384s] -- looking for PCL_IO
+[2.385s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.385s] -- looking for PCL_FEATURES
+[2.385s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.386s] -- looking for PCL_ML
+[2.386s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.386s] -- looking for PCL_SEGMENTATION
+[2.387s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.387s] -- looking for PCL_VISUALIZATION
+[2.387s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.387s] -- looking for PCL_SURFACE
+[2.388s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.388s] -- looking for PCL_REGISTRATION
+[2.389s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.389s] -- looking for PCL_KEYPOINTS
+[2.389s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.389s] -- looking for PCL_TRACKING
+[2.390s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.390s] -- looking for PCL_RECOGNITION
+[2.390s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.391s] -- looking for PCL_STEREO
+[2.391s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.391s] -- looking for PCL_APPS
+[2.392s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.392s] -- looking for PCL_IN_HAND_SCANNER
+[2.392s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[2.392s] -- looking for PCL_MODELER
+[2.392s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[2.392s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.393s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[2.393s] -- looking for PCL_OUTOFCORE
+[2.393s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.393s] -- looking for PCL_PEOPLE
+[2.394s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.394s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.394s] [31mCMake Error at CMakeLists.txt:11 (ament_target_dependencies):
+[2.394s]   Unknown CMake command "ament_target_dependencies".
+[2.394s] 
+[2.394s] [0m
+[2.395s] -- Configuring incomplete, errors occurred!
+[2.405s] Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/husky_master_jazzy/ws/src/path_planning -DCMAKE_INSTALL_PREFIX=/home/robot/husky_master_jazzy/ws/install/path_planning

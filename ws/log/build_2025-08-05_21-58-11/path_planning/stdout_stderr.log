@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/occupancy_grid_node.dir/src/occupancy_grid_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable occupancy_grid_node[0m
+[100%] Built target occupancy_grid_node
+-- Install configuration: ""
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/lib/path_planning/occupancy_grid_node
+-- Set non-toolchain portion of runtime path of "/home/robot/husky_master_jazzy/ws/install/path_planning/lib/path_planning/occupancy_grid_node" to ""
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/package_run_dependencies/path_planning
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/parent_prefix_path/path_planning
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/ament_prefix_path.sh
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/path.sh
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/path.dsv
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.bash
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.sh
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.zsh
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.dsv
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/package.dsv
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/packages/path_planning
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/cmake/path_planningConfig.cmake
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/cmake/path_planningConfig-version.cmake
+-- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/package.xml

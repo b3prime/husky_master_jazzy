@@ -1,0 +1,73 @@
+[0.006s] Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/husky_master_jazzy/ws/src/path_planning -DCMAKE_INSTALL_PREFIX=/home/robot/husky_master_jazzy/ws/install/path_planning
+[0.025s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.025s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.025s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.025s]   cmake_policy command to set the policy and suppress this warning.
+[0.025s] 
+[0.025s]   CMake variable FLANN_ROOT is set to:
+[0.025s] 
+[0.025s]     /usr
+[0.025s] 
+[0.025s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.025s]   .cmake module might still use it.
+[0.025s] Call Stack (most recent call first):
+[0.025s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.025s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.025s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.025s]   CMakeLists.txt:9 (find_package)
+[0.025s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.025s] [0m
+[0.025s] -- Found flann version 1.9.2
+[0.293s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.297s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.568s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.572s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.814s] -- Found Qhull version 8.0.2
+[1.065s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.307s] -- looking for PCL_COMMON
+[1.307s] -- looking for PCL_KDTREE
+[1.308s] -- looking for PCL_OCTREE
+[1.308s] -- looking for PCL_SEARCH
+[1.308s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.308s] -- looking for PCL_FILTERS
+[1.308s] -- looking for PCL_2D
+[1.308s] -- looking for PCL_GEOMETRY
+[1.309s] -- looking for PCL_IO
+[1.309s] -- looking for PCL_FEATURES
+[1.309s] -- looking for PCL_ML
+[1.309s] -- looking for PCL_SEGMENTATION
+[1.309s] -- looking for PCL_VISUALIZATION
+[1.310s] -- looking for PCL_SURFACE
+[1.310s] -- looking for PCL_REGISTRATION
+[1.310s] -- looking for PCL_KEYPOINTS
+[1.310s] -- looking for PCL_TRACKING
+[1.310s] -- looking for PCL_RECOGNITION
+[1.310s] -- looking for PCL_STEREO
+[1.311s] -- looking for PCL_APPS
+[1.311s] -- looking for PCL_IN_HAND_SCANNER
+[1.311s] -- looking for PCL_MODELER
+[1.311s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.311s] -- looking for PCL_OUTOFCORE
+[1.312s] -- looking for PCL_PEOPLE
+[1.315s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[1.404s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.507s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.516s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.584s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.586s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.658s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.896s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.897s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.897s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.899s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.900s]   ament_target_dependencies() the first argument must be a valid target name
+[1.900s] Call Stack (most recent call first):
+[1.900s]   CMakeLists.txt:15 (ament_target_dependencies)
+[1.900s] 
+[1.900s] [0m
+[1.900s] -- Configuring incomplete, errors occurred!
+[1.911s] Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/husky_master_jazzy/ws/src/path_planning -DCMAKE_INSTALL_PREFIX=/home/robot/husky_master_jazzy/ws/install/path_planning

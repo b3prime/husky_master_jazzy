@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_grid_node.dir/src/occupancy_grid_node.cpp.o[0m
+[5.262s] [100%] [32m[1mLinking CXX executable occupancy_grid_node[0m
+[5.658s] [100%] Built target occupancy_grid_node
+[5.666s] Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24
+[5.667s] Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/husky_master_jazzy/ws/build/path_planning
+[5.672s] -- Install configuration: ""
+[5.672s] -- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/lib/path_planning/occupancy_grid_node
+[5.676s] -- Set non-toolchain portion of runtime path of "/home/robot/husky_master_jazzy/ws/install/path_planning/lib/path_planning/occupancy_grid_node" to ""
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/package_run_dependencies/path_planning
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/parent_prefix_path/path_planning
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/ament_prefix_path.sh
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/ament_prefix_path.dsv
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/path.sh
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/environment/path.dsv
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.bash
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.sh
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.zsh
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/local_setup.dsv
+[5.676s] -- Installing: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/package.dsv
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/ament_index/resource_index/packages/path_planning
+[5.676s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/cmake/path_planningConfig.cmake
+[5.677s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/cmake/path_planningConfig-version.cmake
+[5.677s] -- Up-to-date: /home/robot/husky_master_jazzy/ws/install/path_planning/share/path_planning/package.xml
+[5.677s] Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/husky_master_jazzy/ws/build/path_planning

@@ -1,0 +1,14 @@
+[0.006s] Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_grid_node.dir/src/occupancy_grid_node.cpp.o[0m
+[2.663s] [01m[K/home/robot/husky_master_jazzy/ws/src/path_planning/src/occupancy_grid_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.663s] [01m[K/home/robot/husky_master_jazzy/ws/src/path_planning/src/occupancy_grid_node.cpp:36:22:[m[K [01;31m[Kerror: [m[K‘[01m[Karc[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[2.663s]    36 |         rclcpp::init([01;31m[Karc[m[K, argv);
+[2.663s]       |                      [01;31m[K^~~[m[K
+[2.663s]       |                      [32m[Kargc[m[K
+[2.664s] [01m[K/home/robot/husky_master_jazzy/ws/src/path_planning/src/occupancy_grid_node.cpp:35:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.665s]    35 | int main([01;35m[Kint argc[m[K, char** argv) {
+[2.665s]       |          [01;35m[K~~~~^~~~[m[K
+[3.666s] gmake[2]: *** [CMakeFiles/occupancy_grid_node.dir/build.make:76: CMakeFiles/occupancy_grid_node.dir/src/occupancy_grid_node.cpp.o] Error 1
+[3.667s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_grid_node.dir/all] Error 2
+[3.667s] gmake: *** [Makefile:146: all] Error 2
+[3.669s] Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24
