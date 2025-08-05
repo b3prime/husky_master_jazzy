@@ -19,9 +19,14 @@ To edit configuration files related to the Husky's bringup, navigate to: /etc/cl
 
 ### Notes
 
-If you get display errors with Rviz, you may have to run:
+**Display Errors?**: On the host machine (before building the container), run:
 ```
 sudo xhost +si:localuser:root
 ```
-Before building and running the container.
+This will allow any local process running as root to connect to the X11 display server.
 
+**Can't connect to the Husky over serial?**: BrainBox uses a Serial to USB converter to communicate with the Husky's internal MCU. The converter will appear as something like:
+```
+/dev/serial/by-id/_
+```
+The Husky platform package looks for /dev/clearpath/prolific. Ensure that the symlink here is correct.
