@@ -10,7 +10,8 @@ class OccupancyGridNode : public rclcpp::Node {
 	public:
 		OccupancyGridNode() : Node("occupancy_grid_node") {
 			pointcloud_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-				"/ouster/points", 10,
+				"/ouster/points",
+				rclcpp::SensorDataQoS(),
 				[this](sensor_msgs::msg::PointCloud2::SharedPtr msg) {
 					cloudCallback(msg);
 				}
