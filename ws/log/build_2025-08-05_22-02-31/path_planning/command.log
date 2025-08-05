@@ -1,2 +1,0 @@
-Invoking command in '/home/robot/husky_master_jazzy/ws/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24
-Invoked command in '/home/robot/husky_master_jazzy/ws/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/husky_master_jazzy/ws/build/path_planning -- -j24 -l24

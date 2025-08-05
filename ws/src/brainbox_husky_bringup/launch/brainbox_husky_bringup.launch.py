@@ -20,7 +20,7 @@ def generate_launch_description():
 
     launch_platform_arg = DeclareLaunchArgument(
         'launch_platform',
-        default_value = 'true',
+        default_value = 'false',
         description = 'true -> launches serial connection to platform. false -> only launches sensors.'
     )
     
