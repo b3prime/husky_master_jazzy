@@ -13,8 +13,8 @@ ssh -X robot@192.168.8.72
 ```
 git clone https://github.com/b3prime/husky_master_jazzy.git
 cd dcist_master_ros2 && git submodule update --init --recursive
-sudo ./build.bash
-sudo ./run.bash
+./build.bash
+./run.bash
 ```
 
 ### How to run the Husky
