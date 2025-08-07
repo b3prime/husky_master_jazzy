@@ -1,3 +1,16 @@
+// Generate an occupancy grid from the Ouster OS1
+// Subscribes to:
+// 	- /ouster/points
+// 		- This is the raw pointcloud from the sensor
+// Publishes to:
+// 	- /processed_pointcloud
+// 		- The downsampled and cropped pointcloud
+// 	- /occupancy_grid
+// 		- The 2D occupancy grid, with "100" being occupied, and "0" being unoccupied
+//
+// 	The A* algorithm then uses this occupancy grid for pathfinding
+
+
 #include <iostream>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
@@ -115,5 +128,3 @@ int main(int argc, char * argv[]) {
 	rclcpp::shutdown();
 	return 0;
 }
-
-
