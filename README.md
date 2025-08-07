@@ -19,9 +19,11 @@ cd husky_master_jazzy && git submodule update --init --recursive
 
 ### How to run the Husky
 ```
-ros2 launch /etc/clearpath/platform/launch/platform-service.launch.py
+ros2 launch brainbox_husky_bringup brainbox_husky_bringup.launch.py use_sim:={false, true} launch_platform:={false, true}
 ```
-To edit configuration files related to the Husky's bringup, navigate to: /etc/clearpath/platform/config
+Replace {false, true} with either false or true depending on how you want to launch the platform. use_sim defines whether to launch the Gazebo simulation, and launch_platform defines whether to connect to the A200 over it's serial connection.
+
+To edit configuration files related to the Husky platform, navigate to: /etc/clearpath/platform/config
 
 ### Notes
 
