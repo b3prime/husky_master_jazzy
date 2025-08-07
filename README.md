@@ -3,6 +3,12 @@ Husky Master
 
 The base image used on the Clearpath Husky A200. It uses Ubuntu 24.04 and ROS2 Jazzy, and installs all needed dependencies and scripts to customize, simulate, and bringup the hardware platform.
 
+### SSH'ing into BrainBox
+```
+ssh -X robot@192.168.8.72
+```
+NOTE: the machine's IPv4 address will change. Run ```ip addr show``` or ```ip a``` to find it. Make sure the -X flag is used (for X11 forwarding).
+
 ### How to Build and Use?
 ```
 git clone https://github.com/b3prime/husky_master_jazzy.git
@@ -25,8 +31,12 @@ sudo xhost +si:localuser:root
 ```
 This will allow any local process running as root to connect to the X11 display server.
 
+Also, ensure that you SSH'd into the machine with the -X flag.
+
 **Can't connect to the Husky over serial?**: BrainBox uses a Serial to USB converter to communicate with the Husky's internal MCU. The converter will appear as something like:
 ```
 /dev/serial/by-id/_
 ```
 The Husky platform package looks for /dev/clearpath/prolific. Ensure that the symlink here is correct.
+
+
