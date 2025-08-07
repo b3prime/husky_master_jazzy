@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 # find dependencies
 find_package(pcl_ros REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common io)
@@ -23,7 +24,7 @@ target_include_directories(occupancy_grid_node PRIVATE ${PCL_INCLUDE_DIRS})
 target_link_libraries(occupancy_grid_node ${PCL_LIBRARIES})
 
 ament_target_dependencies(occupancy_grid_node
-	rclcpp sensor_msgs pcl_conversions pcl_ros)
+	rclcpp sensor_msgs nav_msgs pcl_conversions pcl_ros)
 
 install(TARGETS occupancy_grid_node 
 	DESTINATION lib/${PROJECT_NAME})
