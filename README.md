@@ -12,7 +12,7 @@ ssh -X robot@192.168.8.72
 ### How to Build and Use?
 ```
 git clone https://github.com/b3prime/husky_master_jazzy.git
-cd dcist_master_ros2 && git submodule update --init --recursive
+cd husky_master_jazzy && git submodule update --init --recursive
 ./build.bash
 ./run.bash
 ```
