@@ -1,0 +1,14 @@
+1754590753.0753300 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-07-18-19-13-074853-dcist-10805
+1754590753.0753977 [INFO] [launch]: Default logging verbosity is set to INFO
+1754590753.1981840 [INFO] [rviz2-1]: process started with pid [10820]
+1754590753.1982744 [INFO] [os_driver-2]: process started with pid [10821]
+1754590753.2730584 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:10.0
+1754590753.2731884 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1754590753.2732363 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1754590753.2732618 [rviz2-1] 
+1754590753.2732828 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1754590753.2733030 [rviz2-1] 
+1754590753.3663008 [ERROR] [rviz2-1]: process has died [pid 10820, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1754590774.2637026 [INFO] [launch.user]: os_driver activating...
+1754592632.6005926 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754592633.1371782 [ERROR] [os_driver-2]: process has died [pid 10821, exit code -11, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

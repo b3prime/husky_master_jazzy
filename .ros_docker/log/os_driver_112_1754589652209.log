@@ -1,0 +1,19 @@
+[WARN] [1754589652.264216896] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754589652.264262485] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754589652.446684887] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754589652.446725186] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754589652.613570552] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1754589652.613633162] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1754589673.458709428] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1754589673.458854407] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1754589673.458870546] [ouster.os_driver]: ouster client version: 0.11.1+483206f-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1754589673.459682958] [ouster.os_driver]: reset service created
+[INFO] [1754589673.460230841] [ouster.os_driver]: get_metadata service created
+[INFO] [1754589673.460610327] [ouster.os_driver]: get_config service created
+[INFO] [1754589673.460993393] [ouster.os_driver]: set_config service created
+[WARN] [1754589724.549341299] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754589760.457635166] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754589811.768482907] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1754590101.163208115] [rclcpp]: signal_handler(signum=2)

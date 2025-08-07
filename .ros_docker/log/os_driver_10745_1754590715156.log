@@ -1,0 +1,3 @@
+[WARN] [1754590715.214144853] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754590715.214182982] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754590727.296935654] [rclcpp]: signal_handler(signum=2)

@@ -42,8 +42,9 @@ INPUT_GID=$(getent group input | cut -d: -f3)
 docker run --gpus all \
   -it \
   --workdir /home/dcist \
+  -u 1000 \
   --privileged \
-  ${DISPLAY:+-e DISPLAY=$DISPLAY} \
+  -e DISPLAY=$DISPLAY \
   -e QT_X11_NO_MITSHM=1 \
   -e XAUTHORITY=$XAUTH \
   -v "/tmp/.X11-unix:/tmp/.X11-unix" \
