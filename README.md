@@ -7,7 +7,7 @@ The base image used on the Clearpath Husky A200. It uses Ubuntu 24.04 and ROS2 J
 ```
 ssh -X robot@192.168.8.72
 ```
-NOTE: the machine's IPv4 address will change. Run ```ip addr show``` or ```ip a``` to find it. Make sure the -X flag is used (for X11 forwarding).
+**The default password is ```clearpath```**. NOTE: the machine's IPv4 address will change. Run ```ip addr show``` or ```ip a``` to find it. Make sure the -X flag is used (for X11 forwarding).
 
 ### How to Build and Use?
 ```
