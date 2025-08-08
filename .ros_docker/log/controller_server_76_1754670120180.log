@@ -1,0 +1,60 @@
+[INFO] [1754670120.211021658] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1754670120.214416681] [controller_server]: Creating controller server
+[INFO] [1754670120.222291646] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1754670120.222538743] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1754670120.223228475] [controller_server]: Configuring controller interface
+[INFO] [1754670120.223237205] [controller_server]: getting progress checker plugins..
+[INFO] [1754670120.223280435] [controller_server]: getting goal checker plugins..
+[INFO] [1754670120.223314304] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1754670120.223329894] [local_costmap.local_costmap]: Configuring
+[INFO] [1754670120.227498089] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1754670120.230253319] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1754670120.236305732] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1754670120.236315692] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1754670120.236544440] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1754670120.242662013] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1754670120.242770972] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[INFO] [1754670120.243003249] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1754670120.243129698] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[INFO] [1754670120.244199006] [controller_server]: Created controller : FollowPath of type nav2_mppi_controller::MPPIController
+[INFO] [1754670120.245165416] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[INFO] [1754670120.246158055] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[INFO] [1754670120.246191204] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[INFO] [1754670120.246562340] [controller_server]: InflationCostCritic instantiated with 1 power and 300.000000 / 0.015000 weights. Critic will collision check based on circular cost.
+[INFO] [1754670120.246571660] [controller_server]: Critic loaded : mppi::critics::CostCritic
+[INFO] [1754670120.246792088] [controller_server]: GoalCritic instantiated with 1 power and 5.000000 weight.
+[INFO] [1754670120.246809338] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[INFO] [1754670120.247073425] [controller_server]: GoalAngleCritic instantiated with 1 power, 3.000000 weight, and 0.500000 angular threshold.
+[INFO] [1754670120.247116534] [controller_server]: Critic loaded : mppi::critics::GoalAngleCritic
+[INFO] [1754670120.247470351] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 14.000000 weight
+[INFO] [1754670120.247483150] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[INFO] [1754670120.247644939] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[INFO] [1754670120.247919606] [controller_server]: PathAngleCritic instantiated with 1 power and 2.000000 weight. Mode set to: Forward Preference
+[INFO] [1754670120.247931145] [controller_server]: Critic loaded : mppi::critics::PathAngleCritic
+[INFO] [1754670120.248143963] [controller_server]: PreferForwardCritic instantiated with 1 power and 5.000000 weight.
+[INFO] [1754670120.248158233] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[INFO] [1754670120.249790235] [controller_server]: Optimizer reset
+[INFO] [1754670120.252703203] [MPPIController]: Configured MPPI Controller: FollowPath
+[INFO] [1754670120.252732143] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1754670120.394260228] [controller_server]: Activating
+[INFO] [1754670120.394279387] [local_costmap.local_costmap]: Activating
+[INFO] [1754670120.394284557] [local_costmap.local_costmap]: Checking transform
+[INFO] [1754670120.394307677] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670120.894354957] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670121.394351586] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670121.894539246] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670122.394364188] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670122.894368971] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670123.394347733] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670123.894363988] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670124.394354601] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670124.894379167] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754670124.961166504] [rclcpp]: signal_handler(signum=2)
+[INFO] [1754670124.961248643] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[INFO] [1754670124.961286323] [controller_server]: Destroying bond (controller_server) to lifecycle manager.

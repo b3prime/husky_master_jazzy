@@ -1,0 +1,3 @@
+[INFO] [1754687669.763920358] [tf2_echo]: Waiting for transform os_sensor_frame ->  base_link: Invalid frame ID "os_sensor_frame" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754687671.750454678] [tf2_echo]: Waiting for transform os_sensor_frame ->  base_link: Invalid frame ID "os_sensor_frame" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1754687672.015187798] [rclcpp]: signal_handler(signum=2)

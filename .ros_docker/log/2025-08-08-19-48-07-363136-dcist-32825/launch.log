@@ -1,0 +1,16 @@
+1754682487.3636494 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-19-48-07-363136-dcist-32825
+1754682487.3637223 [INFO] [launch]: Default logging verbosity is set to INFO
+1754682487.4874911 [INFO] [rviz2-1]: process started with pid [32841]
+1754682487.4875796 [INFO] [os_driver-2]: process started with pid [32842]
+1754682487.4876146 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [32843]
+1754682487.5543718 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:10.0
+1754682487.5545568 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1754682487.5546007 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1754682487.5546238 [rviz2-1] 
+1754682487.5546448 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1754682487.5546653 [rviz2-1] 
+1754682487.5702093 [ERROR] [pointcloud_to_laserscan_node-3]: process has died [pid 32843, exit code -6, cmd '/home/dcist/dcist_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node --ros-args -r __node:=ouster_scan_band --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/pointcloud_to_laserscan.yaml -r cloud_in:=/ouster/points -r scan:=/ouster/scan_multi'].
+1754682487.6478739 [ERROR] [rviz2-1]: process has died [pid 32841, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1754682509.4813519 [INFO] [launch.user]: os_driver activating...
+1754682512.8448021 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754682513.5013096 [ERROR] [os_driver-2]: process has died [pid 32842, exit code -11, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

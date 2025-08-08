@@ -1,0 +1,7 @@
+[WARN] [1754682354.744932474] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754682354.744973293] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754682354.924008191] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754682354.924039041] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754682355.048489949] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1754682355.048515579] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1754682372.487494126] [rclcpp]: signal_handler(signum=2)

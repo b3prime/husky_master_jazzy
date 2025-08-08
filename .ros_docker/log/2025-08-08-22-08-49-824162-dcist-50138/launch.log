@@ -1,0 +1,5 @@
+1754690929.8247008 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-22-08-49-824162-dcist-50138
+1754690929.8247721 [INFO] [launch]: Default logging verbosity is set to INFO
+1754690929.8260493 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - SyntaxError: invalid syntax. Perhaps you forgot a comma? (ouster_slam.launch.py, line 24)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

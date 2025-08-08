@@ -1,0 +1,5 @@
+1754681337.6984119 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-19-28-57-697881-dcist-13008
+1754681337.6984859 [INFO] [launch]: Default logging verbosity is set to INFO
+1754681337.7001603 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - SyntaxError: invalid syntax. Perhaps you forgot a comma? (brainbox_husky_bringup.launch.py, line 105)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

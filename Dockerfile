@@ -54,6 +54,7 @@ RUN apt-get update \
   default-jre \
   iproute2 \
   zstd \
+  tmux \
   && apt-get clean
 
 RUN add-apt-repository -y ppa:neovim-ppa/stable \
@@ -85,12 +86,14 @@ RUN bash /usr/local/bin/clearpath_computer_installer.sh
 USER root
 
 # Install ROS2-related packages
-RUN apt-get update \
- && DEBIAN_FRONTEND=noninteractive apt-get install -y ros-jazzy-clearpath-simulator
-
-RUN apt install ros-jazzy-topic-tools -y
-RUN apt-get install python3-vcstool
-
+RUN apt-get update && apt-get install -y --no-install-recommends \
+	ros-jazzy-clearpath-simulator \
+	ros-jazzy-topic-tools \
+	ros-jazzy-navigation2 \
+	ros-jazzy-nav2-bringup \
+	ros-jazzy-slam-toolbox \
+	python3-vcstool && \
+	apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /home/${USER}
 COPY clearpath /etc/clearpath

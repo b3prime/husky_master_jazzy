@@ -1,0 +1,5 @@
+1754691005.9719262 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-22-10-05-971297-dcist-51015
+1754691005.9720159 [INFO] [launch]: Default logging verbosity is set to INFO
+1754691006.0073781 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'autostart' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

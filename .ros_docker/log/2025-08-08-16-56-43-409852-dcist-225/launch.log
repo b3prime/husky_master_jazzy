@@ -1,0 +1,6 @@
+1754672203.4104278 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-16-56-43-409852-dcist-225
+1754672203.4105005 [INFO] [launch]: Default logging verbosity is set to INFO
+1754672203.8595433 [INFO] [async_slam_toolbox_node-1]: process started with pid [241]
+1754672204.1248558 [INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+1754677005.8244107 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754677006.1055491 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 241]

@@ -1,0 +1,9 @@
+[INFO] [1754691702.785133549] [lifecycle_manager_slam]: Creating
+[INFO] [1754691702.787434371] [lifecycle_manager_slam]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [1754691702.788428484] [lifecycle_manager_slam]: [34m[1mStarting managed nodes bringup...[0m[0m
+[INFO] [1754691702.788447764] [lifecycle_manager_slam]: [34m[1mConfiguring slam_toolbox[0m[0m
+[INFO] [1754691702.941541938] [lifecycle_manager_slam]: [34m[1mActivating slam_toolbox[0m[0m
+[ERROR] [1754691704.945286521] [lifecycle_manager_slam]: Server slam_toolbox was unable to be reached after 4.00s by bond. This server may be misconfigured.
+[ERROR] [1754691704.945345350] [lifecycle_manager_slam]: Failed to bring up all requested nodes. Aborting bringup.
+[INFO] [1754691715.889272795] [rclcpp]: signal_handler(signum=2)
+[INFO] [1754691715.889430283] [lifecycle_manager_slam]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_slam)

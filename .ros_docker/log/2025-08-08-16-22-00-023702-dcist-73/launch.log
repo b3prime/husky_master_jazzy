@@ -1,0 +1,23 @@
+1754670120.0346072 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-16-22-00-023702-dcist-73
+1754670120.0346878 [INFO] [launch]: Default logging verbosity is set to INFO
+1754670120.1529129 [INFO] [controller_server-1]: process started with pid [76]
+1754670120.1530032 [INFO] [smoother_server-2]: process started with pid [77]
+1754670120.1530447 [INFO] [planner_server-3]: process started with pid [78]
+1754670120.1530800 [INFO] [behavior_server-4]: process started with pid [79]
+1754670120.1531105 [INFO] [bt_navigator-5]: process started with pid [80]
+1754670120.1531374 [INFO] [waypoint_follower-6]: process started with pid [81]
+1754670120.1531765 [INFO] [velocity_smoother-7]: process started with pid [82]
+1754670120.1532075 [INFO] [collision_monitor-8]: process started with pid [83]
+1754670120.1532383 [INFO] [opennav_docking-9]: process started with pid [84]
+1754670120.1532643 [INFO] [lifecycle_manager-10]: process started with pid [85]
+1754670124.9613008 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754670125.0869339 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 82]
+1754670125.0927052 [INFO] [collision_monitor-8]: process has finished cleanly [pid 83]
+1754670125.0958264 [INFO] [smoother_server-2]: process has finished cleanly [pid 77]
+1754670125.0985925 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 81]
+1754670125.0987649 [INFO] [opennav_docking-9]: process has finished cleanly [pid 84]
+1754670125.1108656 [INFO] [behavior_server-4]: process has finished cleanly [pid 79]
+1754670125.1142433 [INFO] [bt_navigator-5]: process has finished cleanly [pid 80]
+1754670125.1188228 [INFO] [planner_server-3]: process has finished cleanly [pid 78]
+1754670126.9491761 [ERROR] [controller_server-1]: process has died [pid 76, exit code -6, cmd '/opt/ros/jazzy/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_que3il7d -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+1754670127.0856409 [INFO] [lifecycle_manager-10]: process has finished cleanly [pid 85]

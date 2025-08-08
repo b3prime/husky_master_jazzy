@@ -1,0 +1,2 @@
+[INFO] [1754683265.463694429] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1754683302.847909873] [rclcpp]: signal_handler(signum=2)

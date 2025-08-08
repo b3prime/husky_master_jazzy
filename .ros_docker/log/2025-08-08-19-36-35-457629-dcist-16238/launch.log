@@ -1,0 +1,5 @@
+1754681795.4581332 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-19-36-35-457629-dcist-16238
+1754681795.4581997 [INFO] [launch]: Default logging verbosity is set to INFO
+1754681795.4920456 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'point_to_laserscan_node' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

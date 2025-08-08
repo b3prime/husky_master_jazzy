@@ -1,0 +1,17 @@
+[INFO] [1754691674.694601841] [ouster.os_driver]: TIME_FROM_ROS_TIME timestamp mode specified. IMU and pointcloud messages will use ros time
+[WARN] [1754691674.694639931] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754691674.694643321] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754691674.830269546] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754691674.830287396] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754691674.948087026] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1754691674.948108926] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1754691696.598158894] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1754691696.598277743] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1754691696.598289083] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1754691696.599004148] [ouster.os_driver]: reset service created
+[INFO] [1754691696.599575354] [ouster.os_driver]: get_metadata service created
+[INFO] [1754691696.599915281] [ouster.os_driver]: get_config service created
+[INFO] [1754691696.600214779] [ouster.os_driver]: set_config service created
+[INFO] [1754691772.631448701] [rclcpp]: signal_handler(signum=2)

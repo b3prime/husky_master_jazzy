@@ -1,0 +1,21 @@
+[WARN] [1754672095.906145204] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754672095.906179984] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754672096.083126372] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754672096.083160851] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754672096.243182597] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1754672096.243209717] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1754672117.940730802] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1754672117.947310688] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1754672117.947332818] [ouster.os_driver]: ouster client version: 0.11.1+483206f-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1754672117.948277473] [ouster.os_driver]: reset service created
+[INFO] [1754672117.948956532] [ouster.os_driver]: get_metadata service created
+[INFO] [1754672117.949333606] [ouster.os_driver]: get_config service created
+[INFO] [1754672117.949714100] [ouster.os_driver]: set_config service created
+[WARN] [1754676988.541764009] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754677025.967673465] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754677043.677580724] [ouster.os_driver]: New subscription discovered on topic '/ouster/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754677129.135787239] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1754677162.246278373] [ouster.os_driver]: New subscription discovered on topic '/ouster/points', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1754677245.470780835] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,5 @@
+1754690211.2355497 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-21-56-51-234992-dcist-47354
+1754690211.2356262 [INFO] [launch]: Default logging verbosity is set to INFO
+1754690211.2368503 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - SyntaxError: keyword argument repeated: output (ouster_slam.launch.py, line 16)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

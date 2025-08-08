@@ -1,0 +1,14 @@
+[INFO] [1754670120.211190207] [docking_server]: 
+	docking_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1754670120.211248116] [docking_server]: Creating docking_server
+[INFO] [1754670120.379757836] [docking_server]: Configuring docking_server
+[INFO] [1754670120.379782226] [docking_server]: Controller frequency set to 50.0000Hz
+[INFO] [1754670120.392070222] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[WARN] [1754670120.393531045] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[INFO] [1754670120.393547415] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[INFO] [1754670124.961160414] [rclcpp]: signal_handler(signum=2)
+[INFO] [1754670124.961272773] [docking_server]: Running Nav2 LifecycleNode rcl preshutdown (docking_server)
+[INFO] [1754670124.961413161] [docking_server]: Cleaning up docking_server
+[INFO] [1754670124.971188045] [docking_server]: Destroying bond (docking_server) to lifecycle manager.

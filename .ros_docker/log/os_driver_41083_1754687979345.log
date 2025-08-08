@@ -1,0 +1,16 @@
+[WARN] [1754687979.400139794] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754687979.400180053] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754687979.582174302] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754687979.582204682] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754687979.688198573] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1754687979.688228302] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1754688000.291586756] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1754688000.291782775] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1754688000.291805265] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1754688000.292793327] [ouster.os_driver]: reset service created
+[INFO] [1754688000.293281643] [ouster.os_driver]: get_metadata service created
+[INFO] [1754688000.293600071] [ouster.os_driver]: get_config service created
+[INFO] [1754688000.293923608] [ouster.os_driver]: set_config service created
+[INFO] [1754688244.642788855] [rclcpp]: signal_handler(signum=2)

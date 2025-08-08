@@ -1,0 +1,14 @@
+# params for pointcloud_to_laserscan
+# this defines the height and angle of which we
+# convert the pointcloud2 from the Ouser to a laserscan,
+# which is important for slam_toolbox
+ouster_scan_band:
+  ros__parameters:
+    min_height: -0.4
+    max_height: 3.0
+    angle_min: -3.14
+    angle_max: 3.14
+    angle_increment: 0.0043633 # 0.25 deg
+    range_min: 0.1
+    range_max: 100.0
+    target_frame: os_lidar

@@ -1,0 +1,20 @@
+1754682526.4497027 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-19-48-46-449146-dcist-33548
+1754682526.4497809 [INFO] [launch]: Default logging verbosity is set to INFO
+1754682526.5767536 [INFO] [rviz2-1]: process started with pid [33564]
+1754682526.5768445 [INFO] [os_driver-2]: process started with pid [33565]
+1754682526.5768864 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [33566]
+1754682526.6547649 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:10.0
+1754682526.6549671 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1754682526.6550007 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1754682526.6550238 [rviz2-1] 
+1754682526.6550438 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1754682526.6550632 [rviz2-1] 
+1754682526.6567774 [ERROR] [pointcloud_to_laserscan_node-3]: process has died [pid 33566, exit code -6, cmd '/home/dcist/dcist_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node --ros-args -r __node:=ouster_scan_band --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/pointcloud_to_laserscan.yaml -r cloud_in:=/ouster/points -r scan:=/ouster/scan_multi'].
+1754682526.7470062 [ERROR] [rviz2-1]: process has died [pid 33564, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1754682533.5013754 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754682533.8272319 [WARNING] [launch_ros.utilities.lifecycle_event_manager]: Abandoning wait for the '/ouster/os_driver/change_state' service response, due to shutdown.
+1754682538.8366871 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1754682538.8369048 [INFO] [os_driver-2]: sending signal 'SIGTERM' to process[os_driver-2]
+1754682543.8375678 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1754682543.8378906 [INFO] [os_driver-2]: sending signal 'SIGKILL' to process[os_driver-2]
+1754682543.8431969 [ERROR] [os_driver-2]: process has died [pid 33565, exit code -9, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

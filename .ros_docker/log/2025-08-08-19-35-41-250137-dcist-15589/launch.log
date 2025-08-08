@@ -1,0 +1,5 @@
+1754681741.2506399 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-08-19-35-41-250137-dcist-15589
+1754681741.2507107 [INFO] [launch]: Default logging verbosity is set to INFO
+1754681741.2832258 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'pointcloud_to_laserscan' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
