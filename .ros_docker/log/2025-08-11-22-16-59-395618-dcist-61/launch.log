@@ -1,0 +1,11 @@
+1754950619.3961191 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-22-16-59-395618-dcist-61
+1754950619.3961885 [INFO] [launch]: Default logging verbosity is set to INFO
+1754950619.4354641 [INFO] [async_slam_toolbox_node-1]: process started with pid [64]
+1754950619.4355621 [INFO] [dlio_odom_node-2]: process started with pid [65]
+1754950619.4356155 [INFO] [dlio_map_node-3]: process started with pid [66]
+1754950619.4356554 [INFO] [lifecycle_manager-4]: process started with pid [67]
+1754950621.6496594 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754950621.7580130 [INFO] [dlio_odom_node-2]: process has finished cleanly [pid 65]
+1754950621.7592869 [INFO] [dlio_map_node-3]: process has finished cleanly [pid 66]
+1754950621.7616494 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 64]
+1754950621.7658565 [INFO] [lifecycle_manager-4]: process has finished cleanly [pid 67]

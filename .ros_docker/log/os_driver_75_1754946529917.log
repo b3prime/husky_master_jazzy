@@ -1,0 +1,6 @@
+[INFO] [1754946529.976226219] [ouster.os_driver]: TIME_FROM_ROS_TIME timestamp mode specified. IMU and pointcloud messages will use ros time
+[WARN] [1754946529.976263209] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1754946529.976267779] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1754946530.155203413] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1754946530.155233843] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1754946530.159028968] [rclcpp]: signal_handler(signum=2)

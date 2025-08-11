@@ -1,0 +1,5 @@
+1754949759.4848199 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-22-02-39-484314-dcist-67
+1754949759.4848971 [INFO] [launch]: Default logging verbosity is set to INFO
+1754949759.4878078 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - NameError: name 'egisterEventHandler' is not defined
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, RegisterEventHandler, TimerAction
+from launch.event_handlers import OnProcessStart
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
@@ -53,10 +54,25 @@ def generate_launch_description():
         parameters=[{"autostart": True, "node_names":['slam_toolbox']}]
     )
 
+    static_lidar_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_tf_base_to_os_lidar',
+        arguments=['0.25', '0.0', '0.8', '0.0', '0.0', '0', 'base_link', 'os_lidar']
+    )
+
+    delayed_lidar_tf = RegisterEventHandler(
+        OnProcessStart(
+            target_action=slam,
+            on_start=[TimerAction(period=3.0, actions=[static_lidar_tf])]
+        )
+    )
+
     return LaunchDescription([
         pointcloud_topic_arg,
         imu_topic_arg,
         slam, 
         dlio, 
-        lm
+        lm,
+        delayed_lidar_tf,
         ])

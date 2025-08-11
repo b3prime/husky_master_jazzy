@@ -1,0 +1,19 @@
+1754946529.7753682 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-21-08-49-774857-dcist-58
+1754946529.7754393 [INFO] [launch]: Default logging verbosity is set to INFO
+1754946529.9041781 [ERROR] [launch]: Caught exception in launch (see debug for traceback): "package 'pointcloud_to_laserscan' not found, searching: ['/home/dcist/dcist_ws/install/vectornav', '/home/dcist/dcist_ws/install/vectornav_msgs', '/home/dcist/dcist_ws/install/ublox', '/home/dcist/dcist_ws/install/ublox_gps', '/home/dcist/dcist_ws/install/ublox_msgs', '/home/dcist/dcist_ws/install/ublox_serialization', '/home/dcist/dcist_ws/install/path_planning', '/home/dcist/dcist_ws/install/ouster_ros', '/home/dcist/dcist_ws/install/ouster_sensor_msgs', '/home/dcist/dcist_ws/install/brainbox_husky_bringup', '/opt/ros/jazzy']"
+1754946530.1579983 [INFO] [rviz2-1]: process started with pid [74]
+1754946530.1580963 [INFO] [os_driver-2]: process started with pid [75]
+1754946530.1581922 [ERROR] [rviz2-1]: process has died [pid 74, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1754946530.1586654 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:11.0
+1754946530.1587019 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1754946530.1587245 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1754946530.1587477 [rviz2-1] 
+1754946530.1587641 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1754946530.1587801 [rviz2-1] 
+1754946530.1589832 [INFO] [os_driver-2]: sending signal 'SIGINT' to process[os_driver-2]
+1754946531.1549456 [WARNING] [launch_ros.utilities.lifecycle_event_manager]: Abandoning wait for the '/ouster/os_driver/change_state' service response, due to shutdown.
+1754946535.1640441 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1754946535.1642687 [INFO] [os_driver-2]: sending signal 'SIGTERM' to process[os_driver-2]
+1754946536.7845376 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754946540.1626298 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1754946540.1628675 [INFO] [os_driver-2]: sending signal 'SIGKILL' to process[os_driver-2]
