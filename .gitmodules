@@ -15,3 +15,7 @@
 	path = ws/direct_lidar_inertial_odometry
 	url = https://github.com/vectr-ucla/direct_lidar_inertial_odometry.git
 	branch = feature/ros2
+[submodule "ws/ouster-ros"]
+	path = ws/ouster-ros
+	url = https://github.com/ouster-lidar/ouster-ros.git
+	branch = ros2
