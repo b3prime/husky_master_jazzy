@@ -1,1 +1,13 @@
 
+[submodule "pointcloud_to_laserscan"]
+	path = pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+	branch = jazzy
+[submodule "ws/src/pointcloud_to_laserscan"]
+	path = ws/src/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+	branch = jazzy
+[submodule "ws/pointcloud_to_laserscan"]
+	path = ws/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+	branch = jazzy
