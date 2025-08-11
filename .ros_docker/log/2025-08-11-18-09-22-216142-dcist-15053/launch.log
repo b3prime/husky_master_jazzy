@@ -1,0 +1,5 @@
+1754935762.2166283 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-18-09-22-216142-dcist-15053
+1754935762.2167010 [INFO] [launch]: Default logging verbosity is set to INFO
+1754935762.2407625 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - ImportError: cannot import name 'PythonLaunchDescriptionSeource' from 'launch.launch_description_sources' (/opt/ros/jazzy/lib/python3.12/site-packages/launch/launch_description_sources/__init__.py)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

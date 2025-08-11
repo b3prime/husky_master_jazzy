@@ -1,0 +1,5 @@
+[WARN] [1754936059.239991895] []: Old-style arguments are deprecated; see --help for new-style arguments
+[INFO] [1754936059.257055330] [static_transform_publisher_sJpXLb7Bv2xm20i5]: Spinning until stopped - publishing transform
+translation: ('0.250000', '0.000000', '0.800000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'base_link' to 'os_lidar'

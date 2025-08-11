@@ -1,0 +1,7 @@
+1754933995.6000051 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-17-39-55-599517-dcist-409
+1754933995.6000760 [INFO] [launch]: Default logging verbosity is set to INFO
+1754933995.6350772 [INFO] [async_slam_toolbox_node-1]: process started with pid [412]
+1754933995.6351628 [INFO] [lifecycle_manager-2]: process started with pid [413]
+1754934011.4770586 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754934011.5921175 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 412]
+1754934011.5955019 [INFO] [lifecycle_manager-2]: process has finished cleanly [pid 413]

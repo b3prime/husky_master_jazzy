@@ -1,0 +1,7 @@
+1754934465.0507836 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-17-47-45-050124-dcist-509
+1754934465.0508578 [INFO] [launch]: Default logging verbosity is set to INFO
+1754934465.0848093 [INFO] [dlio_odom_node-1]: process started with pid [512]
+1754934465.0848739 [INFO] [dlio_map_node-2]: process started with pid [513]
+1754934544.7296438 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1754934544.8404305 [INFO] [dlio_odom_node-1]: process has finished cleanly [pid 512]
+1754934544.8443933 [INFO] [dlio_map_node-2]: process has finished cleanly [pid 513]

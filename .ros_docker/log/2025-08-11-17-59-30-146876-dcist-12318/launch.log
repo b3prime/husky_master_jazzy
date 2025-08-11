@@ -1,0 +1,3 @@
+1754935170.1473823 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-17-59-30-146876-dcist-12318
+1754935170.1474514 [INFO] [launch]: Default logging verbosity is set to INFO
+1754935170.1825209 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executable 'dlio_node' not found on the libexec directory '/home/dcist/dcist_ws/install/direct_lidar_inertial_odometry/lib/direct_lidar_inertial_odometry' 

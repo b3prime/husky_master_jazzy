@@ -2,7 +2,7 @@ slam_toolbox:
   ros__parameters:
     odom_frame: odom
     map_frame: map
-    base_frame: os_lidar
+    base_frame: base_link
     scan_topic: /ouster/scan_multi
     use_scan_matching: true
     use_scan_matching_only: false

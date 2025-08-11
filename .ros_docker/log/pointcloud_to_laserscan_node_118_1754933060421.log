@@ -1,0 +1,3 @@
+[WARN] [1754933187.227729903] [ouster_scan_band]: New subscription discovered on topic '/ouster/scan_multi', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1754933198.986698541] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1754933347.152008061] [rclcpp]: signal_handler(signum=2)

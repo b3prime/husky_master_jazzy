@@ -1,0 +1,13 @@
+1754933627.4382589 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-11-17-33-47-437762-dcist-115
+1754933627.4383261 [INFO] [launch]: Default logging verbosity is set to INFO
+1754933627.5679424 [INFO] [rviz2-1]: process started with pid [131]
+1754933627.5680251 [INFO] [os_driver-2]: process started with pid [132]
+1754933627.5680571 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [133]
+1754933627.6329801 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:10.0
+1754933627.6331415 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1754933627.6331811 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1754933627.6332140 [rviz2-1] 
+1754933627.6332483 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1754933627.6332762 [rviz2-1] 
+1754933627.7226465 [ERROR] [rviz2-1]: process has died [pid 131, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1754933648.7681384 [INFO] [launch.user]: os_driver activating...
