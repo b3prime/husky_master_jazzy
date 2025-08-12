@@ -1,0 +1,5 @@
+[WARN] [1755029152.454892022] []: Old-style arguments are deprecated; see --help for new-style arguments
+[INFO] [1755029153.147631699] [static_tf_base_to_os_lidar]: Spinning until stopped - publishing transform
+translation: ('0.250000', '0.000000', '0.800000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'base_link' to 'os_lidar'

@@ -1,0 +1,10 @@
+1755028590.5689797 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-19-56-30-568494-dcist-1490
+1755028590.5690472 [INFO] [launch]: Default logging verbosity is set to INFO
+1755028590.6945119 [INFO] [rviz2-1]: process started with pid [1506]
+1755028590.6946120 [INFO] [os_driver-2]: process started with pid [1507]
+1755028590.6946554 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [1508]
+1755028611.7056127 [INFO] [launch.user]: os_driver activating...
+1755029093.1142828 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755029093.8225930 [ERROR] [rviz2-1]: process has died [pid 1506, exit code -2, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1755029093.8226643 [ERROR] [os_driver-2]: process has died [pid 1507, exit code -11, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].
+1755029093.8226991 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 1508]

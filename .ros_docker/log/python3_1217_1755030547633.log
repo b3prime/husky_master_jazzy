@@ -1,0 +1,3 @@
+[WARN] [1755030558.259669580] [a200_0000.spawner_joint_state_broadcaster]: Failed getting a result from calling /a200_0000/controller_manager/list_controllers in 10.0. (Attempt 1 of 3.)
+[INFO] [1755030558.304057580] [a200_0000.spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[INFO] [1755030558.458291428] [a200_0000.spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m

@@ -1,0 +1,3 @@
+[INFO] [1755029973.241004547] [joy_node]: No haptic (rumble) available, skipping initialization
+[INFO] [1755029973.241099934] [joy_node]: Opened joystick: FrSky Simulator.  deadzone: 0.050000
+[INFO] [1755030073.218297968] [rclcpp]: signal_handler(signum=2)

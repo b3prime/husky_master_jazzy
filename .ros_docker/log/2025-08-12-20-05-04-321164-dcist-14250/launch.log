@@ -1,0 +1,30 @@
+1755029104.3216474 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-20-05-04-321164-dcist-14250
+1755029104.3217142 [INFO] [launch]: Default logging verbosity is set to INFO
+1755029104.5613778 [INFO] [rviz2-1]: process started with pid [14267]
+1755029104.5614986 [INFO] [os_driver-2]: process started with pid [14268]
+1755029104.5615487 [INFO] [robot_state_publisher-3]: process started with pid [14269]
+1755029104.5615921 [INFO] [ros2_control_node-4]: process started with pid [14270]
+1755029104.5616248 [INFO] [spawner-5]: process started with pid [14271]
+1755029104.5616558 [INFO] [spawner-6]: process started with pid [14272]
+1755029104.5616896 [INFO] [ekf_node-7]: process started with pid [14273]
+1755029104.5617206 [INFO] [marker_server-8]: process started with pid [14274]
+1755029104.5617552 [INFO] [twist_mux-9]: process started with pid [14275]
+1755029104.5617933 [INFO] [joy_linux_node-10]: process started with pid [14276]
+1755029104.5618312 [INFO] [teleop_node-11]: process started with pid [14277]
+1755029104.5618675 [INFO] [aggregator_node-12]: process started with pid [14278]
+1755029104.5619042 [INFO] [clearpath_diagnostic_updater-13]: process started with pid [14279]
+1755029104.5619390 [INFO] [foxglove_bridge-14]: process started with pid [14280]
+1755029104.5619709 [INFO] [battery_state_control-15]: process started with pid [14281]
+1755029104.5620124 [INFO] [battery_state_estimator-16]: process started with pid [14282]
+1755029104.5620403 [INFO] [wireless_watcher-17]: process started with pid [14283]
+1755029104.5620668 [INFO] [pointcloud_to_laserscan_node-18]: process started with pid [14284]
+1755029104.6312814 [robot_state_publisher-3] [INFO] [1755029104.630533321] [a200_0000.robot_state_publisher]: Robot initialized
+1755029106.0671973 [INFO] [spawner-6]: process has finished cleanly [pid 14272]
+1755029106.8648438 [INFO] [spawner-5]: process has finished cleanly [pid 14271]
+1755029125.8731353 [INFO] [launch.user]: os_driver activating...
+1755029209.2077539 [rviz2-1] qt.qpa.xcb: could not connect to display localhost:11.0
+1755029209.2080066 [rviz2-1] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1755029209.2080445 [rviz2-1] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1755029209.2080665 [rviz2-1] 
+1755029209.2080908 [rviz2-1] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1755029209.2081194 [rviz2-1] 

@@ -1,0 +1,12 @@
+1755029149.3993731 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-20-05-49-398859-dcist-14644
+1755029149.3994460 [INFO] [launch]: Default logging verbosity is set to INFO
+1755029149.4357910 [INFO] [async_slam_toolbox_node-1]: process started with pid [14647]
+1755029149.4358571 [INFO] [dlio_odom_node-2]: process started with pid [14648]
+1755029149.4358926 [INFO] [dlio_map_node-3]: process started with pid [14649]
+1755029149.4359171 [INFO] [lifecycle_manager-4]: process started with pid [14650]
+1755029152.4378326 [INFO] [static_transform_publisher-5]: process started with pid [14760]
+1755029152.4550815 [static_transform_publisher-5] [WARN] [1755029152.454892022] []: Old-style arguments are deprecated; see --help for new-style arguments
+1755029153.1479068 [static_transform_publisher-5] [INFO] [1755029153.147631699] [static_tf_base_to_os_lidar]: Spinning until stopped - publishing transform
+1755029153.1480317 [static_transform_publisher-5] translation: ('0.250000', '0.000000', '0.800000')
+1755029153.1480706 [static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1755029153.1481023 [static_transform_publisher-5] from 'base_link' to 'os_lidar'

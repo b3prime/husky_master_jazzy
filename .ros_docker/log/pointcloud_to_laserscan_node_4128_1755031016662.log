@@ -1,0 +1,4 @@
+[INFO] [1755031182.281553424] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1755031474.922601443] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber
+[INFO] [1755031606.323164196] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1755031815.512590801] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber

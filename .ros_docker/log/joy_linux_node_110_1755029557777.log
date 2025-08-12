@@ -1,0 +1,2 @@
+[ERROR] [1755029557.807550795] [a200_0000.joy_node]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+[INFO] [1755029648.733921303] [rclcpp]: signal_handler(signum=2)

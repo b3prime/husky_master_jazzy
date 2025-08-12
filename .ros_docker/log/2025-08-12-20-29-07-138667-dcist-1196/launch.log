@@ -1,0 +1,54 @@
+1755030547.1391718 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-20-29-07-138667-dcist-1196
+1755030547.1392448 [INFO] [launch]: Default logging verbosity is set to INFO
+1755030547.3728263 [INFO] [rviz2-1]: process started with pid [1213]
+1755030547.3729341 [INFO] [os_driver-2]: process started with pid [1214]
+1755030547.3729777 [INFO] [robot_state_publisher-3]: process started with pid [1215]
+1755030547.3730142 [INFO] [ros2_control_node-4]: process started with pid [1216]
+1755030547.3730450 [INFO] [spawner-5]: process started with pid [1217]
+1755030547.3730717 [INFO] [spawner-6]: process started with pid [1218]
+1755030547.3730972 [INFO] [ekf_node-7]: process started with pid [1219]
+1755030547.3731303 [INFO] [marker_server-8]: process started with pid [1220]
+1755030547.3731561 [INFO] [twist_mux-9]: process started with pid [1221]
+1755030547.3731828 [INFO] [joy_linux_node-10]: process started with pid [1222]
+1755030547.3732102 [INFO] [teleop_node-11]: process started with pid [1223]
+1755030547.3732388 [INFO] [aggregator_node-12]: process started with pid [1224]
+1755030547.3732667 [INFO] [clearpath_diagnostic_updater-13]: process started with pid [1225]
+1755030547.3732905 [INFO] [foxglove_bridge-14]: process started with pid [1226]
+1755030547.3733175 [INFO] [battery_state_control-15]: process started with pid [1227]
+1755030547.3733404 [INFO] [battery_state_estimator-16]: process started with pid [1228]
+1755030547.3733678 [INFO] [wireless_watcher-17]: process started with pid [1229]
+1755030547.3733907 [INFO] [pointcloud_to_laserscan_node-18]: process started with pid [1230]
+1755030547.4443777 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755030547.4471149 [robot_state_publisher-3] [INFO] [1755030547.446901647] [a200_0000.robot_state_publisher]: Robot initialized
+1755030547.9193335 [rviz2-1] [INFO] [1755030547.919133243] [rviz2]: Stereo is NOT SUPPORTED
+1755030547.9195213 [rviz2-1] [INFO] [1755030547.919195923] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755030547.9739623 [rviz2-1] [INFO] [1755030547.973733084] [rviz2]: Stereo is NOT SUPPORTED
+1755030548.0215690 [rviz2-1] [INFO] [1755030548.021281733] [ouster.rviz2]: Subscribing to: /ouster/points
+1755030548.0216808 [rviz2-1] 
+1755030548.0223796 [rviz2-1] [INFO] [1755030548.022255880] [ouster.rviz2]: Subscribing to: /ouster/points
+1755030548.0224404 [rviz2-1] 
+1755030548.0423856 [rviz2-1] [INFO] [1755030548.042103510] [ouster.rviz2]: Subscribing to: /ouster/points
+1755030548.0425088 [rviz2-1] 
+1755030548.0856380 [rviz2-1] [INFO] [1755030548.085405418] [rviz2]: Stereo is NOT SUPPORTED
+1755030548.2856631 [INFO] [spawner-6]: process has finished cleanly [pid 1218]
+1755030558.5881572 [INFO] [spawner-5]: process has finished cleanly [pid 1217]
+1755030569.1381500 [INFO] [launch.user]: os_driver activating...
+1755030867.5982254 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755030868.2206285 [rviz2-1] [INFO] [1755030867.597891344] [rclcpp]: signal_handler(signum=2)
+1755030868.2207634 [ERROR] [battery_state_control-15]: process has died [pid 1227, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1755030868.2208164 [ERROR] [battery_state_estimator-16]: process has died [pid 1228, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1755030868.2208478 [INFO] [wireless_watcher-17]: process has finished cleanly [pid 1229]
+1755030868.2208753 [INFO] [teleop_node-11]: process has finished cleanly [pid 1223]
+1755030868.2209027 [INFO] [joy_linux_node-10]: process has finished cleanly [pid 1222]
+1755030868.2209275 [INFO] [clearpath_diagnostic_updater-13]: process has finished cleanly [pid 1225]
+1755030868.2209628 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 1215]
+1755030868.2209895 [INFO] [aggregator_node-12]: process has finished cleanly [pid 1224]
+1755030868.2210212 [INFO] [twist_mux-9]: process has finished cleanly [pid 1221]
+1755030868.2210450 [INFO] [marker_server-8]: process has finished cleanly [pid 1220]
+1755030868.2210686 [INFO] [pointcloud_to_laserscan_node-18]: process has finished cleanly [pid 1230]
+1755030868.2210898 [INFO] [foxglove_bridge-14]: process has finished cleanly [pid 1226]
+1755030868.2211113 [INFO] [ekf_node-7]: process has finished cleanly [pid 1219]
+1755030868.2211368 [INFO] [rviz2-1]: process has finished cleanly [pid 1213]
+1755030868.2211602 [INFO] [ros2_control_node-4]: process has finished cleanly [pid 1216]
+1755030868.2220047 [robot_state_publisher-3] [INFO] [1755030867.597914034] [rclcpp]: signal_handler(signum=2)
+1755030868.7316706 [ERROR] [os_driver-2]: process has died [pid 1214, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

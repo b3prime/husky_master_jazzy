@@ -1,0 +1,3 @@
+[INFO] [1755029559.412852794] [a200_0000.spawner_joint_state_broadcaster]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[INFO] [1755029560.470595570] [a200_0000.spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[INFO] [1755029560.668501829] [a200_0000.spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
