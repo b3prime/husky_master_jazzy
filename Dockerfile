@@ -116,11 +116,13 @@ RUN git clone -b ros2 https://github.com/dawonn/vectornav.git \
 	/home/$USER/dcist_ws/src/vectornav
 
 # build the dcist_ws
+USER $USER
 RUN cd /home/$USER/dcist_ws \
   && /bin/bash -c 'source /opt/ros/jazzy/setup.bash && \
     rosdep update && \
     rosdep install --from-paths src --ignore-src -y && \
     colcon build --symlink-install'
+USER root
 
 RUN echo 'export PS1="\[$(tput setaf 2; tput bold)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 3)\]\h\[$(tput setaf 7)\]:\[$(tput setaf 4)\]\W\[$(tput setaf 7)\]$ \[$(tput sgr0)\]"' >> ~/.bashrc
 CMD ["/bin/bash"]
