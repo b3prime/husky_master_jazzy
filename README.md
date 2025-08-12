@@ -17,13 +17,29 @@ cd husky_master_jazzy && git submodule update --init --recursive
 ./run.bash
 ```
 
-### How to run the Husky
+### How to Launch The Husky
 ```
 ros2 launch brainbox_husky_bringup brainbox_husky_bringup.launch.py use_sim:={false, true} launch_platform:={false, true}
 ```
 Replace {false, true} with either false or true depending on how you want to launch the platform. use_sim defines whether to launch the Gazebo simulation, and launch_platform defines whether to connect to the A200 over it's serial connection.
 
 To edit configuration files related to the Husky platform, navigate to: /etc/clearpath/platform/config
+
+### SLAM + Path Planning
+
+```
+ros2 launch path_planning ouster_slam.launch.py
+```
+
+This will launch DLIO and SLAM-toolbox.
+
+If SLAM toolbox is outputting the error:
+
+```
+Message Filter dropping message: frame 'os_lidar' at time ______ for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+```
+
+Then check the contents of the /tf and /tf_static topics.
 
 ### Notes
 
