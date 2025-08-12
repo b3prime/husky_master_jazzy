@@ -1,0 +1,233 @@
+[INFO] [1755036097.955579809] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755036097.961614594] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755036098.013765427] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755036098.013795307] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755036098.013872606] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755036098.054882238] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755036098.057161440] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755036098.058010619] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755036098.058045219] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755036098.058075039] [A200Hardware]: Name: a200_hardware
+[INFO] [1755036098.058079049] [A200Hardware]: Number of Joints 4
+[INFO] [1755036098.067517712] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755036098.124827662] [a200_0000.controller_manager]: Successful initialization of hardware 'a200_hardware'
+[INFO] [1755036098.125037529] [resource_manager]: 'configure' hardware 'a200_hardware' 
+[INFO] [1755036098.125044989] [resource_manager]: Successful 'configure' of hardware 'a200_hardware'
+[INFO] [1755036098.125048739] [resource_manager]: 'activate' hardware 'a200_hardware' 
+[INFO] [1755036098.125053539] [A200Hardware]: Starting ...please wait...
+[INFO] [1755036098.125056489] [A200Hardware]: System Successfully started!
+[INFO] [1755036098.125059619] [resource_manager]: Successful 'activate' of hardware 'a200_hardware'
+[INFO] [1755036098.125111438] [a200_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[WARN] [1755036098.179960269] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755036098.179984949] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755036098.179987499] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755036098.179989609] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755036098.781818224] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.876278 ms (missed cycles : 2).
+[INFO] [1755036099.203949638] [a200_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[INFO] [1755036099.203982457] [a200_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[WARN] [1755036099.206926021] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755036099.206958790] [a200_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755036099.250356954] [a200_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[INFO] [1755036099.250455552] [a200_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1755036099.295955959] [a200_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[INFO] [1755036099.338387994] [a200_0000.controller_manager]: Successfully switched controllers!
+[WARN] [1755036100.080614832] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.673586 ms (missed cycles : 2).
+[INFO] [1755036100.559400764] [a200_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[INFO] [1755036100.559431933] [a200_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[WARN] [1755036100.561380569] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755036100.561397259] [a200_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755036100.593561281] [a200_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[WARN] [1755036100.620515038] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755036100.637816224] [a200_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[WARN] [1755036100.670673538] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755036100.714833102] [a200_0000.controller_manager]: Successfully switched controllers!
+[WARN] [1755036101.378482945] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.541759 ms (missed cycles : 2).
+[WARN] [1755036102.676377918] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.436092 ms (missed cycles : 2).
+[WARN] [1755036103.974215584] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.274388 ms (missed cycles : 2).
+[WARN] [1755036105.283823889] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.881714 ms (missed cycles : 2).
+[WARN] [1755036106.581651861] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.710505 ms (missed cycles : 2).
+[WARN] [1755036107.879542513] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.601037 ms (missed cycles : 2).
+[WARN] [1755036109.177381829] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.440273 ms (missed cycles : 2).
+[WARN] [1755036110.475621032] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.678656 ms (missed cycles : 2).
+[WARN] [1755036111.773218713] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.277247 ms (missed cycles : 2).
+[WARN] [1755036113.082584543] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.643387 ms (missed cycles : 2).
+[WARN] [1755036114.379594107] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.652801 ms (missed cycles : 2).
+[WARN] [1755036115.678425210] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.483904 ms (missed cycles : 2).
+[WARN] [1755036116.976329584] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.388078 ms (missed cycles : 2).
+[WARN] [1755036118.274270932] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.329546 ms (missed cycles : 2).
+[WARN] [1755036119.582843222] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.901626 ms (missed cycles : 2).
+[WARN] [1755036120.880706292] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.764406 ms (missed cycles : 2).
+[WARN] [1755036122.178611464] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.669738 ms (missed cycles : 2).
+[WARN] [1755036123.477434587] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.493381 ms (missed cycles : 2).
+[WARN] [1755036124.775382521] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.440865 ms (missed cycles : 2).
+[WARN] [1755036126.073105678] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.164622 ms (missed cycles : 2).
+[WARN] [1755036127.382588957] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.647681 ms (missed cycles : 2).
+[WARN] [1755036128.680616034] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.674548 ms (missed cycles : 2).
+[WARN] [1755036129.978546012] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.604496 ms (missed cycles : 2).
+[WARN] [1755036131.276325636] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.384280 ms (missed cycles : 2).
+[WARN] [1755036132.574160998] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.219622 ms (missed cycles : 2).
+[WARN] [1755036133.882666043] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.724877 ms (missed cycles : 2).
+[WARN] [1755036135.181701434] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.759728 ms (missed cycles : 2).
+[WARN] [1755036136.479595699] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.654413 ms (missed cycles : 2).
+[WARN] [1755036137.777433595] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.492599 ms (missed cycles : 2).
+[WARN] [1755036139.075322940] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.381734 ms (missed cycles : 2).
+[WARN] [1755036140.373215668] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.274092 ms (missed cycles : 2).
+[WARN] [1755036141.681678621] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.737345 ms (missed cycles : 2).
+[WARN] [1755036142.980561756] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.620780 ms (missed cycles : 2).
+[WARN] [1755036144.278536885] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.595669 ms (missed cycles : 2).
+[WARN] [1755036145.576412355] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.470829 ms (missed cycles : 2).
+[WARN] [1755036146.874225935] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.284669 ms (missed cycles : 2).
+[WARN] [1755036148.182700160] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.758944 ms (missed cycles : 2).
+[WARN] [1755036149.481602160] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.660454 ms (missed cycles : 2).
+[WARN] [1755036150.779538560] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.597264 ms (missed cycles : 2).
+[WARN] [1755036152.077430860] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.489544 ms (missed cycles : 2).
+[WARN] [1755036153.375282253] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.341047 ms (missed cycles : 2).
+[WARN] [1755036154.673174315] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.233309 ms (missed cycles : 2).
+[WARN] [1755036155.982657520] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.716044 ms (missed cycles : 2).
+[WARN] [1755036157.280597862] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.656396 ms (missed cycles : 2).
+[WARN] [1755036158.578540713] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.599357 ms (missed cycles : 2).
+[WARN] [1755036159.876568983] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.627497 ms (missed cycles : 2).
+[WARN] [1755036161.174331956] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.390420 ms (missed cycles : 2).
+[WARN] [1755036162.483848013] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.905827 ms (missed cycles : 2).
+[WARN] [1755036163.781724365] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.783009 ms (missed cycles : 2).
+[WARN] [1755036165.079525266] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.583790 ms (missed cycles : 2).
+[WARN] [1755036166.377591476] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.650150 ms (missed cycles : 2).
+[WARN] [1755036167.675382017] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.440301 ms (missed cycles : 2).
+[WARN] [1755036168.973277545] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.335739 ms (missed cycles : 2).
+[WARN] [1755036170.282637984] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.696728 ms (missed cycles : 2).
+[WARN] [1755036171.579743592] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.802046 ms (missed cycles : 2).
+[WARN] [1755036172.878542629] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.601373 ms (missed cycles : 2).
+[WARN] [1755036174.176378018] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.436662 ms (missed cycles : 2).
+[WARN] [1755036175.474271016] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.329820 ms (missed cycles : 2).
+[WARN] [1755036176.782756830] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.815654 ms (missed cycles : 2).
+[WARN] [1755036178.081640864] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.699768 ms (missed cycles : 2).
+[WARN] [1755036179.379483041] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.541455 ms (missed cycles : 2).
+[WARN] [1755036180.677373145] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.431699 ms (missed cycles : 2).
+[WARN] [1755036181.975223697] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.282211 ms (missed cycles : 2).
+[WARN] [1755036183.273240669] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.299623 ms (missed cycles : 2).
+[WARN] [1755036184.582651310] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.709914 ms (missed cycles : 2).
+[WARN] [1755036185.880617938] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.676442 ms (missed cycles : 2).
+[WARN] [1755036187.178543417] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.601721 ms (missed cycles : 2).
+[WARN] [1755036188.476438636] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.496780 ms (missed cycles : 2).
+[WARN] [1755036189.774317352] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.375896 ms (missed cycles : 2).
+[WARN] [1755036191.083804496] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.863160 ms (missed cycles : 2).
+[WARN] [1755036192.381029079] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.086403 ms (missed cycles : 2).
+[WARN] [1755036193.679537615] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.596159 ms (missed cycles : 2).
+[WARN] [1755036194.977349497] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.408101 ms (missed cycles : 2).
+[WARN] [1755036196.275429805] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.488379 ms (missed cycles : 2).
+[WARN] [1755036197.573222415] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.281009 ms (missed cycles : 2).
+[WARN] [1755036198.882819662] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.878196 ms (missed cycles : 2).
+[WARN] [1755036200.180546479] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.604713 ms (missed cycles : 2).
+[WARN] [1755036201.478589842] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.648276 ms (missed cycles : 2).
+[WARN] [1755036202.776499274] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.557388 ms (missed cycles : 2).
+[WARN] [1755036204.074331024] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.389278 ms (missed cycles : 2).
+[WARN] [1755036205.383783726] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.842230 ms (missed cycles : 2).
+[WARN] [1755036206.681870051] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.928315 ms (missed cycles : 2).
+[WARN] [1755036207.979484429] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.542733 ms (missed cycles : 2).
+[WARN] [1755036209.277503491] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.560715 ms (missed cycles : 2).
+[WARN] [1755036210.575385173] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.443467 ms (missed cycles : 2).
+[WARN] [1755036211.873277132] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.335396 ms (missed cycles : 2).
+[WARN] [1755036213.182823971] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.882515 ms (missed cycles : 2).
+[WARN] [1755036214.480591028] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.649592 ms (missed cycles : 2).
+[WARN] [1755036215.778434652] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.493346 ms (missed cycles : 2).
+[WARN] [1755036217.076441431] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.499605 ms (missed cycles : 2).
+[WARN] [1755036218.374273751] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.332445 ms (missed cycles : 2).
+[WARN] [1755036219.683910009] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.967243 ms (missed cycles : 2).
+[WARN] [1755036220.981784513] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.842637 ms (missed cycles : 2).
+[WARN] [1755036222.279765235] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.823569 ms (missed cycles : 2).
+[WARN] [1755036223.577371618] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.430362 ms (missed cycles : 2).
+[WARN] [1755036224.875266274] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.325058 ms (missed cycles : 2).
+[WARN] [1755036226.173295398] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.352942 ms (missed cycles : 2).
+[WARN] [1755036227.482700155] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.758809 ms (missed cycles : 2).
+[WARN] [1755036228.780660074] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.718128 ms (missed cycles : 2).
+[WARN] [1755036230.078598790] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.656754 ms (missed cycles : 2).
+[WARN] [1755036231.376324387] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.382611 ms (missed cycles : 2).
+[WARN] [1755036232.675403045] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.461219 ms (missed cycles : 2).
+[WARN] [1755036233.983831029] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.888673 ms (missed cycles : 2).
+[WARN] [1755036235.281584628] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.643282 ms (missed cycles : 2).
+[WARN] [1755036236.579500141] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.558245 ms (missed cycles : 2).
+[WARN] [1755036237.877500430] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.558374 ms (missed cycles : 2).
+[WARN] [1755036239.175399177] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.457571 ms (missed cycles : 2).
+[WARN] [1755036240.473205014] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.263638 ms (missed cycles : 2).
+[WARN] [1755036241.782817899] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.875963 ms (missed cycles : 2).
+[WARN] [1755036243.080639138] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.697762 ms (missed cycles : 2).
+[WARN] [1755036244.378491545] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.549989 ms (missed cycles : 2).
+[WARN] [1755036245.676442516] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.499940 ms (missed cycles : 2).
+[WARN] [1755036246.974389314] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.447448 ms (missed cycles : 2).
+[WARN] [1755036248.283771748] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.829732 ms (missed cycles : 2).
+[WARN] [1755036249.581653421] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.711525 ms (missed cycles : 2).
+[WARN] [1755036250.879543240] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.601524 ms (missed cycles : 2).
+[WARN] [1755036252.177443786] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.502130 ms (missed cycles : 2).
+[WARN] [1755036253.475269950] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.328504 ms (missed cycles : 2).
+[WARN] [1755036254.773331607] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.389861 ms (missed cycles : 2).
+[WARN] [1755036256.082752180] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.810714 ms (missed cycles : 2).
+[WARN] [1755036257.380806441] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.864855 ms (missed cycles : 2).
+[WARN] [1755036258.678493812] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.551676 ms (missed cycles : 2).
+[WARN] [1755036259.976328317] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.386851 ms (missed cycles : 2).
+[WARN] [1755036261.274275318] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.333902 ms (missed cycles : 2).
+[WARN] [1755036262.583834614] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.893378 ms (missed cycles : 2).
+[WARN] [1755036263.881647338] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.706282 ms (missed cycles : 2).
+[WARN] [1755036265.179556968] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.614332 ms (missed cycles : 2).
+[WARN] [1755036266.477549304] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.607638 ms (missed cycles : 2).
+[WARN] [1755036267.775336908] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.395172 ms (missed cycles : 2).
+[WARN] [1755036269.073160276] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.218970 ms (missed cycles : 2).
+[WARN] [1755036270.382651151] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.709745 ms (missed cycles : 2).
+[WARN] [1755036271.680597031] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.655495 ms (missed cycles : 2).
+[WARN] [1755036272.978432857] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.491441 ms (missed cycles : 2).
+[WARN] [1755036274.276437870] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.496184 ms (missed cycles : 2).
+[WARN] [1755036275.574274179] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.332853 ms (missed cycles : 2).
+[WARN] [1755036276.873171633] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.229917 ms (missed cycles : 2).
+[WARN] [1755036278.181817912] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.875036 ms (missed cycles : 2).
+[WARN] [1755036279.479603990] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.662484 ms (missed cycles : 2).
+[WARN] [1755036280.777546031] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.604105 ms (missed cycles : 2).
+[WARN] [1755036282.075420938] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.478662 ms (missed cycles : 2).
+[WARN] [1755036283.374284232] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.342026 ms (missed cycles : 2).
+[WARN] [1755036284.683078878] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.136172 ms (missed cycles : 2).
+[WARN] [1755036285.980669725] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.726939 ms (missed cycles : 2).
+[WARN] [1755036287.278614256] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.672470 ms (missed cycles : 2).
+[WARN] [1755036288.577377493] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.436087 ms (missed cycles : 2).
+[WARN] [1755036289.875384012] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.442026 ms (missed cycles : 2).
+[WARN] [1755036291.183882220] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.940304 ms (missed cycles : 2).
+[WARN] [1755036292.481723394] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.781418 ms (missed cycles : 2).
+[WARN] [1755036293.779664261] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.722485 ms (missed cycles : 2).
+[WARN] [1755036295.077492224] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.550368 ms (missed cycles : 2).
+[WARN] [1755036296.375454452] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.511816 ms (missed cycles : 2).
+[WARN] [1755036297.674170306] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.229140 ms (missed cycles : 2).
+[WARN] [1755036298.982939643] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.997037 ms (missed cycles : 2).
+[WARN] [1755036300.280730028] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.788002 ms (missed cycles : 2).
+[WARN] [1755036301.578596377] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.654731 ms (missed cycles : 2).
+[WARN] [1755036302.876402761] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.460915 ms (missed cycles : 2).
+[WARN] [1755036304.174331700] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.389914 ms (missed cycles : 2).
+[WARN] [1755036305.483790717] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.849201 ms (missed cycles : 2).
+[WARN] [1755036306.781907693] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.965077 ms (missed cycles : 2).
+[WARN] [1755036308.079664917] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.722951 ms (missed cycles : 2).
+[WARN] [1755036309.377490617] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.548381 ms (missed cycles : 2).
+[WARN] [1755036310.675455690] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.513994 ms (missed cycles : 2).
+[WARN] [1755036311.974380527] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.439151 ms (missed cycles : 2).
+[WARN] [1755036313.282721205] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.779749 ms (missed cycles : 2).
+[WARN] [1755036314.580591173] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.649907 ms (missed cycles : 2).
+[WARN] [1755036315.878492955] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.551489 ms (missed cycles : 2).
+[WARN] [1755036317.177438792] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.497226 ms (missed cycles : 2).
+[WARN] [1755036318.474265665] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.324329 ms (missed cycles : 2).
+[WARN] [1755036319.773163211] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.221585 ms (missed cycles : 2).
+[WARN] [1755036321.081648095] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.706759 ms (missed cycles : 2).
+[WARN] [1755036322.379530642] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.589426 ms (missed cycles : 2).
+[WARN] [1755036323.677376152] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.434696 ms (missed cycles : 2).
+[WARN] [1755036324.975487633] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.546267 ms (missed cycles : 2).
+[WARN] [1755036326.274318083] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.376727 ms (missed cycles : 2).
+[WARN] [1755036327.582827161] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.885815 ms (missed cycles : 2).
+[WARN] [1755036328.880785047] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.843951 ms (missed cycles : 2).
+[WARN] [1755036330.178425982] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.484546 ms (missed cycles : 2).
+[WARN] [1755036331.477378648] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.437132 ms (missed cycles : 2).
+[WARN] [1755036332.775269908] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.328632 ms (missed cycles : 2).
+[WARN] [1755036334.073328390] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.386784 ms (missed cycles : 2).
+[WARN] [1755036335.381730516] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.789210 ms (missed cycles : 2).
+[WARN] [1755036336.679663428] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.720132 ms (missed cycles : 2).
+[WARN] [1755036337.978489795] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.548259 ms (missed cycles : 2).
+[WARN] [1755036339.276320887] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.379441 ms (missed cycles : 2).
+[WARN] [1755036340.574325251] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.384055 ms (missed cycles : 2).
+[WARN] [1755036341.883652737] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.711131 ms (missed cycles : 2).
+[WARN] [1755036343.181681489] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.740013 ms (missed cycles : 2).
+[WARN] [1755036344.478538106] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.596450 ms (missed cycles : 2).
+[WARN] [1755036345.777671724] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.730158 ms (missed cycles : 2).
+[WARN] [1755036347.075266941] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.325605 ms (missed cycles : 2).

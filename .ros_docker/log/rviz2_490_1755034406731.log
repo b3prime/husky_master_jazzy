@@ -1,0 +1,62 @@
+[INFO] [1755034407.190669461] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755034407.190731890] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1755034407.234878117] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755034407.282715778] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034407.283355350] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034407.298026437] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034407.350904735] [rviz2]: Stereo is NOT SUPPORTED
+[WARN] [1755034548.629392679] [rviz2]: topic '/map' has more than one types associated, rviz will arbitrarily use the type 'nav_msgs/msg/OccupancyGrid' -- all types for the topic: 'nav_msgs/msg/OccupancyGrid' 'sensor_msgs/msg/PointCloud2'
+[INFO] [1755034704.984689260] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034604.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034714.968767537] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034614.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034724.984665481] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034624.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034834.968938706] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034734.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034844.984860952] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034744.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034854.968460955] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034754.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034864.984519212] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034764.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034874.968116518] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034774.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034884.984274956] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034784.832 for reason 'discarding message because the queue is full'
+[INFO] [1755034894.968659761] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034794.831 for reason 'discarding message because the queue is full'
+[INFO] [1755034904.984450667] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034804.832 for reason 'discarding message because the queue is full'
+[INFO] [1755034914.969028836] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034814.832 for reason 'discarding message because the queue is full'
+[INFO] [1755034924.984756469] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034824.832 for reason 'discarding message because the queue is full'
+[INFO] [1755034934.969077281] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034834.832 for reason 'discarding message because the queue is full'
+[INFO] [1755034944.984314020] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034844.833 for reason 'discarding message because the queue is full'
+[INFO] [1755034954.968317592] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034854.833 for reason 'discarding message because the queue is full'
+[INFO] [1755034964.984349745] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034864.834 for reason 'discarding message because the queue is full'
+[INFO] [1755034974.968318513] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034874.834 for reason 'discarding message because the queue is full'
+[INFO] [1755034984.984661312] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034884.835 for reason 'discarding message because the queue is full'
+[INFO] [1755034994.972693165] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034894.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035004.988192358] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034904.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035014.972456004] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034914.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035024.989030782] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034924.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035034.972197874] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034934.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035044.988077607] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034944.835 for reason 'discarding message because the queue is full'
+[INFO] [1755035054.972610423] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034954.836 for reason 'discarding message because the queue is full'
+[INFO] [1755035064.988563834] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034964.836 for reason 'discarding message because the queue is full'
+[INFO] [1755035074.972197574] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034974.836 for reason 'discarding message because the queue is full'
+[INFO] [1755035084.988297737] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034984.836 for reason 'discarding message because the queue is full'
+[INFO] [1755035094.972863615] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755034994.836 for reason 'discarding message because the queue is full'
+[INFO] [1755035104.988191845] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035004.837 for reason 'discarding message because the queue is full'
+[INFO] [1755035114.973039464] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035014.837 for reason 'discarding message because the queue is full'
+[INFO] [1755035124.988115454] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035024.838 for reason 'discarding message because the queue is full'
+[INFO] [1755035134.972155700] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035034.839 for reason 'discarding message because the queue is full'
+[INFO] [1755035144.988695521] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035044.839 for reason 'discarding message because the queue is full'
+[INFO] [1755035154.972592517] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035054.839 for reason 'discarding message because the queue is full'
+[INFO] [1755035164.988995569] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035064.839 for reason 'discarding message because the queue is full'
+[INFO] [1755035174.972752132] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035074.840 for reason 'discarding message because the queue is full'
+[INFO] [1755035184.988555510] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035084.840 for reason 'discarding message because the queue is full'
+[INFO] [1755035194.972613798] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035094.840 for reason 'discarding message because the queue is full'
+[INFO] [1755035204.988417531] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035104.840 for reason 'discarding message because the queue is full'
+[INFO] [1755035214.973082405] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035114.841 for reason 'discarding message because the queue is full'
+[INFO] [1755035224.988460310] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035124.841 for reason 'discarding message because the queue is full'
+[INFO] [1755035234.972425783] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035134.841 for reason 'discarding message because the queue is full'
+[INFO] [1755035244.989012905] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035144.842 for reason 'discarding message because the queue is full'
+[INFO] [1755035254.972999528] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035154.842 for reason 'discarding message because the queue is full'
+[INFO] [1755035264.988381058] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035164.843 for reason 'discarding message because the queue is full'
+[INFO] [1755035274.972902775] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035174.843 for reason 'discarding message because the queue is full'
+[INFO] [1755035284.988669630] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035184.843 for reason 'discarding message because the queue is full'
+[INFO] [1755035294.972197638] [ouster.rviz2]: Message Filter dropping message: frame 'map' at time 1755035194.843 for reason 'discarding message because the queue is full'
+[INFO] [1755035303.692133422] [rclcpp]: signal_handler(signum=2)

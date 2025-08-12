@@ -1,0 +1,15 @@
+[INFO] [1755034122.240394109] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755034122.240457248] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1755034122.267834442] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755034122.312337531] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034122.313583108] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034122.333014969] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755034122.381118812] [rviz2]: Stereo is NOT SUPPORTED
+[WARN] [1755034193.672050624] [ouster.rviz2]: New publisher discovered on topic '/ouster/scan_multi', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1755034248.080854829] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[WARN] [1755034285.186415512] [ouster.rviz2]: New publisher discovered on topic '/ouster/scan_multi', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1755034366.236969802] [rclcpp]: signal_handler(signum=2)

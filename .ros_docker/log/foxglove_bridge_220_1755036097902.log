@@ -1,0 +1,30 @@
+[INFO] [1755036097.956525207] [a200_0000.foxglove_bridge_component_manager]: Load Library: /opt/ros/jazzy/lib/libfoxglove_bridge_component.so
+[INFO] [1755036097.964533288] [a200_0000.foxglove_bridge_component_manager]: Found class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755036097.964560397] [a200_0000.foxglove_bridge_component_manager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755036097.971308464] [a200_0000.foxglove_bridge]: Starting foxglove_bridge (jazzy, 0.8.5@) with WebSocket++/0.8.2
+[INFO] [1755036097.972543798] [a200_0000.foxglove_bridge]: [WS] Server running without TLS
+[INFO] [1755036097.972810015] [a200_0000.foxglove_bridge]: [WS] WebSocket server listening at ws://0.0.0.0:8765
+[INFO] [1755036097.972880524] [a200_0000.foxglove_bridge]: [WS] WebSocket server run loop started
+[INFO] [1755036100.507599974] [a200_0000.foxglove_bridge]: Removed channel 40 for topic "/ouster/signal_image" (sensor_msgs/msg/Image)
+[INFO] [1755036310.117691481] [a200_0000.foxglove_bridge]: Removed channel 77 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755036310.117740831] [a200_0000.foxglove_bridge]: Removed channel 44 for topic "/goal_pose" (geometry_msgs/msg/PoseStamped)
+[INFO] [1755036310.117745251] [a200_0000.foxglove_bridge]: Removed channel 46 for topic "/clicked_point" (geometry_msgs/msg/PointStamped)
+[INFO] [1755036310.117749031] [a200_0000.foxglove_bridge]: Removed channel 48 for topic "/initialpose" (geometry_msgs/msg/PoseWithCovarianceStamped)
+[INFO] [1755036312.584034993] [a200_0000.foxglove_bridge]: Removed channel 76 for topic "/slam_toolbox/feedback" (visualization_msgs/msg/InteractiveMarkerFeedback)
+[INFO] [1755036312.584073332] [a200_0000.foxglove_bridge]: Removed channel 75 for topic "/dlio/odom_node/keyframes" (geometry_msgs/msg/PoseArray)
+[INFO] [1755036312.584077852] [a200_0000.foxglove_bridge]: Removed channel 74 for topic "/slam_toolbox/scan_visualization" (sensor_msgs/msg/LaserScan)
+[INFO] [1755036312.584081752] [a200_0000.foxglove_bridge]: Removed channel 73 for topic "/diagnostics" (diagnostic_msgs/msg/DiagnosticArray)
+[INFO] [1755036312.584085512] [a200_0000.foxglove_bridge]: Removed channel 72 for topic "/slam_toolbox/graph_visualization" (visualization_msgs/msg/MarkerArray)
+[INFO] [1755036312.584089212] [a200_0000.foxglove_bridge]: Removed channel 71 for topic "/dlio/odom_node/odom" (nav_msgs/msg/Odometry)
+[INFO] [1755036312.584092522] [a200_0000.foxglove_bridge]: Removed channel 70 for topic "/pose" (geometry_msgs/msg/PoseWithCovarianceStamped)
+[INFO] [1755036312.584096042] [a200_0000.foxglove_bridge]: Removed channel 69 for topic "/bond" (bond/msg/Status)
+[INFO] [1755036312.584098802] [a200_0000.foxglove_bridge]: Removed channel 68 for topic "/dlio/odom_node/path" (nav_msgs/msg/Path)
+[INFO] [1755036312.584102542] [a200_0000.foxglove_bridge]: Removed channel 67 for topic "/clock" (rosgraph_msgs/msg/Clock)
+[INFO] [1755036312.584105682] [a200_0000.foxglove_bridge]: Removed channel 66 for topic "/dlio/odom_node/pointcloud/deskewed" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755036312.584109472] [a200_0000.foxglove_bridge]: Removed channel 65 for topic "/dlio/odom_node/pointcloud/keyframe" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755036312.584112852] [a200_0000.foxglove_bridge]: Removed channel 64 for topic "/dlio/odom_node/pose" (geometry_msgs/msg/PoseStamped)
+[INFO] [1755036312.584116152] [a200_0000.foxglove_bridge]: Removed channel 63 for topic "/dlio/pointcloud_map" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755036312.584119242] [a200_0000.foxglove_bridge]: Removed channel 62 for topic "/map" (nav_msgs/msg/OccupancyGrid)
+[INFO] [1755036312.584122012] [a200_0000.foxglove_bridge]: Removed channel 61 for topic "/map_metadata" (nav_msgs/msg/MapMetaData)
+[INFO] [1755036312.584136942] [a200_0000.foxglove_bridge]: Removed channel 60 for topic "/slam_toolbox/transition_event" (lifecycle_msgs/msg/TransitionEvent)
+[INFO] [1755036312.584147572] [a200_0000.foxglove_bridge]: Removed channel 59 for topic "/slam_toolbox/update" (visualization_msgs/msg/InteractiveMarkerUpdate)

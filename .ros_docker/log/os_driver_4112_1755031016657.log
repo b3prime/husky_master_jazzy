@@ -14,3 +14,95 @@ lidar mode: 1024x10, lidar udp profile: LEGACY
 [INFO] [1755031039.608260357] [ouster.os_driver]: get_metadata service created
 [INFO] [1755031039.608769736] [ouster.os_driver]: get_config service created
 [INFO] [1755031039.609366197] [ouster.os_driver]: set_config service created
+[WARN] [1755034079.811105702] [rcl_lifecycle]: No transition matching 1 found for current state active
+[ERROR] [1755034079.811153771] [ouster.os_driver]: Unable to start transition 1 from current state active: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[WARN] [1755034081.244909906] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034082.245945618] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034083.246946980] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034084.248005060] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034085.249055830] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034086.250116188] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034087.250945450] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034088.251994558] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034089.253044644] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034090.254110959] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034091.254951797] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[ERROR] [1755034091.254984577] [ouster.os_driver]: maximum number of allowed errors from sensor::poll_client() reached, performing self reset...
+[WARN] [1755034092.256184167] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034093.178693463] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+[ERROR] [1755034093.178713512] [ouster.os_driver]: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[INFO] [1755034095.691299513] [ouster.os_driver]: Retrived sensor active config
+[INFO] [1755034095.691331172] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034095.691335612] [ouster.os_driver]: Forcing sensor to reinitialize
+[INFO] [1755034095.691339422] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034095.827997697] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034095.828036056] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 58104/39262
+[INFO] [1755034119.811314796] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034119.811427524] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034119.811442754] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034119.812864477] [ouster.os_driver]: reset service created
+[INFO] [1755034119.813388587] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034119.813889648] [ouster.os_driver]: get_config service created
+[INFO] [1755034119.814363739] [ouster.os_driver]: set_config service created
+[WARN] [1755034122.040182164] [rcl_lifecycle]: No transition matching 1 found for current state active
+[ERROR] [1755034122.040202583] [ouster.os_driver]: Unable to start transition 1 from current state active: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[WARN] [1755034123.437947609] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034124.439204110] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034125.440261031] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034126.440960625] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034127.441023819] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034128.441958463] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034129.443012172] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034130.444079288] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034131.445136181] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034132.446196071] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034133.447249817] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[ERROR] [1755034133.447285216] [ouster.os_driver]: maximum number of allowed errors from sensor::poll_client() reached, performing self reset...
+[WARN] [1755034134.448178662] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034135.395955286] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+[ERROR] [1755034135.395974836] [ouster.os_driver]: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[INFO] [1755034137.618032821] [ouster.os_driver]: Retrived sensor active config
+[INFO] [1755034137.618070190] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034137.618074990] [ouster.os_driver]: Forcing sensor to reinitialize
+[INFO] [1755034137.618079270] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034137.745263073] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034137.745308053] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 40200/50156
+[INFO] [1755034161.137211532] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034161.137338959] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034161.137346179] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034161.139124378] [ouster.os_driver]: reset service created
+[INFO] [1755034161.139776117] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034161.140376927] [ouster.os_driver]: get_config service created
+[INFO] [1755034161.140940487] [ouster.os_driver]: set_config service created
+[WARN] [1755034162.429958293] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034163.430943767] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034164.431951025] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034165.432952618] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034166.434019026] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034167.434946820] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034168.435958809] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034169.436963862] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034170.437945900] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034171.438957622] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[WARN] [1755034172.440014389] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[ERROR] [1755034172.440050819] [ouster.os_driver]: maximum number of allowed errors from sensor::poll_client() reached, performing self reset...
+[WARN] [1755034173.440943023] [ouster.os_driver]: sensor::poll_client()) returned error or timed out
+[INFO] [1755034174.537082661] [ouster.os_driver]: Retrived sensor active config
+[INFO] [1755034174.537115381] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034174.537120951] [ouster.os_driver]: Forcing sensor to reinitialize
+[INFO] [1755034174.537125451] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034174.802259554] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034174.802281804] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 40200/50156
+[INFO] [1755034196.445109602] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034196.445242450] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034196.445249550] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034196.446925632] [ouster.os_driver]: reset service created
+[INFO] [1755034196.447601491] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034196.448175791] [ouster.os_driver]: get_config service created
+[INFO] [1755034196.448806221] [ouster.os_driver]: set_config service created

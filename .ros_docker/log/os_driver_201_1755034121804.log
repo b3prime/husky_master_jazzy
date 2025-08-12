@@ -1,0 +1,49 @@
+[INFO] [1755034121.900401376] [ouster.os_driver]: TIME_FROM_ROS_TIME timestamp mode specified. IMU and pointcloud messages will use ros time
+[WARN] [1755034121.900466495] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1755034121.900470535] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1755034122.040280222] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034122.040305791] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034122.150745573] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034122.150786053] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 0/0
+[INFO] [1755034161.244185976] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034161.244319724] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034161.244331354] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034161.245733630] [ouster.os_driver]: reset service created
+[INFO] [1755034161.246630784] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034161.247225414] [ouster.os_driver]: get_config service created
+[INFO] [1755034161.247786884] [ouster.os_driver]: set_config service created
+[WARN] [1755034161.247890152] [rcl_lifecycle]: No transition matching 4 found for current state inactive
+[ERROR] [1755034161.247895642] [ouster.os_driver]: Unable to start transition 4 from current state inactive: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[WARN] [1755034161.249749579] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+[ERROR] [1755034161.249764359] [ouster.os_driver]: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[INFO] [1755034161.319229338] [ouster.os_driver]: Retrived sensor active config
+[INFO] [1755034161.319246358] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034161.319251238] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034161.430108575] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034161.430149014] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 40200/50156
+[INFO] [1755034161.670655941] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034161.670783739] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034161.670790919] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034161.672573537] [ouster.os_driver]: reset service created
+[INFO] [1755034161.673232526] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034161.674044592] [ouster.os_driver]: get_config service created
+[INFO] [1755034161.674695950] [ouster.os_driver]: set_config service created
+[INFO] [1755034174.549743395] [ouster.os_driver]: Retrived sensor active config
+[INFO] [1755034174.549785914] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755034174.549793634] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[INFO] [1755034174.766120782] [ouster.os_driver]: Sensor 192.168.100.12 configured successfully
+[INFO] [1755034174.766160942] [ouster.os_driver]: Starting sensor 192.168.100.12 initialization... Using ports: 40200/50156
+[INFO] [1755034196.467519131] [ouster.os_driver]: No metadata file was specified, using: 192.168.100-metadata.json
+[INFO] [1755034196.467660848] [ouster.os_driver]: Wrote sensor metadata to 192.168.100-metadata.json
+[INFO] [1755034196.467680038] [ouster.os_driver]: ouster client version: 0.11.1+unknown-release
+product: OS-1-64-U13, sn: 122138000315, firmware rev: v2.5.1
+lidar mode: 1024x10, lidar udp profile: LEGACY
+[INFO] [1755034196.469402419] [ouster.os_driver]: reset service created
+[INFO] [1755034196.470123567] [ouster.os_driver]: get_metadata service created
+[INFO] [1755034196.470771327] [ouster.os_driver]: get_config service created
+[INFO] [1755034196.471427296] [ouster.os_driver]: set_config service created
+[INFO] [1755034366.236973372] [rclcpp]: signal_handler(signum=2)

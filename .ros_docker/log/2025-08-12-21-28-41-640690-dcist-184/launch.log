@@ -1,0 +1,27 @@
+1755034121.6412096 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-21-28-41-640690-dcist-184
+1755034121.6412826 [INFO] [launch]: Default logging verbosity is set to INFO
+1755034121.7899694 [INFO] [rviz2-1]: process started with pid [200]
+1755034121.7900710 [INFO] [os_driver-2]: process started with pid [201]
+1755034121.7901108 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [202]
+1755034121.8405428 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755034122.0413857 [ERROR] [launch_ros.utilities.lifecycle_event_manager]: Failed to make transition 'TRANSITION_CONFIGURE' for LifecycleNode '/ouster/os_driver'
+1755034122.2405760 [rviz2-1] [INFO] [1755034122.240394109] [rviz2]: Stereo is NOT SUPPORTED
+1755034122.2407570 [rviz2-1] [INFO] [1755034122.240457248] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755034122.2680650 [rviz2-1] [INFO] [1755034122.267834442] [rviz2]: Stereo is NOT SUPPORTED
+1755034122.3125372 [rviz2-1] [INFO] [1755034122.312337531] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034122.3126369 [rviz2-1] 
+1755034122.3136759 [rviz2-1] [INFO] [1755034122.313583108] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034122.3137372 [rviz2-1] 
+1755034122.3331861 [rviz2-1] [INFO] [1755034122.333014969] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034122.3332882 [rviz2-1] 
+1755034122.3813407 [rviz2-1] [INFO] [1755034122.381118812] [rviz2]: Stereo is NOT SUPPORTED
+1755034134.4490640 [INFO] [launch.user]: os_driver activating...
+1755034193.6722353 [rviz2-1] [WARN] [1755034193.672050624] [ouster.rviz2]: New publisher discovered on topic '/ouster/scan_multi', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+1755034248.0810461 [rviz2-1] [INFO] [1755034248.080854829] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034248.0811667 [rviz2-1] 
+1755034285.1866059 [rviz2-1] [WARN] [1755034285.186415512] [ouster.rviz2]: New publisher discovered on topic '/ouster/scan_multi', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+1755034366.2371073 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755034366.5271676 [rviz2-1] [INFO] [1755034366.236969802] [rclcpp]: signal_handler(signum=2)
+1755034366.5272651 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 202]
+1755034366.5273089 [INFO] [rviz2-1]: process has finished cleanly [pid 200]
+1755034367.3672867 [ERROR] [os_driver-2]: process has died [pid 201, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

@@ -1,0 +1,22 @@
+1755034079.3714268 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-21-27-59-370911-dcist-114
+1755034079.3714979 [INFO] [launch]: Default logging verbosity is set to INFO
+1755034079.5609119 [INFO] [rviz2-1]: process started with pid [130]
+1755034079.5609999 [INFO] [os_driver-2]: process started with pid [131]
+1755034079.5610325 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [132]
+1755034079.6182587 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755034079.8123310 [ERROR] [launch_ros.utilities.lifecycle_event_manager]: Failed to make transition 'TRANSITION_CONFIGURE' for LifecycleNode '/ouster/os_driver'
+1755034080.0200582 [rviz2-1] [INFO] [1755034080.019870225] [rviz2]: Stereo is NOT SUPPORTED
+1755034080.0202436 [rviz2-1] [INFO] [1755034080.019940773] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755034080.0518379 [rviz2-1] [INFO] [1755034080.051666680] [rviz2]: Stereo is NOT SUPPORTED
+1755034080.0982072 [rviz2-1] [INFO] [1755034080.098027719] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034080.0983279 [rviz2-1] 
+1755034080.0988839 [rviz2-1] [INFO] [1755034080.098782274] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034080.0989428 [rviz2-1] 
+1755034080.1181593 [rviz2-1] [INFO] [1755034080.117896779] [ouster.rviz2]: Subscribing to: /ouster/points
+1755034080.1182606 [rviz2-1] 
+1755034080.1681025 [rviz2-1] [INFO] [1755034080.167922456] [rviz2]: Stereo is NOT SUPPORTED
+1755034092.2566497 [INFO] [launch.user]: os_driver activating...
+1755034108.7703080 [INFO] [rviz2-1]: process has finished cleanly [pid 130]
+1755034115.8571312 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755034116.1918364 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 132]
+1755034119.8854730 [ERROR] [os_driver-2]: process has died [pid 131, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

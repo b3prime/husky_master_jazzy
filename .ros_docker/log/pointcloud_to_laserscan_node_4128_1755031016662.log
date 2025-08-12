@@ -2,3 +2,5 @@
 [INFO] [1755031474.922601443] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber
 [INFO] [1755031606.323164196] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
 [INFO] [1755031815.512590801] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber
+[WARN] [1755034193.621964118] [ouster_scan_band]: New subscription discovered on topic '/ouster/scan_multi', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[WARN] [1755034285.143899896] [ouster_scan_band]: New subscription discovered on topic '/ouster/scan_multi', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY

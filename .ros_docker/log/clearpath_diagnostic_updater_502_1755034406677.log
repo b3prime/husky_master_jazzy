@@ -1,0 +1,4 @@
+[INFO] [1755034406.723755590] [a200_0000.clearpath_diagnostic_updater]: Diagnostics starting for a a200 platform with serial number a200-0000
+[INFO] [1755034406.723874949] [a200_0000.clearpath_diagnostic_updater]: No MCU indicated, MCU diagnostics disabled.
+[WARN] [1755034406.727863639] [a200_0000.clearpath_diagnostic_updater]: No topics found to monitor.
+[INFO] [1755035303.692119142] [rclcpp]: signal_handler(signum=2)

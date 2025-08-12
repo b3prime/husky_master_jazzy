@@ -1,0 +1,6 @@
+[INFO] [1755035619.744954173] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1755035626.979056337] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber
+[INFO] [1755035632.283485061] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1755035634.986017663] [ouster_scan_band]: No subscribers to laserscan, shutting down pointcloud subscriber
+[INFO] [1755035728.667194454] [ouster_scan_band]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1755035814.908501187] [rclcpp]: signal_handler(signum=2)

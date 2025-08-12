@@ -1,0 +1,17 @@
+[INFO] [1755034313.398309790] [lifecycle_manager_navigation]: Creating
+[INFO] [1755034313.417672736] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [1755034313.994579487] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[INFO] [1755034313.994610727] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[INFO] [1755034314.079227753] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[INFO] [1755034314.097689023] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[INFO] [1755034314.142598009] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[INFO] [1755034314.185295497] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[INFO] [1755034314.189424429] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[INFO] [1755034314.208532079] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[INFO] [1755034314.338604184] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[INFO] [1755034314.366860206] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[INFO] [1755034314.408910413] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[INFO] [1755034373.871025842] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755034373.871129691] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[ERROR] [1755034375.872296699] [lifecycle_manager_navigation]: Failed to change state for node: controller_server. Exception: controller_server/get_state service client: async_send_request failed.
+[ERROR] [1755034375.872367088] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.

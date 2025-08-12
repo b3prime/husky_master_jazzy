@@ -1,0 +1,23 @@
+1755034313.1759481 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-21-31-53-175290-dcist-273
+1755034313.1760364 [INFO] [launch]: Default logging verbosity is set to INFO
+1755034313.2982407 [INFO] [controller_server-1]: process started with pid [276]
+1755034313.2983334 [INFO] [smoother_server-2]: process started with pid [277]
+1755034313.2983742 [INFO] [planner_server-3]: process started with pid [278]
+1755034313.2984083 [INFO] [behavior_server-4]: process started with pid [279]
+1755034313.2984357 [INFO] [bt_navigator-5]: process started with pid [280]
+1755034313.2984605 [INFO] [waypoint_follower-6]: process started with pid [281]
+1755034313.2984872 [INFO] [velocity_smoother-7]: process started with pid [282]
+1755034313.2985096 [INFO] [collision_monitor-8]: process started with pid [283]
+1755034313.2985506 [INFO] [opennav_docking-9]: process started with pid [284]
+1755034313.2985785 [INFO] [lifecycle_manager-10]: process started with pid [285]
+1755034373.8712022 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755034374.0028999 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 282]
+1755034374.0070095 [INFO] [collision_monitor-8]: process has finished cleanly [pid 283]
+1755034374.0153463 [INFO] [smoother_server-2]: process has finished cleanly [pid 277]
+1755034374.0170729 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 281]
+1755034374.0172505 [INFO] [opennav_docking-9]: process has finished cleanly [pid 284]
+1755034374.0322413 [INFO] [behavior_server-4]: process has finished cleanly [pid 279]
+1755034374.0342507 [INFO] [bt_navigator-5]: process has finished cleanly [pid 280]
+1755034374.0417130 [INFO] [planner_server-3]: process has finished cleanly [pid 278]
+1755034375.9954500 [INFO] [lifecycle_manager-10]: process has finished cleanly [pid 285]
+1755034376.0200491 [ERROR] [controller_server-1]: process has died [pid 276, exit code -6, cmd '/opt/ros/jazzy/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_mds8lldb -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].

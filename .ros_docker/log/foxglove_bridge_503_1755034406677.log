@@ -1,0 +1,27 @@
+[INFO] [1755034406.740967705] [a200_0000.foxglove_bridge_component_manager]: Load Library: /opt/ros/jazzy/lib/libfoxglove_bridge_component.so
+[INFO] [1755034406.750348017] [a200_0000.foxglove_bridge_component_manager]: Found class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755034406.750385647] [a200_0000.foxglove_bridge_component_manager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755034406.761762014] [a200_0000.foxglove_bridge]: Starting foxglove_bridge (jazzy, 0.8.5@) with WebSocket++/0.8.2
+[INFO] [1755034406.762917489] [a200_0000.foxglove_bridge]: [WS] Server running without TLS
+[INFO] [1755034406.763182616] [a200_0000.foxglove_bridge]: [WS] WebSocket server listening at ws://0.0.0.0:8765
+[INFO] [1755034406.763232725] [a200_0000.foxglove_bridge]: [WS] WebSocket server run loop started
+[INFO] [1755034410.567974853] [a200_0000.foxglove_bridge]: Removed channel 41 for topic "/ouster/signal_image" (sensor_msgs/msg/Image)
+[INFO] [1755034729.472716139] [a200_0000.foxglove_bridge]: Removed channel 77 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755035300.365008868] [a200_0000.foxglove_bridge]: Removed channel 76 for topic "/map" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755035300.365047988] [a200_0000.foxglove_bridge]: Removed channel 75 for topic "/slam_toolbox/feedback" (visualization_msgs/msg/InteractiveMarkerFeedback)
+[INFO] [1755035300.365053958] [a200_0000.foxglove_bridge]: Removed channel 74 for topic "/dlio/odom_node/keyframes" (geometry_msgs/msg/PoseArray)
+[INFO] [1755035300.365057958] [a200_0000.foxglove_bridge]: Removed channel 73 for topic "/slam_toolbox/scan_visualization" (sensor_msgs/msg/LaserScan)
+[INFO] [1755035300.365061678] [a200_0000.foxglove_bridge]: Removed channel 72 for topic "/diagnostics" (diagnostic_msgs/msg/DiagnosticArray)
+[INFO] [1755035300.365065488] [a200_0000.foxglove_bridge]: Removed channel 71 for topic "/slam_toolbox/graph_visualization" (visualization_msgs/msg/MarkerArray)
+[INFO] [1755035300.365069238] [a200_0000.foxglove_bridge]: Removed channel 70 for topic "/dlio/odom_node/odom" (nav_msgs/msg/Odometry)
+[INFO] [1755035300.365072778] [a200_0000.foxglove_bridge]: Removed channel 69 for topic "/pose" (geometry_msgs/msg/PoseWithCovarianceStamped)
+[INFO] [1755035300.365076658] [a200_0000.foxglove_bridge]: Removed channel 68 for topic "/bond" (bond/msg/Status)
+[INFO] [1755035300.365079478] [a200_0000.foxglove_bridge]: Removed channel 67 for topic "/dlio/odom_node/path" (nav_msgs/msg/Path)
+[INFO] [1755035300.365082768] [a200_0000.foxglove_bridge]: Removed channel 66 for topic "/clock" (rosgraph_msgs/msg/Clock)
+[INFO] [1755035300.365085428] [a200_0000.foxglove_bridge]: Removed channel 65 for topic "/dlio/odom_node/pointcloud/deskewed" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755035300.365089168] [a200_0000.foxglove_bridge]: Removed channel 64 for topic "/dlio/odom_node/pointcloud/keyframe" (sensor_msgs/msg/PointCloud2)
+[INFO] [1755035300.365092428] [a200_0000.foxglove_bridge]: Removed channel 63 for topic "/dlio/odom_node/pose" (geometry_msgs/msg/PoseStamped)
+[INFO] [1755035300.365095988] [a200_0000.foxglove_bridge]: Removed channel 61 for topic "/map_metadata" (nav_msgs/msg/MapMetaData)
+[INFO] [1755035300.365116738] [a200_0000.foxglove_bridge]: Removed channel 60 for topic "/slam_toolbox/transition_event" (lifecycle_msgs/msg/TransitionEvent)
+[INFO] [1755035300.365129098] [a200_0000.foxglove_bridge]: Removed channel 59 for topic "/slam_toolbox/update" (visualization_msgs/msg/InteractiveMarkerUpdate)
+[INFO] [1755035303.692103572] [rclcpp]: signal_handler(signum=2)

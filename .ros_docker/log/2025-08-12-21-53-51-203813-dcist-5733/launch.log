@@ -1,0 +1,19 @@
+1755035631.2043676 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-12-21-53-51-203813-dcist-5733
+1755035631.2044470 [INFO] [launch]: Default logging verbosity is set to INFO
+1755035631.2420630 [INFO] [async_slam_toolbox_node-1]: process started with pid [5736]
+1755035631.2421377 [INFO] [lifecycle_manager-2]: process started with pid [5737]
+1755035631.2421727 [INFO] [dlio_odom_node-3]: process started with pid [5738]
+1755035631.2422020 [INFO] [dlio_map_node-4]: process started with pid [5739]
+1755035634.2454743 [INFO] [static_transform_publisher-5]: process started with pid [5849]
+1755035634.2645984 [static_transform_publisher-5] [WARN] [1755035634.264425524] []: Old-style arguments are deprecated; see --help for new-style arguments
+1755035634.6149900 [static_transform_publisher-5] [INFO] [1755035634.614828083] [static_tf_base_to_os_lidar]: Spinning until stopped - publishing transform
+1755035634.6150768 [static_transform_publisher-5] translation: ('0.250000', '0.000000', '0.800000')
+1755035634.6151013 [static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1755035634.6151195 [static_transform_publisher-5] from 'base_link' to 'os_lidar'
+1755035634.9604826 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755035634.9618199 [static_transform_publisher-5] [INFO] [1755035634.960360448] [rclcpp]: signal_handler(signum=2)
+1755035635.0684311 [INFO] [static_transform_publisher-5]: process has finished cleanly [pid 5849]
+1755035635.0716810 [INFO] [dlio_odom_node-3]: process has finished cleanly [pid 5738]
+1755035635.0721502 [INFO] [dlio_map_node-4]: process has finished cleanly [pid 5739]
+1755035635.0777166 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 5736]
+1755035635.0785711 [INFO] [lifecycle_manager-2]: process has finished cleanly [pid 5737]

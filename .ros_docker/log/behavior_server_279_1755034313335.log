@@ -1,0 +1,19 @@
+[INFO] [1755034313.785883265] [behavior_server]: 
+	behavior_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1755034314.142831256] [behavior_server]: Configuring
+[INFO] [1755034314.149698219] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[INFO] [1755034314.151102810] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[INFO] [1755034314.152155904] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[INFO] [1755034314.153178470] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[INFO] [1755034314.155475058] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[INFO] [1755034314.162432500] [behavior_server]: Configuring spin
+[INFO] [1755034314.168101440] [behavior_server]: Configuring backup
+[INFO] [1755034314.172041614] [behavior_server]: Configuring drive_on_heading
+[INFO] [1755034314.175844380] [behavior_server]: Configuring assisted_teleop
+[INFO] [1755034314.180875989] [behavior_server]: Configuring wait
+[INFO] [1755034373.871046332] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755034373.871126101] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[INFO] [1755034373.871180580] [behavior_server]: Cleaning up
+[INFO] [1755034373.878231778] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
