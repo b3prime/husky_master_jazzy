@@ -31,7 +31,7 @@ install(TARGETS occupancy_grid_node
 
 install(
 	PROGRAMS
-		scripts/waypoint_click_navigator.py
+		src/waypoint_click_navigator.py
 	DESTINATION lib/${PROJECT_NAME}
 )
 
