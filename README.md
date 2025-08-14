@@ -43,6 +43,14 @@ Then check the contents of the /tf and /tf_static topics.
 
 ### Notes
 
+** Teleop not working?**:
+
+Make sure the joystick appears as /dev/input/js0. 
+
+Echo the value of a200_0000/joy_teleop/joy. If this doesn't respond to the joystick, then run jstest. If this still doesn't react, then unplug the USB receiver and plug it back in. 
+
+I've noticed a bug where the joystick appears as js0, the light is green, but it still doesn't work. Unplugging and replugging it back in has solved it 100% of the time.
+
 **Display Errors?**: On the host machine (before building the container), run:
 ```
 sudo xhost +si:localuser:root
