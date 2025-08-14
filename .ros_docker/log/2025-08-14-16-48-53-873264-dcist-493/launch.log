@@ -1,0 +1,3 @@
+1755190133.8739035 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-16-48-53-873264-dcist-493
+1755190133.8739874 [INFO] [launch]: Default logging verbosity is set to INFO
+1755190133.9406281 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executable 'waypoint_click_navigator' not found on the libexec directory '/home/dcist/dcist_ws/install/path_planning/lib/path_planning' 

@@ -16,7 +16,7 @@ def generate_launch_description():
 
         Node(
             package='path_planning',
-            executable='waypoint_click_navigator',
+            executable='waypoint_click_navigator.py',
             name='waypoint_click_navigator',
             output='screen',
             parameters=[{
