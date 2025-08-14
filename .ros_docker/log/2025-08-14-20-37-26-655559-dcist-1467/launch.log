@@ -1,0 +1,5 @@
+1755203846.6561291 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-20-37-26-655559-dcist-1467
+1755203846.6562045 [INFO] [launch]: Default logging verbosity is set to INFO
+1755203846.6800876 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: Action.__init__() got an unexpected keyword argument 'output'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

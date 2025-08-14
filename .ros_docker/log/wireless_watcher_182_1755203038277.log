@@ -1,0 +1,3 @@
+[FATAL] [1755203038.321281732] [a200_0000.wireless_watcher]: No wireless device found to monitor.
+[WARN] [1755203039.321166569] [a200_0000.wireless_watcher]: diagnostic_updater: No HW_ID was set. This is probably a bug. Please report it. For devices that do not have a HW_ID, set this value to 'none'. This warning only occurs once all diagnostics are OK. It is okay to wait until the device is open before calling setHardwareID.
+[INFO] [1755203490.348967300] [rclcpp]: signal_handler(signum=2)

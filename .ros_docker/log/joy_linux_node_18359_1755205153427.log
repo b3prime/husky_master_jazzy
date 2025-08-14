@@ -1,0 +1,4 @@
+[INFO] [1755205153.610454246] [a200_0000.joy_node]: Opened joystick: /dev/input/js0. deadzone_: 0.100000.
+[ERROR] [1755205181.464593405] [a200_0000.joy_node]: Connection to joystick device lost unexpectedly. Will reopen.
+[ERROR] [1755205181.464737407] [a200_0000.joy_node]: Couldn't open joystick /dev/input/js0. Will retry every second.
+[INFO] [1755205185.594458025] [a200_0000.joy_node]: Opened joystick: /dev/input/js0. deadzone_: 0.100000.

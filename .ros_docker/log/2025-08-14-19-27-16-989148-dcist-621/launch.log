@@ -1,0 +1,23 @@
+1755199636.9896650 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-19-27-16-989148-dcist-621
+1755199636.9897375 [INFO] [launch]: Default logging verbosity is set to INFO
+1755199637.0271924 [INFO] [async_slam_toolbox_node-1]: process started with pid [624]
+1755199637.0272727 [INFO] [lifecycle_manager-2]: process started with pid [625]
+1755199637.0273049 [INFO] [static_transform_publisher-3]: process started with pid [626]
+1755199637.0273292 [INFO] [dlio_odom_node-4]: process started with pid [627]
+1755199637.0273514 [INFO] [dlio_map_node-5]: process started with pid [628]
+1755199637.0440207 [static_transform_publisher-3] [WARN] [1755199637.043811749] []: Old-style arguments are deprecated; see --help for new-style arguments
+1755199637.0757034 [static_transform_publisher-3] [INFO] [1755199637.075101765] [static_tf_base_to_os_lidar]: Spinning until stopped - publishing transform
+1755199637.0758307 [static_transform_publisher-3] translation: ('0.213000', '0.000000', '0.200000')
+1755199637.0758691 [static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1755199637.0759003 [static_transform_publisher-3] from 'base_link' to 'os_lidar'
+1755200030.0750380 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755200030.0771532 [static_transform_publisher-3] [INFO] [1755200030.074919741] [rclcpp]: signal_handler(signum=2)
+1755200030.1917722 [INFO] [static_transform_publisher-3]: process has finished cleanly [pid 626]
+1755200030.1952052 [INFO] [dlio_map_node-5]: process has finished cleanly [pid 628]
+1755200030.1952963 [INFO] [dlio_odom_node-4]: process has finished cleanly [pid 627]
+1755200030.2015905 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 624]
+1755200035.0826566 [ERROR] [lifecycle_manager-2]: process[lifecycle_manager-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755200035.0829594 [INFO] [lifecycle_manager-2]: sending signal 'SIGTERM' to process[lifecycle_manager-2]
+1755200040.0817394 [ERROR] [lifecycle_manager-2]: process[lifecycle_manager-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1755200040.0820425 [INFO] [lifecycle_manager-2]: sending signal 'SIGKILL' to process[lifecycle_manager-2]
+1755200040.0846252 [ERROR] [lifecycle_manager-2]: process has died [pid 625, exit code -9, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args -r __node:=lifecycle_manager_slam --params-file /tmp/launch_params_wbvjof5p'].

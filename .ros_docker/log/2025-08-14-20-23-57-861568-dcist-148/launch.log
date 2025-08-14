@@ -1,0 +1,175 @@
+1755203037.8638997 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-20-23-57-861568-dcist-148
+1755203037.8639641 [INFO] [launch]: Default logging verbosity is set to INFO
+1755203038.2550907 [INFO] [ublox_gps_node-1]: process started with pid [165]
+1755203038.2551911 [INFO] [rviz2-2]: process started with pid [166]
+1755203038.2552378 [INFO] [os_driver-3]: process started with pid [167]
+1755203038.2552867 [INFO] [robot_state_publisher-4]: process started with pid [168]
+1755203038.2553263 [INFO] [ros2_control_node-5]: process started with pid [169]
+1755203038.2553751 [INFO] [spawner-6]: process started with pid [170]
+1755203038.2554135 [INFO] [spawner-7]: process started with pid [171]
+1755203038.2554488 [INFO] [ekf_node-8]: process started with pid [172]
+1755203038.2554853 [INFO] [marker_server-9]: process started with pid [173]
+1755203038.2555158 [INFO] [twist_mux-10]: process started with pid [174]
+1755203038.2555423 [INFO] [joy_linux_node-11]: process started with pid [175]
+1755203038.2555809 [INFO] [teleop_node-12]: process started with pid [176]
+1755203038.2556148 [INFO] [aggregator_node-13]: process started with pid [177]
+1755203038.2556429 [INFO] [clearpath_diagnostic_updater-14]: process started with pid [178]
+1755203038.2556729 [INFO] [foxglove_bridge-15]: process started with pid [179]
+1755203038.2557027 [INFO] [battery_state_control-16]: process started with pid [180]
+1755203038.2557294 [INFO] [battery_state_estimator-17]: process started with pid [181]
+1755203038.2557569 [INFO] [wireless_watcher-18]: process started with pid [182]
+1755203038.2557824 [INFO] [pointcloud_to_laserscan_node-19]: process started with pid [183]
+1755203038.3402064 [robot_state_publisher-4] [INFO] [1755203038.340062778] [a200_0000.robot_state_publisher]: Robot initialized
+1755203038.3770475 [rviz2-2] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755203038.7917042 [rviz2-2] [INFO] [1755203038.791569277] [rviz2]: Stereo is NOT SUPPORTED
+1755203038.7919044 [rviz2-2] [INFO] [1755203038.791628351] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755203038.8299828 [rviz2-2] [INFO] [1755203038.829746097] [rviz2]: Stereo is NOT SUPPORTED
+1755203038.8919022 [rviz2-2] [INFO] [1755203038.891694673] [ouster.rviz2]: Subscribing to: /ouster/points
+1755203038.8920135 [rviz2-2] 
+1755203038.8924477 [rviz2-2] [INFO] [1755203038.892354855] [ouster.rviz2]: Subscribing to: /ouster/points
+1755203038.8924963 [rviz2-2] 
+1755203038.9097605 [rviz2-2] [INFO] [1755203038.909585970] [ouster.rviz2]: Subscribing to: /ouster/points
+1755203038.9098463 [rviz2-2] 
+1755203038.9431715 [rviz2-2] [INFO] [1755203038.942810614] [rviz2]: Stereo is NOT SUPPORTED
+1755203048.9183495 [INFO] [spawner-7]: process has finished cleanly [pid 171]
+1755203049.9655526 [INFO] [spawner-6]: process has finished cleanly [pid 170]
+1755203059.3278375 [INFO] [launch.user]: os_driver activating...
+1755203072.6429524 [rviz2-2] [INFO] [1755203072.642723378] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203071.521 for reason 'discarding message because the queue is full'
+1755203072.7385974 [rviz2-2] [INFO] [1755203072.738328397] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203071.621 for reason 'discarding message because the queue is full'
+1755203072.8344936 [rviz2-2] [INFO] [1755203072.834256988] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203071.721 for reason 'discarding message because the queue is full'
+1755203072.9309161 [rviz2-2] [INFO] [1755203072.930701679] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203071.821 for reason 'discarding message because the queue is full'
+1755203073.0272825 [rviz2-2] [INFO] [1755203073.027033048] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203071.921 for reason 'discarding message because the queue is full'
+1755203073.1550930 [rviz2-2] [INFO] [1755203073.154837797] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.021 for reason 'discarding message because the queue is full'
+1755203073.2514386 [rviz2-2] [INFO] [1755203073.251171422] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.121 for reason 'discarding message because the queue is full'
+1755203073.3471062 [rviz2-2] [INFO] [1755203073.346863653] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.221 for reason 'discarding message because the queue is full'
+1755203073.4426143 [rviz2-2] [INFO] [1755203073.442396317] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.321 for reason 'discarding message because the queue is full'
+1755203073.5392382 [rviz2-2] [INFO] [1755203073.539004432] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.421 for reason 'discarding message because the queue is full'
+1755203073.6351202 [rviz2-2] [INFO] [1755203073.634860949] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.521 for reason 'discarding message because the queue is full'
+1755203073.7313962 [rviz2-2] [INFO] [1755203073.731147732] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.621 for reason 'discarding message because the queue is full'
+1755203073.8271379 [rviz2-2] [INFO] [1755203073.826898245] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.721 for reason 'discarding message because the queue is full'
+1755203073.9550669 [rviz2-2] [INFO] [1755203073.954807368] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.821 for reason 'discarding message because the queue is full'
+1755203074.0510888 [rviz2-2] [INFO] [1755203074.050859601] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203072.921 for reason 'discarding message because the queue is full'
+1755203074.1467395 [rviz2-2] [INFO] [1755203074.146492231] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.021 for reason 'discarding message because the queue is full'
+1755203074.2434094 [rviz2-2] [INFO] [1755203074.243144677] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.121 for reason 'discarding message because the queue is full'
+1755203074.3388426 [rviz2-2] [INFO] [1755203074.338622511] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.221 for reason 'discarding message because the queue is full'
+1755203074.4350538 [rviz2-2] [INFO] [1755203074.434824081] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.321 for reason 'discarding message because the queue is full'
+1755203074.5309794 [rviz2-2] [INFO] [1755203074.530747631] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.421 for reason 'discarding message because the queue is full'
+1755203074.6271472 [rviz2-2] [INFO] [1755203074.626910739] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.521 for reason 'discarding message because the queue is full'
+1755203074.7548072 [rviz2-2] [INFO] [1755203074.754530082] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.621 for reason 'discarding message because the queue is full'
+1755203074.8507237 [rviz2-2] [INFO] [1755203074.850489253] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.721 for reason 'discarding message because the queue is full'
+1755203074.9471924 [rviz2-2] [INFO] [1755203074.946909862] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.821 for reason 'discarding message because the queue is full'
+1755203075.0431800 [rviz2-2] [INFO] [1755203075.042974651] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203073.921 for reason 'discarding message because the queue is full'
+1755203075.1385028 [rviz2-2] [INFO] [1755203075.138296552] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.021 for reason 'discarding message because the queue is full'
+1755203075.2352009 [rviz2-2] [INFO] [1755203075.234973121] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.121 for reason 'discarding message because the queue is full'
+1755203075.3308771 [rviz2-2] [INFO] [1755203075.330585112] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.221 for reason 'discarding message because the queue is full'
+1755203075.4273512 [rviz2-2] [INFO] [1755203075.427124957] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.321 for reason 'discarding message because the queue is full'
+1755203075.5549188 [rviz2-2] [INFO] [1755203075.554687361] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.421 for reason 'discarding message because the queue is full'
+1755203075.6508510 [rviz2-2] [INFO] [1755203075.650625104] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.521 for reason 'discarding message because the queue is full'
+1755203075.7461784 [rviz2-2] [INFO] [1755203075.745932334] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.621 for reason 'discarding message because the queue is full'
+1755203075.8428209 [rviz2-2] [INFO] [1755203075.842608053] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.721 for reason 'discarding message because the queue is full'
+1755203075.9386351 [rviz2-2] [INFO] [1755203075.938377050] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.821 for reason 'discarding message because the queue is full'
+1755203076.0345027 [rviz2-2] [INFO] [1755203076.034282502] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203074.921 for reason 'discarding message because the queue is full'
+1755203076.1314080 [rviz2-2] [INFO] [1755203076.131001417] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.021 for reason 'discarding message because the queue is full'
+1755203076.2273145 [rviz2-2] [INFO] [1755203076.227093660] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.121 for reason 'discarding message because the queue is full'
+1755203076.3548162 [rviz2-2] [INFO] [1755203076.354619488] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.221 for reason 'discarding message because the queue is full'
+1755203076.4513624 [rviz2-2] [INFO] [1755203076.451121575] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.321 for reason 'discarding message because the queue is full'
+1755203076.5473619 [rviz2-2] [INFO] [1755203076.547115394] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.421 for reason 'discarding message because the queue is full'
+1755203076.6433980 [rviz2-2] [INFO] [1755203076.643160535] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.521 for reason 'discarding message because the queue is full'
+1755203076.7386429 [rviz2-2] [INFO] [1755203076.738376546] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.621 for reason 'discarding message because the queue is full'
+1755203076.8346505 [rviz2-2] [INFO] [1755203076.834455678] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.721 for reason 'discarding message because the queue is full'
+1755203076.9309192 [rviz2-2] [INFO] [1755203076.930631733] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.821 for reason 'discarding message because the queue is full'
+1755203077.0267696 [rviz2-2] [INFO] [1755203077.026545475] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203075.921 for reason 'discarding message because the queue is full'
+1755203077.1546862 [rviz2-2] [INFO] [1755203077.154468486] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.021 for reason 'discarding message because the queue is full'
+1755203077.2512615 [rviz2-2] [INFO] [1755203077.250964868] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.121 for reason 'discarding message because the queue is full'
+1755203077.3471689 [rviz2-2] [INFO] [1755203077.346927762] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.221 for reason 'discarding message because the queue is full'
+1755203077.4429045 [rviz2-2] [INFO] [1755203077.442658228] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.321 for reason 'discarding message because the queue is full'
+1755203077.5391450 [rviz2-2] [INFO] [1755203077.538927202] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.421 for reason 'discarding message because the queue is full'
+1755203077.6353807 [rviz2-2] [INFO] [1755203077.635142095] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.521 for reason 'discarding message because the queue is full'
+1755203077.7305746 [rviz2-2] [INFO] [1755203077.730292080] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.621 for reason 'discarding message because the queue is full'
+1755203077.8267555 [rviz2-2] [INFO] [1755203077.826527683] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.721 for reason 'discarding message because the queue is full'
+1755203077.9546118 [rviz2-2] [INFO] [1755203077.954388532] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.821 for reason 'discarding message because the queue is full'
+1755203078.0511236 [rviz2-2] [INFO] [1755203078.050915458] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203076.921 for reason 'discarding message because the queue is full'
+1755203078.1464868 [rviz2-2] [INFO] [1755203078.146273868] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.021 for reason 'discarding message because the queue is full'
+1755203078.2426040 [rviz2-2] [INFO] [1755203078.242385035] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.121 for reason 'discarding message because the queue is full'
+1755203078.3386166 [rviz2-2] [INFO] [1755203078.338343676] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.221 for reason 'discarding message because the queue is full'
+1755203078.4351709 [rviz2-2] [INFO] [1755203078.434914368] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.321 for reason 'discarding message because the queue is full'
+1755203078.5310929 [rviz2-2] [INFO] [1755203078.530843769] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.421 for reason 'discarding message because the queue is full'
+1755203078.6267118 [rviz2-2] [INFO] [1755203078.626472938] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.521 for reason 'discarding message because the queue is full'
+1755203078.7552707 [rviz2-2] [INFO] [1755203078.755054682] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.621 for reason 'discarding message because the queue is full'
+1755203078.8506451 [rviz2-2] [INFO] [1755203078.850434203] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.721 for reason 'discarding message because the queue is full'
+1755203078.9467676 [rviz2-2] [INFO] [1755203078.946541629] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.821 for reason 'discarding message because the queue is full'
+1755203079.0430062 [rviz2-2] [INFO] [1755203079.042772808] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203077.921 for reason 'discarding message because the queue is full'
+1755203079.1385429 [rviz2-2] [INFO] [1755203079.138358235] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.021 for reason 'discarding message because the queue is full'
+1755203079.2347522 [rviz2-2] [INFO] [1755203079.234566184] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.121 for reason 'discarding message because the queue is full'
+1755203079.3313551 [rviz2-2] [INFO] [1755203079.331104564] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.221 for reason 'discarding message because the queue is full'
+1755203079.4265227 [rviz2-2] [INFO] [1755203079.426306129] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.321 for reason 'discarding message because the queue is full'
+1755203079.5547721 [rviz2-2] [INFO] [1755203079.554516552] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.421 for reason 'discarding message because the queue is full'
+1755203079.6506393 [rviz2-2] [INFO] [1755203079.650423310] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.521 for reason 'discarding message because the queue is full'
+1755203079.7473476 [rviz2-2] [INFO] [1755203079.747092035] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.621 for reason 'discarding message because the queue is full'
+1755203079.8428035 [rviz2-2] [INFO] [1755203079.842551598] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.721 for reason 'discarding message because the queue is full'
+1755203079.9388962 [rviz2-2] [INFO] [1755203079.938659934] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.821 for reason 'discarding message because the queue is full'
+1755203080.0347745 [rviz2-2] [INFO] [1755203080.034544735] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203078.921 for reason 'discarding message because the queue is full'
+1755203080.1309748 [rviz2-2] [INFO] [1755203080.130738774] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.021 for reason 'discarding message because the queue is full'
+1755203080.2268777 [rviz2-2] [INFO] [1755203080.226654723] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.121 for reason 'discarding message because the queue is full'
+1755203080.3550458 [rviz2-2] [INFO] [1755203080.354830709] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.221 for reason 'discarding message because the queue is full'
+1755203080.4505072 [rviz2-2] [INFO] [1755203080.450272413] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.321 for reason 'discarding message because the queue is full'
+1755203080.5467265 [rviz2-2] [INFO] [1755203080.546499493] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.421 for reason 'discarding message because the queue is full'
+1755203080.6433723 [rviz2-2] [INFO] [1755203080.643159138] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.521 for reason 'discarding message because the queue is full'
+1755203080.7392225 [rviz2-2] [INFO] [1755203080.739011056] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.621 for reason 'discarding message because the queue is full'
+1755203080.8347871 [rviz2-2] [INFO] [1755203080.834559963] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.721 for reason 'discarding message because the queue is full'
+1755203080.9314692 [rviz2-2] [INFO] [1755203080.930994251] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.821 for reason 'discarding message because the queue is full'
+1755203081.0274858 [rviz2-2] [INFO] [1755203081.027203637] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203079.921 for reason 'discarding message because the queue is full'
+1755203081.1545660 [rviz2-2] [INFO] [1755203081.154353936] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.021 for reason 'discarding message because the queue is full'
+1755203081.2505703 [rviz2-2] [INFO] [1755203081.250313819] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.121 for reason 'discarding message because the queue is full'
+1755203081.3467338 [rviz2-2] [INFO] [1755203081.346508080] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.221 for reason 'discarding message because the queue is full'
+1755203081.4426239 [rviz2-2] [INFO] [1755203081.442386731] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.321 for reason 'discarding message because the queue is full'
+1755203081.5391593 [rviz2-2] [INFO] [1755203081.538948595] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.421 for reason 'discarding message because the queue is full'
+1755203081.6345296 [rviz2-2] [INFO] [1755203081.634290918] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.521 for reason 'discarding message because the queue is full'
+1755203081.7319806 [rviz2-2] [INFO] [1755203081.731695479] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.621 for reason 'discarding message because the queue is full'
+1755203081.8269968 [rviz2-2] [INFO] [1755203081.826771264] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.721 for reason 'discarding message because the queue is full'
+1755203081.9550781 [rviz2-2] [INFO] [1755203081.954839873] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.821 for reason 'discarding message because the queue is full'
+1755203082.0513828 [rviz2-2] [INFO] [1755203082.051165374] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203080.921 for reason 'discarding message because the queue is full'
+1755203082.1469803 [rviz2-2] [INFO] [1755203082.146770290] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.021 for reason 'discarding message because the queue is full'
+1755203082.2438521 [rviz2-2] [INFO] [1755203082.243602676] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.121 for reason 'discarding message because the queue is full'
+1755203082.3390133 [rviz2-2] [INFO] [1755203082.338799519] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.221 for reason 'discarding message because the queue is full'
+1755203082.4349329 [rviz2-2] [INFO] [1755203082.434668373] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.321 for reason 'discarding message because the queue is full'
+1755203082.5310950 [rviz2-2] [INFO] [1755203082.530849608] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.421 for reason 'discarding message because the queue is full'
+1755203082.6268311 [rviz2-2] [INFO] [1755203082.626597318] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.521 for reason 'discarding message because the queue is full'
+1755203082.7546890 [rviz2-2] [INFO] [1755203082.754448618] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.621 for reason 'discarding message because the queue is full'
+1755203082.8506048 [rviz2-2] [INFO] [1755203082.850387685] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.721 for reason 'discarding message because the queue is full'
+1755203082.9465663 [rviz2-2] [INFO] [1755203082.946378283] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.821 for reason 'discarding message because the queue is full'
+1755203083.0430348 [rviz2-2] [INFO] [1755203083.042795976] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203081.921 for reason 'discarding message because the queue is full'
+1755203083.1389585 [rviz2-2] [INFO] [1755203083.138727328] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.021 for reason 'discarding message because the queue is full'
+1755203083.2352200 [rviz2-2] [INFO] [1755203083.235006451] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.121 for reason 'discarding message because the queue is full'
+1755203083.3314927 [rviz2-2] [INFO] [1755203083.331249843] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.221 for reason 'discarding message because the queue is full'
+1755203083.4265370 [rviz2-2] [INFO] [1755203083.426333257] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.321 for reason 'discarding message because the queue is full'
+1755203083.5554156 [rviz2-2] [INFO] [1755203083.555178510] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.421 for reason 'discarding message because the queue is full'
+1755203083.6508627 [rviz2-2] [INFO] [1755203083.650633616] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.521 for reason 'discarding message because the queue is full'
+1755203083.7467034 [rviz2-2] [INFO] [1755203083.746445844] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.621 for reason 'discarding message because the queue is full'
+1755203083.8425560 [rviz2-2] [INFO] [1755203083.842370376] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.721 for reason 'discarding message because the queue is full'
+1755203083.9387903 [rviz2-2] [INFO] [1755203083.938554406] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.821 for reason 'discarding message because the queue is full'
+1755203084.0350003 [rviz2-2] [INFO] [1755203084.034818963] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203082.921 for reason 'discarding message because the queue is full'
+1755203084.1310453 [rviz2-2] [INFO] [1755203084.130839645] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203083.021 for reason 'discarding message because the queue is full'
+1755203084.2267394 [rviz2-2] [INFO] [1755203084.226500495] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203083.121 for reason 'discarding message because the queue is full'
+1755203084.3547556 [rviz2-2] [INFO] [1755203084.354529553] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203083.221 for reason 'discarding message because the queue is full'
+1755203084.4507449 [rviz2-2] [INFO] [1755203084.450490882] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203083.321 for reason 'discarding message because the queue is full'
+1755203084.5469036 [rviz2-2] [INFO] [1755203084.546644278] [ouster.rviz2]: Message Filter dropping message: frame 'os_lidar' at time 1755203083.421 for reason 'discarding message because the queue is full'
+1755203084.8213642 [INFO] [rviz2-2]: process has finished cleanly [pid 166]
+1755203490.3492792 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755203490.4353940 [ERROR] [battery_state_control-16]: process has died [pid 180, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1755203490.4354806 [ERROR] [battery_state_estimator-17]: process has died [pid 181, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1755203490.4363027 [robot_state_publisher-4] [INFO] [1755203490.348983099] [rclcpp]: signal_handler(signum=2)
+1755203490.4510169 [ERROR] [joy_linux_node-11]: process has died [pid 175, exit code -6, cmd '/opt/ros/jazzy/lib/joy_linux/joy_linux_node --ros-args -r __node:=joy_node -r __ns:=/a200_0000 --params-file /etc/clearpath/platform/config/teleop_joy.yaml --params-file /tmp/launch_params_diez2ekg -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static -r joy:=joy_teleop/joy -r joy/set_feedback:=joy_teleop/joy/set_feedback'].
+1755203490.4699087 [INFO] [teleop_node-12]: process has finished cleanly [pid 176]
+1755203490.4704721 [INFO] [wireless_watcher-18]: process has finished cleanly [pid 182]
+1755203490.4710538 [INFO] [clearpath_diagnostic_updater-14]: process has finished cleanly [pid 178]
+1755203490.4726148 [INFO] [marker_server-9]: process has finished cleanly [pid 173]
+1755203490.4737484 [INFO] [foxglove_bridge-15]: process has finished cleanly [pid 179]
+1755203490.4750502 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 168]
+1755203490.4753940 [INFO] [aggregator_node-13]: process has finished cleanly [pid 177]
+1755203490.4754996 [INFO] [pointcloud_to_laserscan_node-19]: process has finished cleanly [pid 183]
+1755203490.4757464 [INFO] [twist_mux-10]: process has finished cleanly [pid 174]
+1755203490.4768748 [INFO] [ublox_gps_node-1]: process has finished cleanly [pid 165]
+1755203490.4771545 [INFO] [ekf_node-8]: process has finished cleanly [pid 172]
+1755203490.6018775 [INFO] [ros2_control_node-5]: process has finished cleanly [pid 169]
+1755203491.5143995 [ERROR] [os_driver-3]: process has died [pid 167, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

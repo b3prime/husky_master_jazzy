@@ -1,0 +1,7 @@
+[INFO] [1755203038.351563956] [ublox_gnss]: U-Blox: Opened serial port /dev/ttyACM0
+[INFO] [1755203038.356462539] [ublox_gnss]: EXT CORE 1.00 (0fa0ae), HW VER: 00190000
+[INFO] [1755203038.358950753] [ublox_gnss]: U-Blox Firmware Version: 9
+[WARN] [1755203038.359198872] [ublox_gnss]: For HPG Ref devices, nav_rate should be exactly 1 Hz.
+[INFO] [1755203038.378112348] [ublox_gnss]: U-Blox configured successfully.
+[WARN] [1755203038.617831393] [ublox_gnss]: INF: Signal too strong; disabling filter tuning
+[INFO] [1755203490.349015066] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,7 @@
+[INFO] [1755199637.080217761] [lifecycle_manager_slam]: Creating
+[INFO] [1755199637.087012669] [lifecycle_manager_slam]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [1755199637.167859842] [lifecycle_manager_slam]: [34m[1mStarting managed nodes bringup...[0m[0m
+[INFO] [1755199637.167904562] [lifecycle_manager_slam]: [34m[1mConfiguring slam_toolbox[0m[0m
+[INFO] [1755200030.074909561] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755200030.074996031] [lifecycle_manager_slam]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_slam)
+[INFO] [1755200035.083023113] [rclcpp]: signal_handler(signum=15)

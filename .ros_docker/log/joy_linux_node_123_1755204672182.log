@@ -1,0 +1,2 @@
+[INFO] [1755204672.347461181] [a200_0000.joy_node]: Opened joystick: /dev/input/js0. deadzone_: 0.100000.
+[INFO] [1755205149.693685117] [rclcpp]: signal_handler(signum=2)

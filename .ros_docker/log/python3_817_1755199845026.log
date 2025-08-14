@@ -1,0 +1,4 @@
+[INFO] [1755199845.617829230] [a200_0000.spawner_platform_velocity_controller]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[INFO] [1755199845.908881235] [a200_0000.spawner_platform_velocity_controller]: [94mLoaded [1mplatform_velocity_controller[0m
+[WARN] [1755199855.965359553] [a200_0000.spawner_platform_velocity_controller]: Failed getting a result from calling /a200_0000/controller_manager/switch_controller in 10.0. (Attempt 1 of 3.)
+[ERROR] [1755199855.966376854] [a200_0000.spawner_platform_velocity_controller]: [91mFailed to activate controller : platform_velocity_controller[0m

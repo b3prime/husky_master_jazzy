@@ -1,0 +1,54 @@
+[INFO] [1755199751.594323477] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755199751.619480256] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755199751.686394953] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755199751.686439453] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755199751.686545973] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755199751.786235527] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755199751.796321179] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755199751.802344906] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755199751.802407756] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755199751.802453596] [A200Hardware]: Name: a200_hardware
+[INFO] [1755199751.802461656] [A200Hardware]: Number of Joints 4
+[INFO] [1755199751.950048646] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755199753.378984299] [a200_0000.controller_manager]: Successful initialization of hardware 'a200_hardware'
+[INFO] [1755199753.379163469] [resource_manager]: 'configure' hardware 'a200_hardware' 
+[INFO] [1755199753.379207739] [resource_manager]: Successful 'configure' of hardware 'a200_hardware'
+[INFO] [1755199753.379220579] [resource_manager]: 'activate' hardware 'a200_hardware' 
+[INFO] [1755199753.379246489] [A200Hardware]: Starting ...please wait...
+[INFO] [1755199753.379253569] [A200Hardware]: System Successfully started!
+[INFO] [1755199753.379258329] [resource_manager]: Successful 'activate' of hardware 'a200_hardware'
+[INFO] [1755199753.379319509] [a200_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[INFO] [1755199753.392679525] [a200_0000.controller_manager]: Received robot description from topic.
+[WARN] [1755199753.392698315] [a200_0000.controller_manager]: ResourceManager has already loaded a urdf. Ignoring attempt to reload a robot description.
+[WARN] [1755199753.835377404] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 448.696804 ms (missed cycles : 9).
+[WARN] [1755199755.048210039] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.528739 ms (missed cycles : 2).
+[WARN] [1755199756.345924391] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.243711 ms (missed cycles : 2).
+[WARN] [1755199757.655498297] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.817567 ms (missed cycles : 2).
+[WARN] [1755199758.953447300] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.766390 ms (missed cycles : 2).
+[WARN] [1755199760.251300213] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.619463 ms (missed cycles : 2).
+[WARN] [1755199761.549096566] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.415576 ms (missed cycles : 2).
+[WARN] [1755199762.846925028] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.244458 ms (missed cycles : 2).
+[WARN] [1755199764.156473045] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.792205 ms (missed cycles : 2).
+[WARN] [1755199765.454357647] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.677027 ms (missed cycles : 2).
+[WARN] [1755199766.752230000] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.548990 ms (missed cycles : 2).
+[WARN] [1755199768.050153803] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.473223 ms (missed cycles : 2).
+[WARN] [1755199769.348153616] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.472996 ms (missed cycles : 2).
+[WARN] [1755199770.645982778] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.301808 ms (missed cycles : 2).
+[WARN] [1755199771.955072214] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.391134 ms (missed cycles : 2).
+[WARN] [1755199773.253274017] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.593437 ms (missed cycles : 2).
+[WARN] [1755199774.551549590] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.868880 ms (missed cycles : 2).
+[WARN] [1755199775.849109723] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.428933 ms (missed cycles : 2).
+[WARN] [1755199777.147002375] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.321455 ms (missed cycles : 2).
+[WARN] [1755199778.445010118] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 58.328588 ms (missed cycles : 2).
+[WARN] [1755199779.754342744] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.662184 ms (missed cycles : 2).
+[WARN] [1755199781.052247117] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.565997 ms (missed cycles : 2).
+[INFO] [1755199782.096815088] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755199782.096907248] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1755199782.096956028] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1755199782.114418338] [resource_manager]: 'deactivate' hardware 'a200_hardware' 
+[INFO] [1755199782.114454208] [A200Hardware]: Stopping ...please wait...
+[INFO] [1755199782.114458608] [A200Hardware]: System successfully stopped!
+[INFO] [1755199782.114463958] [resource_manager]: Successful 'deactivate' of hardware 'a200_hardware'
+[INFO] [1755199782.114466448] [resource_manager]: 'shutdown' hardware 'a200_hardware' 
+[INFO] [1755199782.114469298] [resource_manager]: Successful 'shutdown' of hardware 'a200_hardware'
+[INFO] [1755199782.114504778] [a200_0000.controller_manager]: Shutting down the controller manager.

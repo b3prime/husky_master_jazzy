@@ -1,0 +1,17 @@
+[INFO] [1755206117.732726379] [a200_0000.foxglove_bridge_component_manager]: Load Library: /opt/ros/jazzy/lib/libfoxglove_bridge_component.so
+[INFO] [1755206117.744537613] [a200_0000.foxglove_bridge_component_manager]: Found class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755206117.744573118] [a200_0000.foxglove_bridge_component_manager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755206117.752084284] [a200_0000.foxglove_bridge]: Starting foxglove_bridge (jazzy, 0.8.5@) with WebSocket++/0.8.2
+[INFO] [1755206117.753118545] [a200_0000.foxglove_bridge]: [WS] Server running without TLS
+[INFO] [1755206117.753882897] [a200_0000.foxglove_bridge]: [WS] WebSocket server listening at ws://0.0.0.0:8765
+[INFO] [1755206117.753887828] [a200_0000.foxglove_bridge]: [WS] WebSocket server run loop started
+[INFO] [1755206276.910512567] [a200_0000.foxglove_bridge]: Removed channel 80 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755206276.910547618] [a200_0000.foxglove_bridge]: Removed channel 79 for topic "/clicked_point" (geometry_msgs/msg/PointStamped)
+[INFO] [1755206276.910552318] [a200_0000.foxglove_bridge]: Removed channel 78 for topic "/goal_pose" (geometry_msgs/msg/PoseStamped)
+[INFO] [1755206276.910556318] [a200_0000.foxglove_bridge]: Removed channel 77 for topic "/initialpose" (geometry_msgs/msg/PoseWithCovarianceStamped)
+[INFO] [1755206307.903128584] [a200_0000.foxglove_bridge]: Removed channel 84 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755206326.878891495] [a200_0000.foxglove_bridge]: Removed channel 85 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755206383.452251430] [a200_0000.foxglove_bridge]: Removed channel 86 for topic "/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+[INFO] [1755206383.452291241] [a200_0000.foxglove_bridge]: Removed channel 83 for topic "/clicked_point" (geometry_msgs/msg/PointStamped)
+[INFO] [1755206383.452295811] [a200_0000.foxglove_bridge]: Removed channel 82 for topic "/goal_pose" (geometry_msgs/msg/PoseStamped)
+[INFO] [1755206383.452299811] [a200_0000.foxglove_bridge]: Removed channel 81 for topic "/initialpose" (geometry_msgs/msg/PoseWithCovarianceStamped)

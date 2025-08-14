@@ -1,0 +1,36 @@
+1755204142.3878534 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-20-42-22-387219-dcist-10853
+1755204142.3879390 [INFO] [launch]: Default logging verbosity is set to INFO
+1755204142.6647637 [INFO] [ublox_gps_node-1]: process started with pid [10870]
+1755204142.6649089 [INFO] [rviz2-2]: process started with pid [10871]
+1755204142.6649609 [INFO] [os_driver-3]: process started with pid [10872]
+1755204142.6649995 [INFO] [robot_state_publisher-4]: process started with pid [10873]
+1755204142.6650314 [INFO] [ros2_control_node-5]: process started with pid [10874]
+1755204142.6650608 [INFO] [spawner-6]: process started with pid [10875]
+1755204142.6650894 [INFO] [spawner-7]: process started with pid [10876]
+1755204142.6651192 [INFO] [ekf_node-8]: process started with pid [10877]
+1755204142.6651525 [INFO] [marker_server-9]: process started with pid [10878]
+1755204142.6651855 [INFO] [twist_mux-10]: process started with pid [10879]
+1755204142.6652126 [INFO] [joy_linux_node-11]: process started with pid [10880]
+1755204142.6652396 [INFO] [teleop_node-12]: process started with pid [10881]
+1755204142.6652665 [INFO] [aggregator_node-13]: process started with pid [10882]
+1755204142.6652935 [INFO] [clearpath_diagnostic_updater-14]: process started with pid [10883]
+1755204142.6653192 [INFO] [foxglove_bridge-15]: process started with pid [10884]
+1755204142.6653607 [INFO] [battery_state_control-16]: process started with pid [10885]
+1755204142.6653903 [INFO] [battery_state_estimator-17]: process started with pid [10886]
+1755204142.6654220 [INFO] [wireless_watcher-18]: process started with pid [10887]
+1755204142.6654477 [INFO] [pointcloud_to_laserscan_node-19]: process started with pid [10888]
+1755204142.7245178 [robot_state_publisher-4] [INFO] [1755204142.723619328] [a200_0000.robot_state_publisher]: Robot initialized
+1755204142.7248294 [rviz2-2] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755204143.1771805 [rviz2-2] [INFO] [1755204143.176947581] [rviz2]: Stereo is NOT SUPPORTED
+1755204143.1773858 [rviz2-2] [INFO] [1755204143.177003320] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755204143.2225819 [rviz2-2] [INFO] [1755204143.222420919] [rviz2]: Stereo is NOT SUPPORTED
+1755204143.2674623 [rviz2-2] [INFO] [1755204143.267240231] [ouster.rviz2]: Subscribing to: /ouster/points
+1755204143.2675729 [rviz2-2] 
+1755204143.2680848 [rviz2-2] [INFO] [1755204143.267968486] [ouster.rviz2]: Subscribing to: /ouster/points
+1755204143.2681231 [rviz2-2] 
+1755204143.2855947 [rviz2-2] [INFO] [1755204143.285383235] [ouster.rviz2]: Subscribing to: /ouster/points
+1755204143.2856903 [rviz2-2] 
+1755204143.3232412 [rviz2-2] [INFO] [1755204143.322993983] [rviz2]: Stereo is NOT SUPPORTED
+1755204144.3338692 [INFO] [spawner-6]: process has finished cleanly [pid 10875]
+1755204145.2662945 [INFO] [spawner-7]: process has finished cleanly [pid 10876]
+1755204164.9534907 [INFO] [launch.user]: os_driver activating...

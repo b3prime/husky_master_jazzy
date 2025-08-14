@@ -1,0 +1,18 @@
+1755201002.0069494 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-19-50-02-004318-dcist-114
+1755201002.0070267 [INFO] [launch]: Default logging verbosity is set to INFO
+1755201002.2797260 [INFO] [ublox_gps_node-1]: process started with pid [130]
+1755201002.2798100 [INFO] [rviz2-2]: process started with pid [131]
+1755201002.2798431 [INFO] [os_driver-3]: process started with pid [132]
+1755201002.2798753 [INFO] [pointcloud_to_laserscan_node-4]: process started with pid [133]
+1755201002.4012754 [rviz2-2] qt.qpa.xcb: could not connect to display localhost:10.0
+1755201002.4015217 [rviz2-2] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1755201002.4015920 [rviz2-2] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1755201002.4016180 [rviz2-2] 
+1755201002.4016371 [rviz2-2] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1755201002.4016545 [rviz2-2] 
+1755201002.4883969 [ERROR] [rviz2-2]: process has died [pid 131, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1755201024.3173456 [INFO] [launch.user]: os_driver activating...
+1755201313.2646263 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755201313.3965189 [INFO] [pointcloud_to_laserscan_node-4]: process has finished cleanly [pid 133]
+1755201313.3965814 [INFO] [ublox_gps_node-1]: process has finished cleanly [pid 130]
+1755201314.4045575 [ERROR] [os_driver-3]: process has died [pid 132, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

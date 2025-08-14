@@ -1,0 +1,7 @@
+[INFO] [1755204672.226912849] [TeleopTwistJoy]: Teleop enable button 4.
+[INFO] [1755204672.226952672] [TeleopTwistJoy]: Turbo on button 5.
+[INFO] [1755204672.226955782] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.400000.
+[INFO] [1755204672.226960721] [TeleopTwistJoy]: Turbo for linear axis x is scale 1.000000.
+[INFO] [1755204672.226963670] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.600000.
+[INFO] [1755204672.226966410] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.200000.
+[INFO] [1755205149.693694777] [rclcpp]: signal_handler(signum=2)

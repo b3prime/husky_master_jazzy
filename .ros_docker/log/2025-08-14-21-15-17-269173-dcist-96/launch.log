@@ -1,0 +1,32 @@
+1755206117.2715986 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-21-15-17-269173-dcist-96
+1755206117.2716665 [INFO] [launch]: Default logging verbosity is set to INFO
+1755206117.6631272 [INFO] [ublox_gps_node-1]: process started with pid [113]
+1755206117.6632288 [INFO] [rviz2-2]: process started with pid [114]
+1755206117.6632733 [INFO] [os_driver-3]: process started with pid [115]
+1755206117.6633067 [INFO] [robot_state_publisher-4]: process started with pid [116]
+1755206117.6633389 [INFO] [ros2_control_node-5]: process started with pid [117]
+1755206117.6633813 [INFO] [spawner-6]: process started with pid [118]
+1755206117.6634150 [INFO] [spawner-7]: process started with pid [119]
+1755206117.6634445 [INFO] [ekf_node-8]: process started with pid [120]
+1755206117.6634719 [INFO] [marker_server-9]: process started with pid [121]
+1755206117.6634977 [INFO] [twist_mux-10]: process started with pid [122]
+1755206117.6635230 [INFO] [joy_linux_node-11]: process started with pid [123]
+1755206117.6635556 [INFO] [teleop_node-12]: process started with pid [124]
+1755206117.6635866 [INFO] [aggregator_node-13]: process started with pid [125]
+1755206117.6636126 [INFO] [clearpath_diagnostic_updater-14]: process started with pid [126]
+1755206117.6636374 [INFO] [foxglove_bridge-15]: process started with pid [127]
+1755206117.6636617 [INFO] [battery_state_control-16]: process started with pid [128]
+1755206117.6636851 [INFO] [battery_state_estimator-17]: process started with pid [129]
+1755206117.6637094 [INFO] [wireless_watcher-18]: process started with pid [130]
+1755206117.6637335 [INFO] [pointcloud_to_laserscan_node-19]: process started with pid [131]
+1755206117.7328391 [robot_state_publisher-4] [INFO] [1755206117.732674632] [a200_0000.robot_state_publisher]: Robot initialized
+1755206119.1491554 [rviz2-2] qt.qpa.xcb: could not connect to display localhost:10.0
+1755206119.1494021 [rviz2-2] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1755206119.1494451 [rviz2-2] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1755206119.1494727 [rviz2-2] 
+1755206119.1494982 [rviz2-2] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1755206119.1495209 [rviz2-2] 
+1755206119.2381885 [ERROR] [rviz2-2]: process has died [pid 114, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1755206130.0718195 [INFO] [spawner-6]: process has finished cleanly [pid 118]
+1755206130.6718674 [INFO] [spawner-7]: process has finished cleanly [pid 119]
+1755206138.7532656 [INFO] [launch.user]: os_driver activating...

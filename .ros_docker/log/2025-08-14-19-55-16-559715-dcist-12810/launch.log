@@ -1,0 +1,19 @@
+1755201316.5616739 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-19-55-16-559715-dcist-12810
+1755201316.5617464 [INFO] [launch]: Default logging verbosity is set to INFO
+1755201317.0384853 [INFO] [ublox_gps_node-1]: process started with pid [12826]
+1755201317.0385697 [INFO] [rviz2-2]: process started with pid [12827]
+1755201317.0386004 [INFO] [os_driver-3]: process started with pid [12828]
+1755201317.0386283 [INFO] [pointcloud_to_laserscan_node-4]: process started with pid [12829]
+1755201317.2136219 [rviz2-2] qt.qpa.xcb: could not connect to display localhost:10.0
+1755201317.2137995 [rviz2-2] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1755201317.2138441 [rviz2-2] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1755201317.2138762 [rviz2-2] 
+1755201317.2139041 [rviz2-2] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+1755201317.2139380 [rviz2-2] 
+1755201317.3026354 [ERROR] [rviz2-2]: process has died [pid 12827, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/dcist/dcist_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz --ros-args -r __node:=rviz2 -r __ns:=/ouster'].
+1755201335.1155615 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755201335.2899966 [WARNING] [launch_ros.utilities.lifecycle_event_manager]: Abandoning wait for the '/ouster/os_driver/change_state' service response, due to shutdown.
+1755201335.2978296 [INFO] [pointcloud_to_laserscan_node-4]: process has finished cleanly [pid 12829]
+1755201335.2978921 [INFO] [ublox_gps_node-1]: process has finished cleanly [pid 12826]
+1755201336.6085973 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755201338.8505886 [ERROR] [os_driver-3]: process has died [pid 12828, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

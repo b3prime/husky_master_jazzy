@@ -1,0 +1,4 @@
+[INFO] [1755199618.267335680] [slam_toolbox]: Configuring
+[INFO] [1755199618.282003947] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1755199618.308479627] [slam_toolbox]: Activating
+[INFO] [1755199633.525481394] [rclcpp]: signal_handler(signum=2)

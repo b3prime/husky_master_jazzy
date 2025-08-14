@@ -1,0 +1,581 @@
+[INFO] [1755199610.001708446] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755199610.007214343] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755199610.059108733] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755199610.059140893] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755199610.059195433] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755199610.059901504] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755199610.062183366] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755199610.063181827] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755199610.063226957] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755199610.063264908] [A200Hardware]: Name: a200_hardware
+[INFO] [1755199610.063267338] [A200Hardware]: Number of Joints 4
+[INFO] [1755199610.074428870] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755199610.123068916] [a200_0000.controller_manager]: Successful initialization of hardware 'a200_hardware'
+[INFO] [1755199610.123216006] [resource_manager]: 'configure' hardware 'a200_hardware' 
+[INFO] [1755199610.123219596] [resource_manager]: Successful 'configure' of hardware 'a200_hardware'
+[INFO] [1755199610.123223366] [resource_manager]: 'activate' hardware 'a200_hardware' 
+[INFO] [1755199610.123228116] [A200Hardware]: Starting ...please wait...
+[INFO] [1755199610.123230306] [A200Hardware]: System Successfully started!
+[INFO] [1755199610.123232846] [resource_manager]: Successful 'activate' of hardware 'a200_hardware'
+[INFO] [1755199610.123278016] [a200_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[INFO] [1755199610.352891451] [a200_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[INFO] [1755199610.352918831] [a200_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[WARN] [1755199610.355821224] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755199610.355850634] [a200_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755199610.398723943] [a200_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[INFO] [1755199610.398788473] [a200_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1755199610.432920692] [a200_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[INFO] [1755199610.486854654] [a200_0000.controller_manager]: Successfully switched controllers!
+[WARN] [1755199610.777902179] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.604249 ms (missed cycles : 2).
+[INFO] [1755199611.296562075] [a200_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[INFO] [1755199611.296589365] [a200_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[WARN] [1755199611.298345527] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755199611.298365097] [a200_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755199611.335409090] [a200_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[WARN] [1755199611.381305283] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755199611.413852600] [a200_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[WARN] [1755199611.431427170] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199611.481640948] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755199611.487920415] [a200_0000.controller_manager]: Successfully switched controllers!
+[WARN] [1755199612.075815911] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.518551 ms (missed cycles : 2).
+[WARN] [1755199613.373921604] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.624094 ms (missed cycles : 2).
+[WARN] [1755199614.671762346] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.465036 ms (missed cycles : 2).
+[WARN] [1755199615.969602478] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.304778 ms (missed cycles : 2).
+[WARN] [1755199617.279153434] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.855874 ms (missed cycles : 2).
+[WARN] [1755199618.576924766] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.627126 ms (missed cycles : 2).
+[WARN] [1755199619.874931479] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.633859 ms (missed cycles : 2).
+[WARN] [1755199621.173768862] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.471302 ms (missed cycles : 2).
+[WARN] [1755199622.470778213] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.480023 ms (missed cycles : 2).
+[WARN] [1755199623.768497305] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.199675 ms (missed cycles : 2).
+[WARN] [1755199625.078040511] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.742821 ms (missed cycles : 2).
+[WARN] [1755199626.375990503] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.692793 ms (missed cycles : 2).
+[WARN] [1755199627.673881236] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.583286 ms (missed cycles : 2).
+[WARN] [1755199628.971770758] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.473178 ms (missed cycles : 2).
+[WARN] [1755199630.269653480] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.355850 ms (missed cycles : 2).
+[WARN] [1755199631.579145976] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.848436 ms (missed cycles : 2).
+[WARN] [1755199632.877234489] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.936829 ms (missed cycles : 2).
+[WARN] [1755199634.174821100] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.523550 ms (missed cycles : 2).
+[WARN] [1755199635.472769793] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.472063 ms (missed cycles : 2).
+[WARN] [1755199636.771660496] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.362906 ms (missed cycles : 2).
+[WARN] [1755199638.068823748] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.525668 ms (missed cycles : 2).
+[WARN] [1755199639.378138323] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.840473 ms (missed cycles : 2).
+[WARN] [1755199640.676091516] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.794116 ms (missed cycles : 2).
+[WARN] [1755199641.973884218] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.586428 ms (missed cycles : 2).
+[WARN] [1755199643.271710580] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.413130 ms (missed cycles : 2).
+[WARN] [1755199644.569861243] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.562043 ms (missed cycles : 2).
+[WARN] [1755199645.868493966] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.196406 ms (missed cycles : 2).
+[WARN] [1755199647.177055821] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.758071 ms (missed cycles : 2).
+[WARN] [1755199648.474876403] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.578893 ms (missed cycles : 2).
+[WARN] [1755199649.772771166] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.473226 ms (missed cycles : 2).
+[WARN] [1755199651.071766539] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.469219 ms (missed cycles : 2).
+[WARN] [1755199652.369599402] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.301752 ms (missed cycles : 2).
+[WARN] [1755199653.678041026] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.743166 ms (missed cycles : 2).
+[WARN] [1755199654.975991439] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.693549 ms (missed cycles : 2).
+[WARN] [1755199656.274875702] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.577982 ms (missed cycles : 2).
+[WARN] [1755199657.572972664] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.674904 ms (missed cycles : 2).
+[WARN] [1755199658.870908607] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.610087 ms (missed cycles : 2).
+[WARN] [1755199660.168605099] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.307359 ms (missed cycles : 2).
+[WARN] [1755199661.478112195] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.814365 ms (missed cycles : 2).
+[WARN] [1755199662.775985527] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.687817 ms (missed cycles : 2).
+[WARN] [1755199664.073717040] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.419160 ms (missed cycles : 2).
+[WARN] [1755199665.371658982] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.361212 ms (missed cycles : 2).
+[WARN] [1755199666.669599295] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.301605 ms (missed cycles : 2).
+[WARN] [1755199667.979096460] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.798610 ms (missed cycles : 2).
+[WARN] [1755199669.276982263] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.684783 ms (missed cycles : 2).
+[WARN] [1755199670.574985924] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.688144 ms (missed cycles : 2).
+[WARN] [1755199671.873144326] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.846656 ms (missed cycles : 2).
+[WARN] [1755199673.170661449] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.363979 ms (missed cycles : 2).
+[WARN] [1755199674.468547071] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.249591 ms (missed cycles : 2).
+[WARN] [1755199675.778042757] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.744987 ms (missed cycles : 2).
+[WARN] [1755199677.075984800] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.687150 ms (missed cycles : 2).
+[WARN] [1755199678.373878312] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.580622 ms (missed cycles : 2).
+[WARN] [1755199679.671925105] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.627475 ms (missed cycles : 2).
+[WARN] [1755199680.969967607] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.669517 ms (missed cycles : 2).
+[WARN] [1755199682.279308693] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 70.010933 ms (missed cycles : 2).
+[WARN] [1755199683.577194656] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.896976 ms (missed cycles : 2).
+[WARN] [1755199684.874879028] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.581168 ms (missed cycles : 2).
+[WARN] [1755199686.172984061] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.686461 ms (missed cycles : 2).
+[WARN] [1755199687.470729363] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.431823 ms (missed cycles : 2).
+[WARN] [1755199688.768816036] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.518376 ms (missed cycles : 2).
+[WARN] [1755199690.078032071] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.734221 ms (missed cycles : 2).
+[WARN] [1755199691.376110354] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.812694 ms (missed cycles : 2).
+[WARN] [1755199692.673930787] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.633097 ms (missed cycles : 2).
+[WARN] [1755199693.971775159] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.477579 ms (missed cycles : 2).
+[WARN] [1755199695.269993922] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.695602 ms (missed cycles : 2).
+[WARN] [1755199696.579253538] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.955708 ms (missed cycles : 2).
+[WARN] [1755199697.876983320] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.685800 ms (missed cycles : 2).
+[WARN] [1755199699.174929602] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.631902 ms (missed cycles : 2).
+[WARN] [1755199700.472776455] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.478675 ms (missed cycles : 2).
+[WARN] [1755199701.771713119] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.415449 ms (missed cycles : 2).
+[WARN] [1755199703.069559341] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.261761 ms (missed cycles : 2).
+[WARN] [1755199704.378127696] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.830076 ms (missed cycles : 2).
+[WARN] [1755199705.676037669] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.739969 ms (missed cycles : 2).
+[WARN] [1755199706.974819452] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.521772 ms (missed cycles : 2).
+[WARN] [1755199708.271897114] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.599364 ms (missed cycles : 2).
+[WARN] [1755199709.570659097] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.361387 ms (missed cycles : 2).
+[WARN] [1755199710.868661610] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.363980 ms (missed cycles : 2).
+[WARN] [1755199712.176981445] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.683905 ms (missed cycles : 2).
+[WARN] [1755199713.474827987] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.530507 ms (missed cycles : 2).
+[WARN] [1755199714.773830831] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.532841 ms (missed cycles : 2).
+[WARN] [1755199716.071765674] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.468094 ms (missed cycles : 2).
+[WARN] [1755199717.369602146] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.304466 ms (missed cycles : 2).
+[WARN] [1755199718.678038641] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.740901 ms (missed cycles : 2).
+[WARN] [1755199719.976978435] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.680915 ms (missed cycles : 2).
+[WARN] [1755199721.274822697] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.524677 ms (missed cycles : 2).
+[WARN] [1755199722.572713030] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.415510 ms (missed cycles : 2).
+[WARN] [1755199723.870659273] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.361703 ms (missed cycles : 2).
+[WARN] [1755199725.168492505] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.195225 ms (missed cycles : 2).
+[WARN] [1755199726.478198411] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.899971 ms (missed cycles : 2).
+[WARN] [1755199727.775878164] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.580364 ms (missed cycles : 2).
+[WARN] [1755199729.073829047] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.531497 ms (missed cycles : 2).
+[WARN] [1755199730.371929259] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.631839 ms (missed cycles : 2).
+[WARN] [1755199731.669718902] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.420292 ms (missed cycles : 2).
+[WARN] [1755199732.979302198] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 70.004288 ms (missed cycles : 2).
+[WARN] [1755199734.277036520] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.738910 ms (missed cycles : 2).
+[WARN] [1755199735.575040303] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.742683 ms (missed cycles : 2).
+[WARN] [1755199736.872768936] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.471236 ms (missed cycles : 2).
+[WARN] [1755199738.170726119] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.428389 ms (missed cycles : 2).
+[WARN] [1755199739.468523961] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.226161 ms (missed cycles : 2).
+[WARN] [1755199740.777178446] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.880636 ms (missed cycles : 2).
+[WARN] [1755199742.075879200] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 66.581440 ms (missed cycles : 2).
+[WARN] [1755199743.373822202] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.524412 ms (missed cycles : 2).
+[WARN] [1755199744.671758355] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.460665 ms (missed cycles : 2).
+[WARN] [1755199745.969772168] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.473348 ms (missed cycles : 2).
+[WARN] [1755199747.279104804] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 69.806734 ms (missed cycles : 2).
+[WARN] [1755199748.577050717] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.752957 ms (missed cycles : 2).
+[WARN] [1755199749.875012549] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.714769 ms (missed cycles : 2).
+[WARN] [1755199751.172938382] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.639692 ms (missed cycles : 2).
+[INFO] [1755199752.109328029] [a200_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[ERROR] [1755199752.109383889] [a200_0000.controller_manager]: Controller 'platform_velocity_controller' can not be configured from 'active' state.
+[INFO] [1755199753.293701561] [a200_0000.controller_manager]: Received robot description from topic.
+[WARN] [1755199753.293740441] [a200_0000.controller_manager]: ResourceManager has already loaded a urdf. Ignoring attempt to reload a robot description.
+[INFO] [1755199753.501579660] [a200_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[ERROR] [1755199753.501605170] [a200_0000.controller_manager]: Controller 'joint_state_broadcaster' can not be configured from 'active' state.
+[ERROR] [1755199753.783531265] [a200_0000.controller_manager]: Unknown exception thrown during read of the component 'a200_hardware'
+[ERROR] [1755199753.783584725] [a200_0000.controller_manager]: Deactivating following hardware components as their read cycle resulted in an error: [ a200_hardware ]
+[ERROR] [1755199753.783591555] [a200_0000.controller_manager]: Deactivating following controllers as their hardware components read cycle resulted in an error: [ joint_state_broadcaster platform_velocity_controller ]
+[ERROR] [1755199753.783612385] [a200_0000.controller_manager]: Not acceptable command interfaces combination: 
+Start interfaces: 
+[
+]
+Stop interfaces: 
+[
+  front_left_wheel_joint/velocity
+  rear_left_wheel_joint/velocity
+  front_right_wheel_joint/velocity
+  rear_right_wheel_joint/velocity
+]
+Not available: 
+[
+ front_left_wheel_joint/velocity
+ rear_left_wheel_joint/velocity
+ front_right_wheel_joint/velocity
+ rear_right_wheel_joint/velocity
+]
+
+[ERROR] [1755199753.783622215] [a200_0000.controller_manager]: Error while attempting mode switch when deactivating controllers in read cycle!
+[WARN] [1755199753.783677485] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 1824.380025 ms (missed cycles : 37).
+[WARN] [1755199753.798056231] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.798139381] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.807989433] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.808061543] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.848226469] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.848293769] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.848328989] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.858252950] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.858295190] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.898777427] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.908491448] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.948840485] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.958784216] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199753.999081972] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.009068834] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.049280660] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.059192191] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.099428728] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.109368569] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.149633205] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.159541387] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.159644597] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.199950393] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.209763605] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.250161641] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.259988752] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.300461969] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.310108740] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.350752847] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.360280928] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.401004845] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.410418076] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.451207732] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.460498623] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.501492220] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.510613791] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.551732088] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.560718158] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.601910106] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.610833266] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.652172464] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.660972083] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.702346001] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.711079501] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.752543699] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.761217689] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.802678957] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.811324626] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.852853754] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.861444834] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.903017472] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.911563322] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.953173619] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199754.961698369] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.003380747] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.011821717] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.053573815] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.061940645] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.103782453] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.112074142] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.154097361] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.162186150] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.204256268] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.212290538] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.254500086] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.262503506] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.262550876] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.304827904] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.312631683] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.354914982] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.354943622] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.362794461] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.362961951] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.405118649] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.412802188] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.455380827] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.463054906] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.505596415] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.513109143] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.555822213] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.563222101] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.605980521] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.606032201] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.613275779] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.656357118] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.663424586] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.706584616] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.713521664] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.756841314] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.763652342] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.807118482] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.807211382] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.813819249] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.857291089] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.863923447] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.907636077] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.914017725] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.957776165] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.964117222] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199755.964143002] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.007995403] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.014188880] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.058225331] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.064412248] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.108540538] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.114511165] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.114531915] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.158636906] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.164751073] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.208974864] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.214758111] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.259142762] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.264869698] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.264892108] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.309515380] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.315029286] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.359726248] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.365206933] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.409876035] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.415248471] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.415274821] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.460124183] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.460266733] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.465388099] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.510459681] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.515468816] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.560552248] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.565569554] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.610734536] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.615713152] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.660872684] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.660893964] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.665786759] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.711030071] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.715908797] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.715935947] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.761226409] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.766028725] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.766069425] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.811410667] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.816228342] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.861559545] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.866375490] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.911722702] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.916518328] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.961859270] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.961972310] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199756.966617395] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.012048838] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.016746323] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.062163385] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.066906890] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.112347403] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.117014498] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.162523001] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.167177386] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.212702238] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.217299514] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.262867676] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.267403081] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.313045304] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.317509599] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.363191361] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.367655077] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.367678847] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.413394889] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.417772084] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.463582337] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.467921772] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.513698644] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.518019670] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.563857702] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.568144887] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.614026120] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.618265425] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.664306598] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.668416833] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.714452205] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.718479650] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.764643293] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.768602938] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.814824091] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.814852181] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.818756175] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.864970409] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.868821363] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.915176496] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.918942070] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.965364864] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199757.969117818] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.015485741] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.019163676] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.065597679] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.069375953] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.115822677] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.119543831] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.166077915] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.169594129] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.169622839] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.216104862] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.219728597] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.266271400] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.269800534] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.269826324] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.316422748] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.319906182] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.366607735] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.370028449] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.416697653] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.420139827] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.466842511] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.470231465] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.517039599] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.520338922] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.520365362] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.567146816] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.570465710] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.617337044] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.617404484] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.620568508] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.667545602] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.667597522] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.670681695] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.717694189] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.717807340] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.720806263] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.767946037] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.770924150] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.818115305] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.818188795] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.821044238] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.868274632] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.871207286] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.918419290] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.921245183] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.968581888] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199758.971447921] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.018695255] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.021458559] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.068880943] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.071631236] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.071690716] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.119020491] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.121759034] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.169185469] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.171920102] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.219339946] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.222039829] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.269515284] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.272138727] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.319688092] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.322255125] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.369827529] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.369868819] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.372395742] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.372458642] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.419997117] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.422516230] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.470188685] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.472638037] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.520367313] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.522760835] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.522786555] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.570536600] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.572875393] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.620740138] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.623016830] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.670936005] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.673105928] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.721151073] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.723227326] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.771338731] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.773328373] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.821504989] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.823435811] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.871662346] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.873555269] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.921819154] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.923636756] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.971959542] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199759.973737704] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.022169270] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.023858102] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.072356987] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.074075219] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.122503645] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.124215757] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.172608373] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.174380025] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.222789410] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.224470152] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.273027298] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.274604010] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.274640000] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.323157116] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.324737787] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.373342043] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.374904405] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.423455061] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.423485081] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.423544321] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.425028133] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.473648999] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.475176410] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.523787386] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.525295338] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.573938884] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.574053584] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.575457026] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.624118462] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.625624854] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.674326880] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.675760471] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.724595087] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.725915669] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.725976769] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.726016289] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.774796535] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.776024237] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.824961223] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.826140004] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.875158881] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.876277732] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.925317778] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.926434540] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.975536106] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199760.976571587] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.025779874] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.026821635] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.075999152] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.076040202] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.076974683] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.126232089] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.126361229] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.127135010] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.176467107] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.176501077] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.176604797] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.177338198] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.226710655] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.227438786] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.227469496] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.276925722] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.277594833] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.327166420] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.327729451] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.377599138] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.377977139] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.427723106] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.428145677] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.478080324] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.478325944] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.478428864] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.528181512] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.528213002] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.528540152] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.578517810] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.578736350] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.578774790] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.628980838] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.629034648] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.679044095] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.679103065] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.679202755] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.729349663] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.729448363] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.779699141] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.829842479] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.879988046] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.930091964] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199761.980235201] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.030325149] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.030400909] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.080535807] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.080565517] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.130651014] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.130761625] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.180743862] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.180957182] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.181012172] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.230858820] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.231101790] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.281016737] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755199762.281313958] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755199762.302126472] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755199762.302195142] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1755199762.302219532] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1755199762.302233052] [a200_0000.controller_manager]: Shutting down controller 'platform_velocity_controller'
+[INFO] [1755199762.302305552] [a200_0000.controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[INFO] [1755199762.302333872] [resource_manager]: 'shutdown' hardware 'a200_hardware' 
+[INFO] [1755199762.302342722] [resource_manager]: Successful 'shutdown' of hardware 'a200_hardware'
+[WARN] [1755199762.302345732] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302351522] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302355052] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302358472] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302362402] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302366122] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302369412] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302422272] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302426072] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302429662] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302433162] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755199762.302436222] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[INFO] [1755199762.302459012] [a200_0000.controller_manager]: Shutting down the controller manager.

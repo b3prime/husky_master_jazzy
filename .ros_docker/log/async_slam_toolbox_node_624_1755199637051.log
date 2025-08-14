@@ -1,0 +1,4 @@
+[INFO] [1755199637.249706776] [slam_toolbox]: Configuring
+[INFO] [1755199637.257994586] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[WARN] [1755199637.379860496] [slam_toolbox.rclcpp]: failed to send response to /slam_toolbox/change_state (timeout): client will not receive response, at ./src/rmw_response.cpp:153, at ./src/rcl/service.c:400
+[INFO] [1755200030.074926221] [rclcpp]: signal_handler(signum=2)
