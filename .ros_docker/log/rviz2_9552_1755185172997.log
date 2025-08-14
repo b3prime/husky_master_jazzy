@@ -1,0 +1,11 @@
+[INFO] [1755185173.425854696] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755185173.425912686] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1755185173.473422925] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755185173.518614596] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755185173.519258442] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755185173.534947540] [ouster.rviz2]: Subscribing to: /ouster/points
+
+[INFO] [1755185173.563827347] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1755185213.182062028] [rclcpp]: signal_handler(signum=2)

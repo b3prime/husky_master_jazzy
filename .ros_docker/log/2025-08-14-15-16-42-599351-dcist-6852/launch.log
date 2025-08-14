@@ -1,0 +1,26 @@
+1755184602.5998416 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-15-16-42-599351-dcist-6852
+1755184602.5999105 [INFO] [launch]: Default logging verbosity is set to INFO
+1755184602.7360990 [INFO] [rviz2-1]: process started with pid [6868]
+1755184602.7361810 [INFO] [os_driver-2]: process started with pid [6869]
+1755184602.7362123 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [6870]
+1755184602.7755284 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755184603.1351814 [rviz2-1] [INFO] [1755184603.135034492] [rviz2]: Stereo is NOT SUPPORTED
+1755184603.1352670 [rviz2-1] [INFO] [1755184603.135083132] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755184603.1513183 [rviz2-1] [INFO] [1755184603.151174786] [rviz2]: Stereo is NOT SUPPORTED
+1755184603.1937842 [rviz2-1] [INFO] [1755184603.193633415] [ouster.rviz2]: Subscribing to: /ouster/points
+1755184603.1938705 [rviz2-1] 
+1755184603.1939981 [rviz2-1] [INFO] [1755184603.193927323] [ouster.rviz2]: Subscribing to: /ouster/points
+1755184603.1940300 [rviz2-1] 
+1755184603.2029424 [rviz2-1] [INFO] [1755184603.202830891] [ouster.rviz2]: Subscribing to: /ouster/points
+1755184603.2030072 [rviz2-1] 
+1755184603.2246075 [rviz2-1] [INFO] [1755184603.224410709] [rviz2]: Stereo is NOT SUPPORTED
+1755184610.1673682 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755184610.9868841 [WARNING] [launch_ros.utilities.lifecycle_event_manager]: Abandoning wait for the '/ouster/os_driver/change_state' service response, due to shutdown.
+1755184610.9930053 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 6870]
+1755184610.9930890 [INFO] [rviz2-1]: process has finished cleanly [pid 6868]
+1755184610.9931970 [rviz2-1] [INFO] [1755184610.167225727] [rclcpp]: signal_handler(signum=2)
+1755184615.9979839 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755184615.9982772 [INFO] [os_driver-2]: sending signal 'SIGTERM' to process[os_driver-2]
+1755184620.9979887 [ERROR] [os_driver-2]: process[os_driver-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1755184620.9982727 [INFO] [os_driver-2]: sending signal 'SIGKILL' to process[os_driver-2]
+1755184621.0027261 [ERROR] [os_driver-2]: process has died [pid 6869, exit code -9, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].

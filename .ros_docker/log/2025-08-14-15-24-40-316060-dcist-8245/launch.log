@@ -1,0 +1,67 @@
+1755185080.3164880 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-15-24-40-316060-dcist-8245
+1755185080.3165486 [INFO] [launch]: Default logging verbosity is set to INFO
+1755185080.5684845 [INFO] [vectornav-1]: process started with pid [8262]
+1755185080.5685921 [INFO] [vn_sensor_msgs-2]: process started with pid [8263]
+1755185080.5686398 [INFO] [ublox_gps_node-3]: process started with pid [8264]
+1755185080.5686717 [INFO] [rviz2-4]: process started with pid [8265]
+1755185080.5686991 [INFO] [os_driver-5]: process started with pid [8266]
+1755185080.5687261 [INFO] [robot_state_publisher-6]: process started with pid [8267]
+1755185080.5687509 [INFO] [ros2_control_node-7]: process started with pid [8268]
+1755185080.5687747 [INFO] [spawner-8]: process started with pid [8269]
+1755185080.5688012 [INFO] [spawner-9]: process started with pid [8270]
+1755185080.5688305 [INFO] [ekf_node-10]: process started with pid [8271]
+1755185080.5688574 [INFO] [marker_server-11]: process started with pid [8272]
+1755185080.5688808 [INFO] [twist_mux-12]: process started with pid [8273]
+1755185080.5689082 [INFO] [joy_linux_node-13]: process started with pid [8274]
+1755185080.5689342 [INFO] [teleop_node-14]: process started with pid [8275]
+1755185080.5689573 [INFO] [aggregator_node-15]: process started with pid [8276]
+1755185080.5689805 [INFO] [clearpath_diagnostic_updater-16]: process started with pid [8277]
+1755185080.5690036 [INFO] [foxglove_bridge-17]: process started with pid [8278]
+1755185080.5690308 [INFO] [battery_state_control-18]: process started with pid [8279]
+1755185080.5690587 [INFO] [battery_state_estimator-19]: process started with pid [8280]
+1755185080.5690827 [INFO] [wireless_watcher-20]: process started with pid [8281]
+1755185080.5691051 [INFO] [pointcloud_to_laserscan_node-21]: process started with pid [8282]
+1755185080.6475387 [robot_state_publisher-6] [INFO] [1755185080.647245606] [a200_0000.robot_state_publisher]: Robot initialized
+1755185080.6494255 [rviz2-4] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-dcist'
+1755185081.0547824 [rviz2-4] [INFO] [1755185081.054545744] [rviz2]: Stereo is NOT SUPPORTED
+1755185081.0549870 [rviz2-4] [INFO] [1755185081.054620213] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1755185081.0910718 [rviz2-4] [INFO] [1755185081.090902753] [rviz2]: Stereo is NOT SUPPORTED
+1755185081.1331310 [rviz2-4] [INFO] [1755185081.132885862] [ouster.rviz2]: Subscribing to: /ouster/points
+1755185081.1332438 [rviz2-4] 
+1755185081.1337993 [rviz2-4] [INFO] [1755185081.133704677] [ouster.rviz2]: Subscribing to: /ouster/points
+1755185081.1338468 [rviz2-4] 
+1755185081.1504264 [rviz2-4] [INFO] [1755185081.150219000] [ouster.rviz2]: Subscribing to: /ouster/points
+1755185081.1505184 [rviz2-4] 
+1755185081.1803057 [rviz2-4] [INFO] [1755185081.180035254] [rviz2]: Stereo is NOT SUPPORTED
+1755185121.0724063 [ERROR] [launch_ros.utilities.lifecycle_event_manager]: Failed to make transition 'TRANSITION_CONFIGURE' for LifecycleNode '/ouster/os_driver'
+1755185121.0774779 [ERROR] [spawner-9]: process has died [pid 8270, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner --controller-manager-timeout 60 platform_velocity_controller --ros-args -r __ns:=/a200_0000'].
+1755185133.5587015 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755185134.0804923 [ERROR] [battery_state_estimator-19]: process has died [pid 8280, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1755185134.0805728 [ERROR] [battery_state_control-18]: process has died [pid 8279, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1755185134.0806165 [ERROR] [joy_linux_node-13]: process has died [pid 8274, exit code -6, cmd '/opt/ros/jazzy/lib/joy_linux/joy_linux_node --ros-args -r __node:=joy_node -r __ns:=/a200_0000 --params-file /etc/clearpath/platform/config/teleop_joy.yaml --params-file /tmp/launch_params_qrymxzmi -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static -r joy:=joy_teleop/joy -r joy/set_feedback:=joy_teleop/joy/set_feedback'].
+1755185134.0806551 [INFO] [wireless_watcher-20]: process has finished cleanly [pid 8281]
+1755185134.0806825 [INFO] [teleop_node-14]: process has finished cleanly [pid 8275]
+1755185134.0807066 [INFO] [aggregator_node-15]: process has finished cleanly [pid 8276]
+1755185134.0807304 [INFO] [marker_server-11]: process has finished cleanly [pid 8272]
+1755185134.0807512 [INFO] [twist_mux-12]: process has finished cleanly [pid 8273]
+1755185134.0807750 [INFO] [robot_state_publisher-6]: process has finished cleanly [pid 8267]
+1755185134.0807958 [INFO] [clearpath_diagnostic_updater-16]: process has finished cleanly [pid 8277]
+1755185134.0808153 [INFO] [pointcloud_to_laserscan_node-21]: process has finished cleanly [pid 8282]
+1755185134.0808351 [INFO] [foxglove_bridge-17]: process has finished cleanly [pid 8278]
+1755185134.0808551 [INFO] [ublox_gps_node-3]: process has finished cleanly [pid 8264]
+1755185134.0808742 [INFO] [ekf_node-10]: process has finished cleanly [pid 8271]
+1755185134.0808969 [INFO] [vn_sensor_msgs-2]: process has finished cleanly [pid 8263]
+1755185134.0809193 [ERROR] [os_driver-5]: process has died [pid 8266, exit code -6, cmd '/home/dcist/dcist_ws/install/ouster_ros/lib/ouster_ros/os_driver --ros-args -r __node:=os_driver -r __ns:=/ouster --params-file /home/dcist/dcist_ws/install/brainbox_husky_bringup/share/brainbox_husky_bringup/config/ouster_driver_params.yaml'].
+1755185134.0809431 [INFO] [rviz2-4]: process has finished cleanly [pid 8265]
+1755185134.0815651 [robot_state_publisher-6] [INFO] [1755185133.558443339] [rclcpp]: signal_handler(signum=2)
+1755185134.0817130 [rviz2-4] [INFO] [1755185133.558448779] [rclcpp]: signal_handler(signum=2)
+1755185137.5844352 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1755185139.0809100 [ERROR] [spawner-8]: process[spawner-8] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755185139.0813723 [ERROR] [ros2_control_node-7]: process[ros2_control_node-7] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755185139.0817626 [ERROR] [vectornav-1]: process[vectornav-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1755185139.0825856 [INFO] [spawner-8]: sending signal 'SIGTERM' to process[spawner-8]
+1755185139.0835760 [INFO] [ros2_control_node-7]: sending signal 'SIGTERM' to process[ros2_control_node-7]
+1755185139.0846493 [INFO] [vectornav-1]: sending signal 'SIGTERM' to process[vectornav-1]
+1755185139.0870042 [ERROR] [spawner-8]: process has died [pid 8269, exit code -15, cmd '/opt/ros/jazzy/lib/controller_manager/spawner --controller-manager-timeout 60 joint_state_broadcaster --ros-args -r __ns:=/a200_0000'].
+1755185139.1149435 [ERROR] [vectornav-1]: process has died [pid 8262, exit code -6, cmd '/home/dcist/dcist_ws/install/vectornav/lib/vectornav/vectornav --ros-args --params-file /home/dcist/dcist_ws/install/vectornav/share/vectornav/config/vectornav.yaml'].
+1755185139.7012341 [INFO] [ros2_control_node-7]: process has finished cleanly [pid 8268]

@@ -1,0 +1,7 @@
+[INFO] [1755185005.872585498] [a200_0000.twist_mux]: Topic handler 'topics.external' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 1.
+[INFO] [1755185005.874238319] [a200_0000.twist_mux]: Topic handler 'topics.interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s , priority = 8.
+[INFO] [1755185005.877215564] [a200_0000.twist_mux]: Topic handler 'topics.joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s , priority = 10.
+[INFO] [1755185005.878464797] [a200_0000.twist_mux]: Topic handler 'topics.rc' subscribed to topic 'rc_teleop/cmd_vel': timeout = 0.500000s , priority = 12.
+[INFO] [1755185005.879520081] [a200_0000.twist_mux]: Topic handler 'locks.e_stop' subscribed to topic 'platform/emergency_stop': timeout = None , priority = 255.
+[INFO] [1755185005.879995969] [a200_0000.twist_mux]: Topic handler 'locks.safety_stop' subscribed to topic 'platform/safety_stop': timeout = None , priority = 254.
+[INFO] [1755185021.315870197] [rclcpp]: signal_handler(signum=2)

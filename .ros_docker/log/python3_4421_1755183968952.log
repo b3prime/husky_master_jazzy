@@ -1,0 +1,4 @@
+[WARN] [1755183988.973727069] [spawner_joint_state_broadcaster]: [93mAttempt 1 failed. Retrying in 3 seconds...[0m
+[WARN] [1755184011.981959156] [spawner_joint_state_broadcaster]: [93mAttempt 2 failed. Retrying in 3 seconds...[0m
+[INFO] [1755184030.454362943] [a200_0000.spawner_joint_state_broadcaster]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[FATAL] [1755184090.483647878] [a200_0000.spawner_joint_state_broadcaster]: Could not contact service /a200_0000/controller_manager/list_controllers

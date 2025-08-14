@@ -1,0 +1,12 @@
+[INFO] [1755185080.773018214] [vectornav]: Set port to ASYNCY_LOW_LATENCY
+[FATAL] [1755185090.440696506] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[INFO] [1755185090.440765456] [vectornav]: Reconnect Timeout : 500
+[FATAL] [1755185100.576222701] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[WARN] [1755185100.576280791] [vectornav]: Failed to reconnect to sensor
+[FATAL] [1755185110.227187844] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[WARN] [1755185110.227235004] [vectornav]: Failed to reconnect to sensor
+[FATAL] [1755185119.863875951] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[WARN] [1755185119.863931271] [vectornav]: Failed to reconnect to sensor
+[FATAL] [1755185129.404002928] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[WARN] [1755185129.404054327] [vectornav]: Failed to reconnect to sensor
+[INFO] [1755185133.558462569] [rclcpp]: signal_handler(signum=2)

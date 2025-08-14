@@ -1,0 +1,7 @@
+[INFO] [1755184309.418763500] [ouster.os_driver]: TIME_FROM_ROS_TIME timestamp mode specified. IMU and pointcloud messages will use ros time
+[WARN] [1755184309.418818180] [ouster.os_driver]: lidar port set to zero, the client will assign a random port number!
+[WARN] [1755184309.418823210] [ouster.os_driver]: imu port set to zero, the client will assign a random port number!
+[INFO] [1755184309.552260496] [ouster.os_driver]: Will use automatic UDP destination
+[INFO] [1755184309.552298096] [ouster.os_driver]: Contacting sensor 192.168.100.12 ...
+[ERROR] [1755184349.555691157] [ouster.os_driver]: Error connecting to sensor 192.168.100.12, details: CurlClient::execute_get failed for the url: [http://192.168.100.12/api/v1/system/firmware] with the error message: Timeout was reached
+[INFO] [1755184596.764313244] [rclcpp]: signal_handler(signum=2)

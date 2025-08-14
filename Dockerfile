@@ -57,6 +57,7 @@ RUN apt-get update \
   tmux \
   && apt-get clean
 
+# Install clean neovim version
 RUN add-apt-repository -y ppa:neovim-ppa/stable \
   && apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y neovim
@@ -91,6 +92,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	ros-jazzy-topic-tools \
 	ros-jazzy-navigation2 \
 	ros-jazzy-nav2-bringup \
+	ros-jazzy-nav2-simple-commander \
 	ros-jazzy-slam-toolbox \
 	python3-vcstool && \
 	apt-get clean && rm -rf /var/lib/apt/lists/*

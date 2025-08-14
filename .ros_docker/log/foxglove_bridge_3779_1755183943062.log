@@ -1,0 +1,8 @@
+[INFO] [1755183943.134091372] [a200_0000.foxglove_bridge_component_manager]: Load Library: /opt/ros/jazzy/lib/libfoxglove_bridge_component.so
+[INFO] [1755183943.142849857] [a200_0000.foxglove_bridge_component_manager]: Found class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755183943.142880767] [a200_0000.foxglove_bridge_component_manager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755183943.153682838] [a200_0000.foxglove_bridge]: Starting foxglove_bridge (jazzy, 0.8.5@) with WebSocket++/0.8.2
+[INFO] [1755183943.154465310] [a200_0000.foxglove_bridge]: [WS] Server running without TLS
+[INFO] [1755183943.154668031] [a200_0000.foxglove_bridge]: [WS] WebSocket server listening at ws://0.0.0.0:8765
+[INFO] [1755183943.154678111] [a200_0000.foxglove_bridge]: [WS] WebSocket server run loop started
+[INFO] [1755183951.556603142] [rclcpp]: signal_handler(signum=2)

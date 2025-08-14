@@ -1,0 +1,9 @@
+[INFO] [1755184309.388417553] [a200_0000.foxglove_bridge_component_manager]: Load Library: /opt/ros/jazzy/lib/libfoxglove_bridge_component.so
+[INFO] [1755184309.396991634] [a200_0000.foxglove_bridge_component_manager]: Found class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755184309.397028734] [a200_0000.foxglove_bridge_component_manager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<foxglove_bridge::FoxgloveBridge>
+[INFO] [1755184309.403838291] [a200_0000.foxglove_bridge]: Starting foxglove_bridge (jazzy, 0.8.5@) with WebSocket++/0.8.2
+[INFO] [1755184309.406340692] [a200_0000.foxglove_bridge]: [WS] Server running without TLS
+[INFO] [1755184309.406628381] [a200_0000.foxglove_bridge]: [WS] WebSocket server listening at ws://0.0.0.0:8765
+[INFO] [1755184309.406636771] [a200_0000.foxglove_bridge]: [WS] WebSocket server run loop started
+[INFO] [1755184312.381864004] [a200_0000.foxglove_bridge]: Removed channel 44 for topic "/ouster/signal_image" (sensor_msgs/msg/Image)
+[INFO] [1755184596.764301314] [rclcpp]: signal_handler(signum=2)

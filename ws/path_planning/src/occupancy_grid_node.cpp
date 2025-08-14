@@ -10,6 +10,9 @@
 //
 // 	The A* algorithm then uses this occupancy grid for pathfinding
 
+// NOTE:
+// I wrote this just for my own learning. The actual deployment uses slam_toolbox
+// Which generates a global occupancy grid (rather than my local grid)
 
 #include <iostream>
 #include <rclcpp/rclcpp.hpp>

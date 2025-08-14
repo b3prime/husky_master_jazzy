@@ -1,0 +1,53 @@
+[INFO] [1755185296.266692848] [AnalyzerGroup]: Retrieved 29 parameter(s) for analyzer group with prefix ''.
+[INFO] [1755185296.266742148] [AnalyzerGroup]: Group 'Clearpath Diagnostics', creating diagnostic_aggregator/AnalyzerGroup 'Platform' (breadcrumb: platform) ...
+[INFO] [1755185296.267537114] [AnalyzerGroup]: Retrieved 22 parameter(s) for analyzer group with prefix 'platform'.
+[INFO] [1755185296.267544914] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform', creating diagnostic_aggregator/GenericAnalyzer 'Drive System' (breadcrumb: analyzers.drive) ...
+[INFO] [1755185296.267697743] [GenericAnalyzerBase]: Initialized analyzer 'Drive System' with path '/Clearpath Diagnostics/Platform/Drive System' and breadcrumb 'platform.analyzers.drive'.
+[INFO] [1755185296.267704063] [AnalyzerGroup]: Adding analyzer 'Drive System' to group '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185296.267707863] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform', creating diagnostic_aggregator/GenericAnalyzer 'Networking' (breadcrumb: analyzers.networking) ...
+[INFO] [1755185296.267723073] [GenericAnalyzerBase]: Initialized analyzer 'Networking' with path '/Clearpath Diagnostics/Platform/Networking' and breadcrumb 'platform.analyzers.networking'.
+[INFO] [1755185296.267726493] [AnalyzerGroup]: Adding analyzer 'Networking' to group '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185296.267729533] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform', creating diagnostic_aggregator/GenericAnalyzer 'Odometry' (breadcrumb: analyzers.odometry) ...
+[INFO] [1755185296.267743303] [GenericAnalyzerBase]: Initialized analyzer 'Odometry' with path '/Clearpath Diagnostics/Platform/Odometry' and breadcrumb 'platform.analyzers.odometry'.
+[INFO] [1755185296.267746193] [AnalyzerGroup]: Adding analyzer 'Odometry' to group '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185296.267749293] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform', creating diagnostic_aggregator/GenericAnalyzer 'Power' (breadcrumb: analyzers.power) ...
+[INFO] [1755185296.267762213] [GenericAnalyzerBase]: Initialized analyzer 'Power' with path '/Clearpath Diagnostics/Platform/Power' and breadcrumb 'platform.analyzers.power'.
+[INFO] [1755185296.267765453] [AnalyzerGroup]: Adding analyzer 'Power' to group '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185296.267768473] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform', creating diagnostic_aggregator/GenericAnalyzer 'E-stop Status' (breadcrumb: analyzers.stop_status) ...
+[INFO] [1755185296.267780073] [GenericAnalyzerBase]: Initialized analyzer 'E-stop Status' with path '/Clearpath Diagnostics/Platform/E-stop Status' and breadcrumb 'platform.analyzers.stop_status'.
+[INFO] [1755185296.267783523] [AnalyzerGroup]: Adding analyzer 'E-stop Status' to group '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185296.267786223] [AnalyzerGroup]: Initialized analyzer group '/Clearpath Diagnostics/Platform' with path '/Clearpath Diagnostics/Platform' and breadcrumb 'platform'.
+[INFO] [1755185296.267791082] [AnalyzerGroup]: Adding analyzer '/Clearpath Diagnostics/Platform' to group 'Clearpath Diagnostics'.
+[INFO] [1755185296.267795642] [AnalyzerGroup]: Initialized analyzer group 'Clearpath Diagnostics' with path '/Clearpath Diagnostics' and breadcrumb ''.
+[INFO] [1755185296.267802122] [GenericAnalyzerBase]: Initialized analyzer 'Other' with path '/Clearpath Diagnostics/Other' and breadcrumb ''.
+[INFO] [1755185296.383795246] [GenericAnalyzer]: Analyzer 'Drive System' matches 'joy_node: Joystick Driver Status'.
+[INFO] [1755185296.383808036] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Drive System'.
+[INFO] [1755185296.383814676] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.269544720] [GenericAnalyzer]: Analyzer 'Power' matches 'clearpath_diagnostic_updater: Power Status'.
+[INFO] [1755185297.269569690] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Power'.
+[INFO] [1755185297.269574150] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.269612790] [GenericAnalyzer]: Analyzer 'Power' matches 'clearpath_diagnostic_updater: Battery Management System'.
+[INFO] [1755185297.269615460] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Power'.
+[INFO] [1755185297.269617190] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.269623450] [GenericAnalyzer]: Analyzer 'E-stop Status' matches 'clearpath_diagnostic_updater: E-stop Status'.
+[INFO] [1755185297.269625670] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'E-stop Status'.
+[INFO] [1755185297.269627710] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.275302389] [GenericAnalyzer]: Analyzer 'Drive System' matches 'controller_manager: Controllers Activity'.
+[INFO] [1755185297.275310929] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Drive System'.
+[INFO] [1755185297.275314419] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.275319189] [GenericAnalyzer]: Analyzer 'Drive System' matches 'controller_manager: Hardware Components Activity'.
+[INFO] [1755185297.275321489] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Drive System'.
+[INFO] [1755185297.275323979] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.275327919] [GenericAnalyzer]: Analyzer 'Drive System' matches 'controller_manager: Controller Manager Activity'.
+[INFO] [1755185297.275330159] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Drive System'.
+[INFO] [1755185297.275332529] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.280948929] [GenericAnalyzer]: Analyzer 'Drive System' matches 'twist_mux: Twist mux status'.
+[INFO] [1755185297.280954159] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Drive System'.
+[INFO] [1755185297.280957149] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.281655515] [GenericAnalyzer]: Analyzer 'Odometry' matches 'ekf_node: Filter diagnostic updater'.
+[INFO] [1755185297.281662455] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Odometry'.
+[INFO] [1755185297.281665195] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185297.281671365] [GenericAnalyzer]: Analyzer 'Odometry' matches 'ekf_node: odometry/filtered topic status'.
+[INFO] [1755185297.281673605] [AnalyzerGroup]: Group '/Clearpath Diagnostics/Platform' has a match with my analyzer 'Odometry'.
+[INFO] [1755185297.281675425] [AnalyzerGroup]: Group 'Clearpath Diagnostics' has a match with my analyzer '/Clearpath Diagnostics/Platform'.
+[INFO] [1755185352.545153597] [rclcpp]: signal_handler(signum=2)

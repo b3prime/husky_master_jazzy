@@ -1,0 +1,2 @@
+[INFO] [1755184257.789155900] [lidar_points_bridge]: Creating GZ->ROS Bridge: [/a200_0000/sensors/lidar3d_0/scan/points (gz.msgs.PointCloudPacked) -> /a200_0000/sensors/lidar3d_0/scan/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[INFO] [1755184299.536356452] [rclcpp]: signal_handler(signum=2)

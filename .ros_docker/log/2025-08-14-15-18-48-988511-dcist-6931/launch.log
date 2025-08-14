@@ -1,0 +1,59 @@
+1755184728.9890118 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-15-18-48-988511-dcist-6931
+1755184728.9890826 [INFO] [launch]: Default logging verbosity is set to INFO
+1755184729.2589107 [INFO] [parameter_bridge-1]: process started with pid [6934]
+1755184729.2590375 [INFO] [parameter_bridge-2]: process started with pid [6935]
+1755184729.2590911 [INFO] [gazebo-3]: process started with pid [6936]
+1755184729.2591281 [INFO] [parameter_bridge-4]: process started with pid [6937]
+1755184729.2591574 [INFO] [generate_description-5]: process started with pid [6938]
+1755184729.2591832 [INFO] [pointcloud_to_laserscan_node-6]: process started with pid [6939]
+1755184729.2592089 [INFO] [relay-7]: process started with pid [6941]
+1755184729.2592325 [INFO] [relay-8]: process started with pid [6942]
+1755184729.3253109 [ERROR] [generate_description-5]: process has died [pid 6938, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_generator_common/generate_description -s /etc/clearpath --ros-args -r __node:=generate_description'].
+1755184729.3263714 [INFO] [generate_semantic_description-9]: process started with pid [7048]
+1755184729.3829191 [ERROR] [generate_semantic_description-9]: process has died [pid 7048, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_generator_common/generate_semantic_description -s /etc/clearpath --ros-args -r __node:=generate_semantic_description'].
+1755184729.3839118 [INFO] [generate_launch-10]: process started with pid [7063]
+1755184729.4380610 [ERROR] [generate_launch-10]: process has died [pid 7063, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_generator_gz/generate_launch -s /etc/clearpath --ros-args -r __node:=generate_launch'].
+1755184729.4390879 [INFO] [generate_param-11]: process started with pid [7064]
+1755184729.5185194 [ERROR] [generate_param-11]: process has died [pid 7064, exit code 1, cmd '/opt/ros/jazzy/lib/clearpath_generator_gz/generate_param -s /etc/clearpath --ros-args -r __node:=generate_launch'].
+1755184729.6402233 [INFO] [robot_state_publisher-12]: process started with pid [7108]
+1755184729.6403098 [INFO] [ros2_control_node-13]: process started with pid [7109]
+1755184729.6404057 [INFO] [spawner-14]: process started with pid [7110]
+1755184729.6404436 [INFO] [spawner-15]: process started with pid [7111]
+1755184729.6404839 [INFO] [ekf_node-16]: process started with pid [7112]
+1755184729.6405168 [INFO] [marker_server-17]: process started with pid [7113]
+1755184729.6405447 [INFO] [twist_mux-18]: process started with pid [7114]
+1755184729.6405778 [INFO] [joy_linux_node-19]: process started with pid [7115]
+1755184729.6406047 [INFO] [teleop_node-20]: process started with pid [7116]
+1755184729.6406333 [INFO] [aggregator_node-21]: process started with pid [7117]
+1755184729.6406634 [INFO] [clearpath_diagnostic_updater-22]: process started with pid [7118]
+1755184729.6406901 [INFO] [foxglove_bridge-23]: process started with pid [7119]
+1755184729.6407161 [INFO] [battery_state_control-24]: process started with pid [7120]
+1755184729.6407416 [INFO] [battery_state_estimator-25]: process started with pid [7121]
+1755184729.6407709 [INFO] [wireless_watcher-26]: process started with pid [7122]
+1755184729.6407974 [INFO] [create-27]: process started with pid [7123]
+1755184729.7132506 [robot_state_publisher-12] [INFO] [1755184729.712972890] [a200_0000.robot_state_publisher]: Robot initialized
+1755184730.4691801 [INFO] [create-27]: process has finished cleanly [pid 7123]
+1755184730.5444925 [INFO] [spawner-14]: process has finished cleanly [pid 7110]
+1755184733.5422373 [INFO] [spawner-15]: process has finished cleanly [pid 7111]
+1755184746.7888067 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755184746.7958198 [robot_state_publisher-12] [INFO] [1755184746.788316337] [rclcpp]: signal_handler(signum=2)
+1755184746.8365097 [ERROR] [battery_state_control-24]: process has died [pid 7120, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_control -s /etc/clearpath --ros-args -r __node:=battery_state_control -r __ns:=/a200_0000'].
+1755184746.8397236 [ERROR] [battery_state_estimator-25]: process has died [pid 7121, exit code -2, cmd '/opt/ros/jazzy/lib/clearpath_hardware_interfaces/battery_state_estimator -s /etc/clearpath --ros-args -r __node:=battery_state_estimator -r __ns:=/a200_0000'].
+1755184746.8995652 [ERROR] [joy_linux_node-19]: process has died [pid 7115, exit code -6, cmd '/opt/ros/jazzy/lib/joy_linux/joy_linux_node --ros-args -r __node:=joy_node -r __ns:=/a200_0000 --params-file /etc/clearpath/platform/config/teleop_joy.yaml --params-file /tmp/launch_params_7awwfvj6 -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static -r joy:=joy_teleop/joy -r joy/set_feedback:=joy_teleop/joy/set_feedback'].
+1755184746.9015419 [INFO] [parameter_bridge-1]: process has finished cleanly [pid 6934]
+1755184746.9027026 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 6937]
+1755184746.9047806 [INFO] [parameter_bridge-2]: process has finished cleanly [pid 6935]
+1755184746.9061077 [INFO] [wireless_watcher-26]: process has finished cleanly [pid 7122]
+1755184746.9093571 [INFO] [relay-7]: process has finished cleanly [pid 6941]
+1755184746.9104180 [INFO] [relay-8]: process has finished cleanly [pid 6942]
+1755184746.9110479 [INFO] [aggregator_node-21]: process has finished cleanly [pid 7117]
+1755184746.9116421 [INFO] [pointcloud_to_laserscan_node-6]: process has finished cleanly [pid 6939]
+1755184746.9119565 [INFO] [teleop_node-20]: process has finished cleanly [pid 7116]
+1755184746.9120584 [INFO] [clearpath_diagnostic_updater-22]: process has finished cleanly [pid 7118]
+1755184746.9120936 [INFO] [twist_mux-18]: process has finished cleanly [pid 7114]
+1755184746.9121912 [INFO] [marker_server-17]: process has finished cleanly [pid 7113]
+1755184746.9122200 [INFO] [robot_state_publisher-12]: process has finished cleanly [pid 7108]
+1755184746.9128456 [INFO] [foxglove_bridge-23]: process has finished cleanly [pid 7119]
+1755184746.9132223 [INFO] [ekf_node-16]: process has finished cleanly [pid 7112]
+1755184747.0639601 [INFO] [ros2_control_node-13]: process has finished cleanly [pid 7109]
+1755184747.0877190 [ERROR] [gazebo-3]: process has died [pid 6936, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim warehouse.sdf -r -v 4 --gui-config /opt/ros/jazzy/share/clearpath_gz/config/gui.config --force-version 8'].

@@ -1,0 +1,63 @@
+[INFO] [1755185005.902180323] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755185005.907970373] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755185005.962708257] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755185005.962734697] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755185005.962810896] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755185005.999655064] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755185006.002237560] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755185006.003169425] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755185006.003204345] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755185006.003235855] [A200Hardware]: Name: a200_hardware
+[INFO] [1755185006.003240565] [A200Hardware]: Number of Joints 4
+[INFO] [1755185006.013502482] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755185006.071344289] [a200_0000.controller_manager]: Successful initialization of hardware 'a200_hardware'
+[INFO] [1755185006.071510518] [resource_manager]: 'configure' hardware 'a200_hardware' 
+[INFO] [1755185006.071515058] [resource_manager]: Successful 'configure' of hardware 'a200_hardware'
+[INFO] [1755185006.071519178] [resource_manager]: 'activate' hardware 'a200_hardware' 
+[INFO] [1755185006.071523338] [A200Hardware]: Starting ...please wait...
+[INFO] [1755185006.071526178] [A200Hardware]: System Successfully started!
+[INFO] [1755185006.071529378] [resource_manager]: Successful 'activate' of hardware 'a200_hardware'
+[INFO] [1755185006.071583988] [a200_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[WARN] [1755185006.727531690] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.609686 ms (missed cycles : 2).
+[INFO] [1755185006.876442631] [a200_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[INFO] [1755185006.876468351] [a200_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[WARN] [1755185006.878540290] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755185006.878570180] [a200_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755185006.944271887] [a200_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[WARN] [1755185006.964394262] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755185006.987612720] [a200_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[WARN] [1755185007.014569579] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755185007.040478754] [a200_0000.controller_manager]: Successfully switched controllers!
+[INFO] [1755185008.001239342] [a200_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[INFO] [1755185008.001269822] [a200_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[WARN] [1755185008.004026577] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755185008.004045437] [a200_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[WARN] [1755185008.025475505] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 62.553551 ms (missed cycles : 2).
+[INFO] [1755185008.088844784] [a200_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[INFO] [1755185008.088903183] [a200_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1755185008.143429079] [a200_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[INFO] [1755185008.185309170] [a200_0000.controller_manager]: Successfully switched controllers!
+[WARN] [1755185009.323387620] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 60.465876 ms (missed cycles : 2).
+[WARN] [1755185010.631895768] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.974444 ms (missed cycles : 2).
+[WARN] [1755185011.930797906] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 67.876042 ms (missed cycles : 2).
+[WARN] [1755185013.228469760] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.548236 ms (missed cycles : 2).
+[WARN] [1755185014.526389611] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 63.468377 ms (missed cycles : 2).
+[WARN] [1755185015.824423952] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 61.501938 ms (missed cycles : 2).
+[WARN] [1755185017.122411421] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 59.489367 ms (missed cycles : 2).
+[WARN] [1755185018.431793040] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 68.871406 ms (missed cycles : 2).
+[WARN] [1755185019.728789833] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 65.868649 ms (missed cycles : 2).
+[WARN] [1755185021.027402257] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 64.481033 ms (missed cycles : 2).
+[INFO] [1755185021.315876867] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755185021.315960057] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1755185021.315998877] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1755185021.316012207] [a200_0000.controller_manager]: Deactivating controller 'joint_state_broadcaster'
+[INFO] [1755185021.316127616] [a200_0000.controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[INFO] [1755185021.316195516] [a200_0000.controller_manager]: Deactivating controller 'platform_velocity_controller'
+[INFO] [1755185021.316226916] [a200_0000.controller_manager]: Shutting down controller 'platform_velocity_controller'
+[INFO] [1755185021.341020666] [resource_manager]: 'deactivate' hardware 'a200_hardware' 
+[INFO] [1755185021.341056606] [A200Hardware]: Stopping ...please wait...
+[INFO] [1755185021.341060046] [A200Hardware]: System successfully stopped!
+[INFO] [1755185021.341065056] [resource_manager]: Successful 'deactivate' of hardware 'a200_hardware'
+[INFO] [1755185021.341068076] [resource_manager]: 'shutdown' hardware 'a200_hardware' 
+[INFO] [1755185021.341070635] [resource_manager]: Successful 'shutdown' of hardware 'a200_hardware'
+[INFO] [1755185021.341104855] [a200_0000.controller_manager]: Shutting down the controller manager.

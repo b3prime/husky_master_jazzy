@@ -1,0 +1,113 @@
+[INFO] [1755185235.997327770] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755185236.003821486] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755185236.059944748] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755185236.059981678] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755185236.060039828] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755185236.060855853] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755185236.063241021] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755185236.064074886] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755185236.064108286] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755185236.064136586] [A200Hardware]: Name: a200_hardware
+[INFO] [1755185236.064139326] [A200Hardware]: Number of Joints 4
+[INFO] [1755185236.076024463] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755185246.022271466] [a200_0000.controller_manager]: Successful initialization of hardware 'a200_hardware'
+[INFO] [1755185246.022411665] [resource_manager]: 'configure' hardware 'a200_hardware' 
+[INFO] [1755185246.022415085] [resource_manager]: Successful 'configure' of hardware 'a200_hardware'
+[INFO] [1755185246.022418675] [resource_manager]: 'activate' hardware 'a200_hardware' 
+[INFO] [1755185246.022422435] [A200Hardware]: Starting ...please wait...
+[INFO] [1755185246.022425085] [A200Hardware]: System Successfully started!
+[INFO] [1755185246.022427825] [resource_manager]: Successful 'activate' of hardware 'a200_hardware'
+[INFO] [1755185246.022483425] [a200_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[WARN] [1755185246.077121235] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755185246.077139615] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755185246.077141925] [A200Hardware]: Dropping overflow measurement from encoder
+[WARN] [1755185246.077144005] [A200Hardware]: Dropping overflow measurement from encoder
+[INFO] [1755185246.238735277] [a200_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[INFO] [1755185246.238758447] [a200_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[WARN] [1755185246.241544493] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755185246.241593822] [a200_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[ERROR] [1755185247.119307067] [a200_0000.controller_manager]: Unknown exception thrown during read of the component 'a200_hardware'
+[ERROR] [1755185247.119360216] [a200_0000.controller_manager]: Deactivating following hardware components as their read cycle resulted in an error: [ a200_hardware ]
+[WARN] [1755185247.119392546] [a200_0000.controller_manager]: Overrun detected! The controller manager missed its desired rate of 20 Hz. The loop took 859.260284 ms (missed cycles : 18).
+[INFO] [1755185247.122175452] [a200_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[INFO] [1755185247.122281591] [a200_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1755185247.161472773] [a200_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[ERROR] [1755185247.210238704] [a200_0000.joint_state_broadcaster]: No state interfaces found to publish.
+[ERROR] [1755185247.210263824] [a200_0000.joint_state_broadcaster]: Error initializing joint data. JointStateBroadcaster will not run.
+[WARN] [1755185247.210274284] [a200_0000.joint_state_broadcaster]: Error occurred while doing error handling.
+[ERROR] [1755185247.210283164] [a200_0000.controller_manager]: After activation, controller 'joint_state_broadcaster' is in state 'unconfigured' (1), expected 'active' (3).
+[ERROR] [1755185247.210314864] [a200_0000.controller_manager]: Could not activate controller : 'joint_state_broadcaster'
+[ERROR] [1755185247.210337894] [a200_0000.controller_manager]: Failed switching controllers.... 
+[ERROR] [1755185247.210346584] [a200_0000.controller_manager]: Unable to activate controllers: [ joint_state_broadcaster  ]
+[INFO] [1755185248.426544282] [a200_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[INFO] [1755185248.426583952] [a200_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[WARN] [1755185248.428543832] [a200_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[INFO] [1755185248.428572761] [a200_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /etc/clearpath/platform/config/control.yaml -r joint_states:=platform/joint_states -r dynamic_joint_states:=platform/dynamic_joint_states -r platform_velocity_controller/odom:=platform/odom -r platform_velocity_controller/odometry:=platform/odom -r platform_velocity_controller/cmd_vel:=platform/cmd_vel -r platform_velocity_controller/cmd_vel_out:=platform/cmd_vel_out -r platform_velocity_controller/reference:=platform/cmd_vel -r platform_velocity_controller/transition_event:=platform/transition_event -r /diagnostics:=diagnostics -r /tf:=tf -r /tf_static:=tf_static 
+[INFO] [1755185248.462399162] [a200_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[WARN] [1755185248.490997050] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755185248.511631321] [a200_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[WARN] [1755185248.511674281] [a200_0000.controller_manager]: Unable to activate controller 'platform_velocity_controller' since the command interface 'front_left_wheel_joint/velocity' is not available.
+[WARN] [1755185248.541190044] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.591414938] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.641553232] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.691760286] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.741957959] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.792125153] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.842281187] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.892658490] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.942604925] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185248.992800708] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.043088552] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.093433395] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.143535699] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.193464624] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.243741207] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.293880451] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.344247324] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.394279839] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.444281854] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.494636286] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.544762350] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.595066114] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.644907509] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.695146513] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.745128247] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.795346121] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.845616794] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.895731199] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.945732203] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185249.995860668] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.046062171] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.096429114] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.146545498] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.196683092] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.246860036] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.297289268] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.347545241] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.397584226] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.447754050] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.498031733] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.548038978] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.598230552] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.648449035] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[WARN] [1755185250.698611849] [a200_0000.platform_velocity_controller]: Can't accept new commands. subscriber is inactive
+[INFO] [1755185250.710840404] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755185250.710924394] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1755185250.711005883] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1755185250.711024203] [a200_0000.controller_manager]: Shutting down controller 'platform_velocity_controller'
+[INFO] [1755185250.711355091] [a200_0000.controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[INFO] [1755185250.711395801] [resource_manager]: 'shutdown' hardware 'a200_hardware' 
+[INFO] [1755185250.711405171] [resource_manager]: Successful 'shutdown' of hardware 'a200_hardware'
+[WARN] [1755185250.711408951] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711417851] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711438961] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711442711] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/velocity' command interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711446641] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711450521] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_left_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711454351] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711458211] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_left_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711461751] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711465301] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'front_right_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711468741] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/position' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[WARN] [1755185250.711472001] [a200_0000.controller_manager]: (hardware 'a200_hardware'): 'rear_right_wheel_joint/velocity' state interface not in available list. This should not happen (hint: multiple cleanup calls).
+[INFO] [1755185250.711495141] [a200_0000.controller_manager]: Shutting down the controller manager.

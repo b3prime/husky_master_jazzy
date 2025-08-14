@@ -1,0 +1,3 @@
+[INFO] [1755185247.674318232] [a200_0000.spawner_platform_velocity_controller]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[INFO] [1755185248.461251408] [a200_0000.spawner_platform_velocity_controller]: [94mLoaded [1mplatform_velocity_controller[0m
+[ERROR] [1755185248.512303417] [a200_0000.spawner_platform_velocity_controller]: [91mFailed to activate controller : platform_velocity_controller[0m

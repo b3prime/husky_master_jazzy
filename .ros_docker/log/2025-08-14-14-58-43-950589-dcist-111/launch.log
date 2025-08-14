@@ -1,0 +1,13 @@
+1755183523.9511912 [INFO] [launch]: All log files can be found below /home/dcist/.ros/log/2025-08-14-14-58-43-950589-dcist-111
+1755183523.9512751 [INFO] [launch]: Default logging verbosity is set to INFO
+1755183524.0731549 [INFO] [parameter_bridge-1]: process started with pid [114]
+1755183524.0732362 [INFO] [parameter_bridge-2]: process started with pid [115]
+1755183524.0732725 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [116]
+1755183524.0732987 [INFO] [relay-4]: process started with pid [117]
+1755183524.0733206 [INFO] [relay-5]: process started with pid [118]
+1755183540.3867481 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1755183540.4929767 [INFO] [relay-4]: process has finished cleanly [pid 117]
+1755183540.4932826 [INFO] [relay-5]: process has finished cleanly [pid 118]
+1755183540.4948983 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 116]
+1755183540.4960809 [INFO] [parameter_bridge-2]: process has finished cleanly [pid 115]
+1755183540.4962540 [INFO] [parameter_bridge-1]: process has finished cleanly [pid 114]

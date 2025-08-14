@@ -1,0 +1,16 @@
+[INFO] [1755183623.273350785] [a200_0000.controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1755183623.284742184] [a200_0000.controller_manager]: Subscribing to '/a200_0000/robot_description' topic for robot description.
+[INFO] [1755183623.338775728] [a200_0000.controller_manager]: update rate is 20 Hz
+[INFO] [1755183623.338822098] [a200_0000.controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1755183623.338914928] [a200_0000.controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1755183623.339660485] [a200_0000.controller_manager]: Received robot description from topic.
+[INFO] [1755183623.341680278] [a200_0000.controller_manager]: Loading hardware 'a200_hardware' 
+[INFO] [1755183623.343164562] [a200_0000.controller_manager]: Loaded hardware 'a200_hardware' from plugin 'clearpath_hardware_interfaces/A200Hardware'
+[INFO] [1755183623.343204542] [a200_0000.controller_manager]: Initialize hardware 'a200_hardware' 
+[INFO] [1755183623.343236862] [A200Hardware]: Name: a200_hardware
+[INFO] [1755183623.343239692] [A200Hardware]: Number of Joints 4
+[INFO] [1755183623.353041577] [A200Hardware]: Port: /dev/clearpath/prolific
+[INFO] [1755183754.652462535] [rclcpp]: signal_handler(signum=2)
+[INFO] [1755183754.652548164] [a200_0000.controller_manager]: Shutdown request received....
+[INFO] [1755183754.652603364] [a200_0000.controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1755183759.661793541] [rclcpp]: signal_handler(signum=15)

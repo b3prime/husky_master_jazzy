@@ -1,0 +1,4 @@
+[INFO] [1755185236.117106395] [vectornav]: Set port to ASYNCY_LOW_LATENCY
+[FATAL] [1755185245.776101611] [vectornav]: Unable to connect to device /dev/ttyUSB0
+[INFO] [1755185245.776163131] [vectornav]: Reconnect Timeout : 500
+[INFO] [1755185250.710872754] [rclcpp]: signal_handler(signum=2)

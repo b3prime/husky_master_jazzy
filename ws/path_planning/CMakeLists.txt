@@ -29,6 +29,12 @@ ament_target_dependencies(occupancy_grid_node
 install(TARGETS occupancy_grid_node 
 	DESTINATION lib/${PROJECT_NAME})
 
+install(
+	PROGRAMS
+		scripts/waypoint_click_navigator.py
+	DESTINATION lib/${PROJECT_NAME}
+)
+
 install(DIRECTORY config launch
 	DESTINATION share/${PROJECT_NAME})
 

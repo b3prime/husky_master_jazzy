@@ -124,10 +124,10 @@ def generate_launch_description():
         launch_platform_arg,
         
         #vn100_include,
-        #ublox_node,
+        ublox_node,
         ouster_include,
 
-        #sim_include,
+        sim_include,
         platform_include,
 
         pointcloud_to_laserscan_node,

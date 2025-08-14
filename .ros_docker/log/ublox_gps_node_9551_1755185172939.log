@@ -1,0 +1,6 @@
+[INFO] [1755185172.990511048] [ublox_gnss]: U-Blox: Opened serial port /dev/ttyACM0
+[INFO] [1755185172.994200499] [ublox_gnss]: EXT CORE 1.00 (0fa0ae), HW VER: 00190000
+[INFO] [1755185172.996738065] [ublox_gnss]: U-Blox Firmware Version: 9
+[WARN] [1755185172.996960444] [ublox_gnss]: For HPG Ref devices, nav_rate should be exactly 1 Hz.
+[INFO] [1755185173.005905677] [ublox_gnss]: U-Blox configured successfully.
+[INFO] [1755185213.182064308] [rclcpp]: signal_handler(signum=2)

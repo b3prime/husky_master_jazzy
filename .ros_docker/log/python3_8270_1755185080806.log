@@ -1,0 +1,5 @@
+[INFO] [1755185080.885100575] [a200_0000.spawner_platform_velocity_controller]: waiting for service /a200_0000/controller_manager/list_controllers to become available...
+[INFO] [1755185090.940694575] [a200_0000.spawner_platform_velocity_controller]: [94mLoaded [1mplatform_velocity_controller[0m
+[WARN] [1755185100.942397763] [a200_0000.spawner_platform_velocity_controller]: Failed getting a result from calling /a200_0000/controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)
+[WARN] [1755185110.943060672] [a200_0000.spawner_platform_velocity_controller]: Failed getting a result from calling /a200_0000/controller_manager/configure_controller in 10.0. (Attempt 2 of 3.)
+[WARN] [1755185120.943769857] [a200_0000.spawner_platform_velocity_controller]: Failed getting a result from calling /a200_0000/controller_manager/configure_controller in 10.0. (Attempt 3 of 3.)
